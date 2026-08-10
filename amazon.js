@@ -5,7 +5,7 @@ const { getAccessToken } = require("./auth");
 const BASE_URL = "https://sellingpartnerapi-na.amazon.com";
 const MARKETPLACE_ID = process.env.AMAZON_MARKETPLACE_ID;
 
-async function apiRequest(method, path, params = {}) {
+async function apiRequest(method, path, params = {}, data = null) {
   const token = await getAccessToken();
   const response = await axios({
     method,
@@ -15,8 +15,22 @@ async function apiRequest(method, path, params = {}) {
       "Content-Type": "application/json",
     },
     params,
+    ...(data !== null && { data }),
   });
   return response.data;
+}
+
+async function getFeesEstimate(asin, price) {
+  return apiRequest("POST", `/products/fees/v0/items/${asin}/feesEstimate`, {}, {
+    FeesEstimateRequest: {
+      MarketplaceId: MARKETPLACE_ID,
+      IsAmazonFulfilled: true,
+      PriceToEstimateFees: {
+        ListingPrice: { CurrencyCode: "USD", Amount: price },
+      },
+      Identifier: asin,
+    },
+  });
 }
 
 async function getOrders(daysPast = 7) {
@@ -53,4 +67,4 @@ async function getListings() {
   });
 }
 
-module.exports = { getOrders, getOrderItems, getInventory, searchCatalog, getListings };
+module.exports = { getOrders, getOrderItems, getInventory, searchCatalog, getListings, getFeesEstimate };

@@ -1,7 +1,7 @@
 require("dotenv").config();
 const fs = require("fs");
 const path = require("path");
-const { getInventory, getOrders, getOrderItems } = require("../amazon");
+const { getInventory, getOrders, getOrderItems, getFeesEstimate } = require("../amazon");
 
 const DAYS_IN_PERIOD  = 30;
 const LEAD_TIME_DAYS  = 30; // FBA prep + ship + receiving
@@ -105,6 +105,56 @@ async function generateData() {
   });
 
   const predictions = buildPredictions(inventory, skuSales);
+
+  // Fetch fee estimates for each unique ASIN that has a known price
+  const asinPriceMap = {};
+  predictions.forEach((p) => {
+    if (p.avgPrice && !asinPriceMap[p.asin]) {
+      asinPriceMap[p.asin] = p.avgPrice;
+    }
+  });
+
+  const uniqueAsins = Object.keys(asinPriceMap);
+  console.log(`Fetching fee estimates for ${uniqueAsins.length} ASINs…`);
+
+  const feeResults = await Promise.allSettled(
+    uniqueAsins.map((asin) => getFeesEstimate(asin, asinPriceMap[asin]))
+  );
+
+  const feesByAsin = {};
+  feeResults.forEach((res, i) => {
+    if (res.status !== "fulfilled") return;
+    const result = res.value?.payload?.FeesEstimateResult;
+    if (result?.Status !== "Success") return;
+    const details = result.FeesEstimate?.FeeDetailList || [];
+    const find = (type) => details.find((f) => f.FeeType === type)?.FinalFee?.Amount || 0;
+    feesByAsin[uniqueAsins[i]] = {
+      totalFees:   parseFloat(result.FeesEstimate.TotalFeesEstimate.Amount),
+      referralFee: parseFloat(find("ReferralFee")),
+      fbaFee:      parseFloat(find("FBAFees")),
+      atPrice:     asinPriceMap[uniqueAsins[i]],
+    };
+  });
+
+  // Attach fee data to each prediction and calculate break-even / suggested prices
+  predictions.forEach((p) => {
+    const fees = feesByAsin[p.asin];
+    if (!fees) return;
+
+    const referralRate = fees.atPrice > 0 ? fees.referralFee / fees.atPrice : 0.15;
+    const fbaFee       = fees.fbaFee;
+
+    // Break-even = (COGS + fbaFee) / (1 - referralRate)  — COGS left for user to fill in dashboard
+    // Suggested prices at target margins (excluding COGS, dashboard adds that)
+    p.fees = {
+      totalFees:    fees.totalFees,
+      referralFee:  fees.referralFee,
+      fbaFee:       fees.fbaFee,
+      referralRate: parseFloat(referralRate.toFixed(4)),
+      netAfterFees: parseFloat((fees.atPrice - fees.totalFees).toFixed(2)),
+      atPrice:      fees.atPrice,
+    };
+  });
 
   const data = {
     lastUpdated: new Date().toISOString(),

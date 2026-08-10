@@ -201,6 +201,22 @@
     .scroll-table::-webkit-scrollbar-track { background: var(--bg2); }
     .scroll-table::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 
+    /* COGS input */
+    .cogs-input {
+      width: 72px;
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      font-size: 13px;
+      padding: 4px 8px;
+      outline: none;
+    }
+    .cogs-input:focus { border-color: var(--accent); }
+
+    tr.row-profit-ok  td { background: rgba(34,197,94,.04); }
+    tr.row-profit-bad td { background: rgba(239,68,68,.06); }
+
     .loading {
       text-align: center;
       padding: 80px;
@@ -310,6 +326,46 @@
         Velocity = avg units/day over last 30 days &nbsp;·&nbsp; $/day = avg revenue/day &nbsp;·&nbsp;
         Avg Price = revenue ÷ units &nbsp;·&nbsp; Order By = today + days left − 30d lead time &nbsp;·&nbsp;
         Rec. Qty = 90-day supply
+      </div>
+    </div>
+
+    <!-- Profitability -->
+    <div class="section-title">Profitability Analysis</div>
+    <div class="panel" style="margin-bottom:28px">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
+        <div style="font-size:13px;color:var(--muted)">
+          Enter your cost per unit (COGS) — prices are saved in your browser.
+        </div>
+        <div style="display:flex;gap:8px;align-items:center;font-size:12px;color:var(--muted)">
+          <span style="display:inline-flex;align-items:center;gap:4px"><span style="width:10px;height:10px;border-radius:2px;background:rgba(34,197,94,.3);display:inline-block"></span>Current price ≥ suggested</span>
+          <span style="display:inline-flex;align-items:center;gap:4px"><span style="width:10px;height:10px;border-radius:2px;background:rgba(239,68,68,.3);display:inline-block"></span>Current price below break-even</span>
+        </div>
+      </div>
+      <div class="scroll-table">
+        <table id="profitability-table">
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Current Price</th>
+              <th>Referral Fee</th>
+              <th>FBA Fee</th>
+              <th>Total Fees</th>
+              <th>Net After Fees</th>
+              <th>Your COGS ($)</th>
+              <th>Break-even</th>
+              <th>Price @ 15% margin</th>
+              <th>Price @ 25% margin</th>
+              <th>Price @ 35% margin</th>
+              <th>Est. Profit Now</th>
+            </tr>
+          </thead>
+          <tbody id="profitability-body"></tbody>
+        </table>
+      </div>
+      <div style="padding:10px 0 2px;font-size:11px;color:var(--muted)">
+        Break-even = (COGS + FBA fee) ÷ (1 − referral rate) &nbsp;·&nbsp;
+        Price @ margin M = (COGS + FBA fee) ÷ (1 − referral rate − M) &nbsp;·&nbsp;
+        Margin = profit ÷ sale price
       </div>
     </div>
 
@@ -558,6 +614,115 @@ function buildOrdersTable(orders) {
   }).join('');
 }
 
+// ── Profitability ──────────────────────────────────────────────────────────
+const COGS_KEY = 'fba-dashboard-cogs';
+
+function loadCogs() {
+  try { return JSON.parse(localStorage.getItem(COGS_KEY) || '{}'); } catch { return {}; }
+}
+
+function saveCogs(sku, value) {
+  const all = loadCogs();
+  all[sku] = value;
+  localStorage.setItem(COGS_KEY, JSON.stringify(all));
+}
+
+function calcPriceAtMargin(cogs, fbaFee, referralRate, margin) {
+  const denominator = 1 - referralRate - margin;
+  if (denominator <= 0) return null;
+  return (cogs + fbaFee) / denominator;
+}
+
+function profitRow(p, cogs) {
+  const f = p.fees;
+  const price        = f.atPrice;
+  const fbaFee       = f.fbaFee;
+  const referralRate = f.referralRate;
+
+  const breakEven = calcPriceAtMargin(cogs, fbaFee, referralRate, 0);
+  const p15       = calcPriceAtMargin(cogs, fbaFee, referralRate, 0.15);
+  const p25       = calcPriceAtMargin(cogs, fbaFee, referralRate, 0.25);
+  const p35       = calcPriceAtMargin(cogs, fbaFee, referralRate, 0.35);
+
+  const netNow    = price * (1 - referralRate) - fbaFee;
+  const profitNow = cogs > 0 ? netNow - cogs : null;
+  const marginNow = cogs > 0 && price > 0 ? profitNow / price : null;
+
+  const isBad     = cogs > 0 && breakEven !== null && price < breakEven;
+  const rowCls    = cogs > 0 ? (isBad ? 'row-profit-bad' : 'row-profit-ok') : '';
+
+  const priceTd = (val, target) => {
+    if (val === null) return '<td style="color:var(--muted)">—</td>';
+    const ok = price >= val;
+    const color = ok ? 'var(--green)' : 'var(--red)';
+    const arrow = ok ? '' : ` <span style="font-size:10px;color:var(--red)">↑${fmt(val - price)}</span>`;
+    return `<td style="font-weight:600;color:${color}">${fmt(val)}${arrow}</td>`;
+  };
+
+  const profitTd = profitNow !== null
+    ? `<td style="font-weight:700;color:${profitNow >= 0 ? 'var(--green)' : 'var(--red)'}">${fmt(profitNow)} <span style="font-size:10px;color:var(--muted)">(${(marginNow*100).toFixed(0)}%)</span></td>`
+    : '<td style="color:var(--muted)">Enter COGS →</td>';
+
+  return `<tr class="${rowCls}" data-sku="${p.sellerSku}">
+    <td style="max-width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${p.productName}">${short(p.productName, 36)}</td>
+    <td style="font-weight:600">${fmt(price)}</td>
+    <td style="color:var(--muted)">${fmt(f.referralFee)} <span style="font-size:10px">(${(referralRate*100).toFixed(0)}%)</span></td>
+    <td style="color:var(--muted)">${fmt(fbaFee)}</td>
+    <td style="font-weight:600;color:var(--red)">${fmt(f.totalFees)}</td>
+    <td style="font-weight:600;color:var(--accent2)">${fmt(f.netAfterFees)}</td>
+    <td><input class="cogs-input" type="number" min="0" step="0.01" placeholder="0.00" value="${cogs > 0 ? cogs : ''}" data-sku="${p.sellerSku}" /></td>
+    ${priceTd(breakEven)}
+    ${priceTd(p15)}
+    ${priceTd(p25)}
+    ${priceTd(p35)}
+    ${profitTd}
+  </tr>`;
+}
+
+function buildProfitabilityTable(predictions) {
+  const cogsMap   = loadCogs();
+  const withFees  = predictions.filter(p => p.fees && p.avgPrice);
+  // Deduplicate by ASIN (show unique products only)
+  const seen      = new Set();
+  const unique    = withFees.filter(p => {
+    if (seen.has(p.asin)) return false;
+    seen.add(p.asin);
+    return true;
+  });
+
+  document.getElementById('profitability-body').innerHTML =
+    unique.map(p => profitRow(p, parseFloat(cogsMap[p.sellerSku] || 0))).join('');
+
+  // Live recalculation on COGS input
+  document.querySelectorAll('.cogs-input').forEach(input => {
+    input.addEventListener('input', () => {
+      const sku  = input.dataset.sku;
+      const cogs = parseFloat(input.value) || 0;
+      saveCogs(sku, cogs);
+      const pred = predictions.find(p => p.sellerSku === sku);
+      if (!pred) return;
+      const tr = input.closest('tr');
+      tr.outerHTML = profitRow(pred, cogs);
+      // Re-attach listener on new row
+      document.querySelector(`.cogs-input[data-sku="${sku}"]`)
+        ?.addEventListener('input', arguments.callee.bind(this)); // handled by delegation below
+    });
+  });
+
+  // Event delegation so re-rendered rows still work
+  document.getElementById('profitability-body').addEventListener('input', e => {
+    if (!e.target.classList.contains('cogs-input')) return;
+    const sku  = e.target.dataset.sku;
+    const cogs = parseFloat(e.target.value) || 0;
+    saveCogs(sku, cogs);
+    const pred = predictions.find(p => p.sellerSku === sku);
+    if (!pred) return;
+    const tr = e.target.closest('tr');
+    const newHtml = profitRow(pred, cogs);
+    tr.outerHTML = newHtml;
+  });
+}
+
 async function init() {
   try {
     const res  = await fetch('data.json?t=' + Date.now());
@@ -596,6 +761,7 @@ async function init() {
 
     buildAlerts(predictions);
     buildPredictionsTable(predictions);
+    buildProfitabilityTable(predictions);
     buildOrdersChart(orders);
     buildRevenueChart(predictions);
     buildInventoryChart(inventory);
