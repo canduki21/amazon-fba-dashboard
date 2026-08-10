@@ -267,8 +267,18 @@
         <div class="chart-wrap"><canvas id="ordersChart"></canvas></div>
       </div>
       <div class="panel">
+        <div class="panel-title">Revenue by SKU (30 days)</div>
+        <div class="chart-wrap"><canvas id="revenueChart"></canvas></div>
+      </div>
+    </div>
+    <div class="charts" style="margin-top:16px">
+      <div class="panel">
         <div class="panel-title">Inventory by Product (in stock)</div>
         <div class="chart-wrap"><canvas id="inventoryChart"></canvas></div>
+      </div>
+      <div class="panel">
+        <div class="panel-title">Selling Rate — Units/Week per SKU</div>
+        <div class="chart-wrap"><canvas id="velocityChart"></canvas></div>
       </div>
     </div>
 
@@ -283,15 +293,23 @@
               <th>SKU</th>
               <th>In Stock</th>
               <th>Sold (30d)</th>
-              <th>Velocity</th>
+              <th>Revenue (30d)</th>
+              <th>Units/Week</th>
+              <th>$/Day</th>
+              <th>Avg Price</th>
               <th>Days Left</th>
               <th>Order By</th>
-              <th>Recommend QTY</th>
+              <th>Rec. Qty</th>
               <th>Status</th>
             </tr>
           </thead>
           <tbody id="predictions-table"></tbody>
         </table>
+      </div>
+      <div style="padding:10px 24px 14px;border-top:1px solid var(--border);font-size:11px;color:var(--muted)">
+        Velocity = avg units/day over last 30 days &nbsp;·&nbsp; $/day = avg revenue/day &nbsp;·&nbsp;
+        Avg Price = revenue ÷ units &nbsp;·&nbsp; Order By = today + days left − 30d lead time &nbsp;·&nbsp;
+        Rec. Qty = 90-day supply
       </div>
     </div>
 
@@ -383,21 +401,26 @@ function buildPredictionsTable(predictions) {
   const tbody = document.getElementById('predictions-table');
 
   tbody.innerHTML = sorted.map(p => {
-    const rowCls = p.urgency === 'urgent' ? 'row-urgent' : p.urgency === 'warning' ? 'row-warning' : '';
-    const vel = p.velocity > 0 ? p.velocity.toFixed(2) + '/day' : '—';
-    const daysLeft = p.daysRemaining !== null
+    const rowCls     = p.urgency === 'urgent' ? 'row-urgent' : p.urgency === 'warning' ? 'row-warning' : '';
+    const unitsWeek  = p.velocity > 0 ? (p.velocity * 7).toFixed(1) : '—';
+    const revenueDay = p.revenuePerDay > 0 ? fmt(p.revenuePerDay) : '—';
+    const avgPrice   = p.avgPrice ? fmt(p.avgPrice) : '—';
+    const daysLeft   = p.daysRemaining !== null
       ? `<span style="color:${p.daysRemaining <= 14 ? 'var(--red)' : p.daysRemaining <= 30 ? 'var(--yellow)' : 'var(--green)'};font-weight:700">${p.daysRemaining}d</span>`
       : '—';
 
     return `<tr class="${rowCls}">
-      <td style="max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${p.productName}">${short(p.productName, 42)}</td>
+      <td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${p.productName}">${short(p.productName, 38)}</td>
       <td style="font-family:monospace;font-size:11px;color:var(--muted)">${p.sellerSku}</td>
       <td style="font-weight:600">${p.totalQuantity}</td>
-      <td>${p.unitsSold30d || 0}</td>
-      <td style="color:var(--muted)">${vel}</td>
+      <td style="text-align:center">${p.unitsSold30d || 0}</td>
+      <td style="font-weight:600;color:var(--accent2)">${p.revenue30d > 0 ? fmt(p.revenue30d) : '—'}</td>
+      <td style="text-align:center;color:var(--green);font-weight:600">${unitsWeek}</td>
+      <td style="color:var(--accent)">${revenueDay}</td>
+      <td style="color:var(--muted)">${avgPrice}</td>
       <td>${daysLeft}</td>
       <td style="color:${p.orderByDate && new Date(p.orderByDate) < new Date() ? 'var(--red)' : 'var(--text)'}">${fmtDate(p.orderByDate)}</td>
-      <td style="font-weight:600;color:var(--accent)">${p.recommendedQty !== null ? p.recommendedQty + ' units' : '—'}</td>
+      <td style="font-weight:600;color:var(--accent)">${p.recommendedQty !== null ? p.recommendedQty : '—'}</td>
       <td>${urgencyBadge(p.urgency)}</td>
     </tr>`;
   }).join('');
@@ -433,6 +456,49 @@ function buildOrdersChart(orders) {
         x:  { ticks:{ color:'#8892a4', maxTicksLimit:8, font:{size:10} }, grid:{ color:'#2e3250' } },
         y:  { position:'left',  ticks:{ color:'#4f8ef7', font:{size:10} }, grid:{ color:'#2e3250' } },
         y2: { position:'right', ticks:{ color:'#7c5cfc', font:{size:10} }, grid:{ display:false } },
+      },
+    },
+  });
+}
+
+function buildRevenueChart(predictions) {
+  const withRev = predictions.filter(p => p.revenue30d > 0)
+    .sort((a, b) => b.revenue30d - a.revenue30d);
+  const labels = withRev.map(p => { const n = p.productName || p.sellerSku; return n.length > 22 ? n.slice(0,20)+'…' : n; });
+  const data   = withRev.map(p => parseFloat(p.revenue30d.toFixed(2)));
+
+  new Chart(document.getElementById('revenueChart'), {
+    type: 'bar',
+    data: { labels, datasets: [{ data, backgroundColor: ['#7c5cfc','#4f8ef7','#22c55e','#f59e0b'], borderRadius: 6, borderSkipped: false }] },
+    options: {
+      indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: ctx => ' $' + ctx.parsed.x.toFixed(2) } },
+      },
+      scales: {
+        x: { ticks: { color: '#8892a4', font: { size: 10 }, callback: v => '$' + v }, grid: { color: '#2e3250' } },
+        y: { ticks: { color: '#e2e8f0', font: { size: 10 } }, grid: { display: false } },
+      },
+    },
+  });
+}
+
+function buildVelocityChart(predictions) {
+  const withVel = predictions.filter(p => p.velocity > 0)
+    .sort((a, b) => b.velocity - a.velocity);
+  const labels    = withVel.map(p => { const n = p.productName || p.sellerSku; return n.length > 22 ? n.slice(0,20)+'…' : n; });
+  const unitsWeek = withVel.map(p => parseFloat((p.velocity * 7).toFixed(2)));
+
+  new Chart(document.getElementById('velocityChart'), {
+    type: 'bar',
+    data: { labels, datasets: [{ label: 'Units/Week', data: unitsWeek, backgroundColor: 'rgba(34,197,94,.7)', borderColor: '#22c55e', borderWidth: 1, borderRadius: 6 }] },
+    options: {
+      indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { ticks: { color: '#8892a4', font: { size: 10 } }, grid: { color: '#2e3250' } },
+        y: { ticks: { color: '#e2e8f0', font: { size: 10 } }, grid: { display: false } },
       },
     },
   });
@@ -531,7 +597,9 @@ async function init() {
     buildAlerts(predictions);
     buildPredictionsTable(predictions);
     buildOrdersChart(orders);
+    buildRevenueChart(predictions);
     buildInventoryChart(inventory);
+    buildVelocityChart(predictions);
     buildInventoryTable(inventory);
     buildOrdersTable(orders);
 

@@ -9,8 +9,11 @@ const TARGET_SUPPLY   = 90; // days of stock to reorder toward
 
 function buildPredictions(inventory, skuSales) {
   return inventory.map((item) => {
-    const unitsSold30d = skuSales[item.sellerSku] || 0;
+    const sales        = skuSales[item.sellerSku] || { units: 0, revenue: 0 };
+    const unitsSold30d = sales.units;
+    const revenue30d   = parseFloat(sales.revenue.toFixed(2));
     const velocity     = unitsSold30d / DAYS_IN_PERIOD; // units/day
+    const revenuePerDay = revenue30d / DAYS_IN_PERIOD;
     const currentQty   = item.totalQuantity;
 
     let daysRemaining  = null;
@@ -37,14 +40,19 @@ function buildPredictions(inventory, skuSales) {
       urgency = "no-sales";
     }
 
+    const avgPrice = unitsSold30d > 0 ? parseFloat((revenue30d / unitsSold30d).toFixed(2)) : null;
+
     return {
-      asin:          item.asin,
-      sellerSku:     item.sellerSku,
-      productName:   item.productName,
-      totalQuantity: currentQty,
+      asin:           item.asin,
+      sellerSku:      item.sellerSku,
+      productName:    item.productName,
+      totalQuantity:  currentQty,
       lastUpdatedTime: item.lastUpdatedTime,
       unitsSold30d,
-      velocity:      parseFloat(velocity.toFixed(3)),
+      revenue30d,
+      velocity:       parseFloat(velocity.toFixed(3)),      // units/day
+      revenuePerDay:  parseFloat(revenuePerDay.toFixed(2)), // $/day
+      avgPrice,
       daysRemaining,
       orderByDate,
       recommendedQty,
@@ -81,14 +89,18 @@ async function generateData() {
     orders.map((o) => getOrderItems(o.AmazonOrderId))
   );
 
-  // Aggregate units sold per seller SKU
+  // Aggregate units sold and revenue per seller SKU
   const skuSales = {};
   itemResults.forEach((res) => {
     if (res.status !== "fulfilled") return;
     const items = res.value?.payload?.OrderItems || [];
     items.forEach((item) => {
-      const sku = item.SellerSKU;
-      skuSales[sku] = (skuSales[sku] || 0) + (parseInt(item.QuantityOrdered) || 0);
+      const sku  = item.SellerSKU;
+      const qty  = parseInt(item.QuantityOrdered) || 0;
+      const rev  = parseFloat(item.ItemPrice?.Amount || 0);
+      if (!skuSales[sku]) skuSales[sku] = { units: 0, revenue: 0 };
+      skuSales[sku].units   += qty;
+      skuSales[sku].revenue += rev;
     });
   });
 
