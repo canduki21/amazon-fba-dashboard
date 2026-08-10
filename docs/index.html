@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FBA Dashboard – Space Resource Technologies</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f1117;
+      --bg2: #1a1d27;
+      --bg3: #22263a;
+      --border: #2e3250;
+      --accent: #4f8ef7;
+      --accent2: #7c5cfc;
+      --green: #22c55e;
+      --yellow: #f59e0b;
+      --red: #ef4444;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --radius: 12px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14px;
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--bg2);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+    }
+
+    header h1 span { color: var(--accent); }
+
+    #last-updated {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    main {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 28px 32px;
+    }
+
+    /* ── Metric Cards ── */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+    }
+
+    .card-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .card-value {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -1px;
+      line-height: 1;
+    }
+
+    .card-sub {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+
+    .card-value.green { color: var(--green); }
+    .card-value.blue  { color: var(--accent); }
+    .card-value.purple { color: var(--accent2); }
+
+    /* ── Charts Row ── */
+    .charts {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .panel {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+    }
+
+    .panel-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 16px;
+    }
+
+    .chart-wrap {
+      position: relative;
+      height: 240px;
+    }
+
+    /* ── Tables ── */
+    .tables {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    th {
+      text-align: left;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      color: var(--muted);
+      padding: 0 12px 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+      vertical-align: middle;
+    }
+
+    tr:last-child td { border-bottom: none; }
+
+    tr:hover td { background: var(--bg3); }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    .badge-green  { background: rgba(34,197,94,.15);  color: var(--green); }
+    .badge-yellow { background: rgba(245,158,11,.15); color: var(--yellow); }
+    .badge-red    { background: rgba(239,68,68,.15);  color: var(--red); }
+    .badge-blue   { background: rgba(79,142,247,.15); color: var(--accent); }
+
+    .qty-bar-wrap { display: flex; align-items: center; gap: 8px; }
+    .qty-bar {
+      flex: 1;
+      height: 6px;
+      background: var(--bg3);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .qty-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      background: var(--accent);
+    }
+
+    .scroll-table { max-height: 340px; overflow-y: auto; }
+    .scroll-table::-webkit-scrollbar { width: 6px; }
+    .scroll-table::-webkit-scrollbar-track { background: var(--bg2); }
+    .scroll-table::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+    .loading {
+      text-align: center;
+      padding: 60px;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    @media (max-width: 1024px) {
+      .cards { grid-template-columns: repeat(2, 1fr); }
+      .charts, .tables { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>FBA Dashboard &mdash; <span>Space Resource Technologies</span></h1>
+  <div id="last-updated">Loading…</div>
+</header>
+
+<main>
+  <div id="loading" class="loading">Fetching data…</div>
+  <div id="content" style="display:none">
+
+    <!-- Metric Cards -->
+    <div class="cards">
+      <div class="card">
+        <div class="card-label">Total FBA Units</div>
+        <div class="card-value blue" id="total-units">—</div>
+        <div class="card-sub" id="active-skus">— active SKUs</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Orders (30 days)</div>
+        <div class="card-value green" id="total-orders">—</div>
+        <div class="card-sub" id="units-shipped">— units shipped</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Revenue (30 days)</div>
+        <div class="card-value purple" id="total-revenue">—</div>
+        <div class="card-sub" id="avg-order">Avg order: —</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Low Stock SKUs</div>
+        <div class="card-value" id="low-stock" style="color:var(--yellow)">—</div>
+        <div class="card-sub">qty ≤ 5 units</div>
+      </div>
+    </div>
+
+    <!-- Charts -->
+    <div class="charts">
+      <div class="panel">
+        <div class="panel-title">Revenue &amp; Orders — Last 30 Days</div>
+        <div class="chart-wrap"><canvas id="ordersChart"></canvas></div>
+      </div>
+      <div class="panel">
+        <div class="panel-title">Inventory by Product</div>
+        <div class="chart-wrap"><canvas id="inventoryChart"></canvas></div>
+      </div>
+    </div>
+
+    <!-- Tables -->
+    <div class="tables">
+      <div class="panel">
+        <div class="panel-title">FBA Inventory</div>
+        <div class="scroll-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>SKU</th>
+                <th>Qty</th>
+              </tr>
+            </thead>
+            <tbody id="inventory-table"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">Recent Orders</div>
+        <div class="scroll-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Order ID</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody id="orders-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<script>
+async function loadData() {
+  const res = await fetch('data.json?t=' + Date.now());
+  return res.json();
+}
+
+function fmt(n) {
+  return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(n);
+}
+
+function shortName(name) {
+  return name.length > 40 ? name.slice(0, 38) + '…' : name;
+}
+
+function statusBadge(status) {
+  const map = {
+    Shipped: 'badge-green',
+    Pending: 'badge-yellow',
+    Canceled: 'badge-red',
+    Unshipped: 'badge-blue',
+    PartiallyShipped: 'badge-yellow',
+  };
+  return `<span class="badge ${map[status] || 'badge-blue'}">${status}</span>`;
+}
+
+function buildOrdersChart(orders) {
+  const days = {};
+  const now = new Date();
+  for (let i = 29; i >= 0; i--) {
+    const d = new Date(now);
+    d.setDate(d.getDate() - i);
+    days[d.toISOString().slice(0, 10)] = { count: 0, revenue: 0 };
+  }
+  orders.forEach(o => {
+    const day = o.PurchaseDate?.slice(0, 10);
+    if (days[day]) {
+      days[day].count++;
+      days[day].revenue += parseFloat(o.OrderTotal?.Amount || 0);
+    }
+  });
+  const labels = Object.keys(days).map(d => {
+    const dt = new Date(d);
+    return dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  });
+  const revenues = Object.values(days).map(d => d.revenue);
+  const counts   = Object.values(days).map(d => d.count);
+
+  new Chart(document.getElementById('ordersChart'), {
+    data: {
+      labels,
+      datasets: [
+        {
+          type: 'bar',
+          label: 'Revenue ($)',
+          data: revenues,
+          backgroundColor: 'rgba(79,142,247,0.3)',
+          borderColor: '#4f8ef7',
+          borderWidth: 1,
+          borderRadius: 4,
+          yAxisID: 'y',
+        },
+        {
+          type: 'line',
+          label: 'Orders',
+          data: counts,
+          borderColor: '#7c5cfc',
+          backgroundColor: 'rgba(124,92,252,0.1)',
+          borderWidth: 2,
+          pointRadius: 3,
+          fill: true,
+          tension: 0.4,
+          yAxisID: 'y2',
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: { legend: { labels: { color: '#8892a4', font: { size: 11 } } } },
+      scales: {
+        x: { ticks: { color: '#8892a4', maxTicksLimit: 8, font: { size: 10 } }, grid: { color: '#2e3250' } },
+        y:  { position: 'left',  ticks: { color: '#4f8ef7', font: { size: 10 } }, grid: { color: '#2e3250' } },
+        y2: { position: 'right', ticks: { color: '#7c5cfc', font: { size: 10 } }, grid: { display: false } },
+      },
+    },
+  });
+}
+
+function buildInventoryChart(inventory) {
+  const withStock = inventory.filter(i => i.totalQuantity > 0).slice(0, 10);
+  const labels = withStock.map(i => {
+    const name = i.productName || i.sellerSku;
+    return name.length > 22 ? name.slice(0, 20) + '…' : name;
+  });
+  const data = withStock.map(i => i.totalQuantity);
+
+  new Chart(document.getElementById('inventoryChart'), {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{
+        data,
+        backgroundColor: [
+          '#4f8ef7','#7c5cfc','#22c55e','#f59e0b','#ef4444',
+          '#06b6d4','#a855f7','#10b981','#f97316','#ec4899',
+        ],
+        borderRadius: 6,
+        borderSkipped: false,
+      }],
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { ticks: { color: '#8892a4', font: { size: 10 } }, grid: { color: '#2e3250' } },
+        y: { ticks: { color: '#e2e8f0', font: { size: 10 } }, grid: { display: false } },
+      },
+    },
+  });
+}
+
+function buildInventoryTable(inventory, maxQty) {
+  const tbody = document.getElementById('inventory-table');
+  const sorted = [...inventory].sort((a, b) => b.totalQuantity - a.totalQuantity);
+  tbody.innerHTML = sorted.map(item => {
+    const qty = item.totalQuantity;
+    const pct = maxQty > 0 ? (qty / maxQty * 100).toFixed(1) : 0;
+    const color = qty === 0 ? 'var(--red)' : qty <= 5 ? 'var(--yellow)' : 'var(--accent)';
+    return `<tr>
+      <td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${item.productName}">${shortName(item.productName || '—')}</td>
+      <td style="font-family:monospace;font-size:11px;color:var(--muted)">${item.sellerSku}</td>
+      <td>
+        <div class="qty-bar-wrap">
+          <span style="font-weight:600;color:${color};min-width:24px">${qty}</span>
+          <div class="qty-bar"><div class="qty-bar-fill" style="width:${pct}%;background:${color}"></div></div>
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+}
+
+function buildOrdersTable(orders) {
+  const tbody = document.getElementById('orders-table');
+  const sorted = [...orders].sort((a, b) => new Date(b.PurchaseDate) - new Date(a.PurchaseDate));
+  tbody.innerHTML = sorted.map(o => {
+    const date = new Date(o.PurchaseDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    const total = o.OrderTotal ? fmt(o.OrderTotal.Amount) : '—';
+    return `<tr>
+      <td style="font-family:monospace;font-size:11px">${o.AmazonOrderId}</td>
+      <td style="color:var(--muted)">${date}</td>
+      <td>${statusBadge(o.OrderStatus)}</td>
+      <td style="font-weight:600">${total}</td>
+    </tr>`;
+  }).join('');
+}
+
+async function init() {
+  try {
+    const data = await loadData();
+
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('content').style.display  = 'block';
+
+    const ts = new Date(data.lastUpdated);
+    document.getElementById('last-updated').textContent =
+      'Updated ' + ts.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+
+    const inventory = data.inventory || [];
+    const orders    = data.orders    || [];
+
+    // Metrics
+    const totalUnits  = inventory.reduce((s, i) => s + i.totalQuantity, 0);
+    const activeSkus  = inventory.filter(i => i.totalQuantity > 0).length;
+    const lowStock    = inventory.filter(i => i.totalQuantity > 0 && i.totalQuantity <= 5).length;
+    const totalRev    = orders.reduce((s, o) => s + parseFloat(o.OrderTotal?.Amount || 0), 0);
+    const unitsShipped = orders.reduce((s, o) => s + (o.NumberOfItemsShipped || 0), 0);
+    const avgOrder    = orders.length ? totalRev / orders.length : 0;
+
+    document.getElementById('total-units').textContent  = totalUnits.toLocaleString();
+    document.getElementById('active-skus').textContent  = activeSkus + ' active SKUs';
+    document.getElementById('total-orders').textContent = orders.length;
+    document.getElementById('units-shipped').textContent = unitsShipped + ' units shipped';
+    document.getElementById('total-revenue').textContent = fmt(totalRev);
+    document.getElementById('avg-order').textContent     = 'Avg order: ' + fmt(avgOrder);
+    document.getElementById('low-stock').textContent     = lowStock;
+
+    const maxQty = Math.max(...inventory.map(i => i.totalQuantity), 1);
+
+    buildOrdersChart(orders);
+    buildInventoryChart(inventory);
+    buildInventoryTable(inventory, maxQty);
+    buildOrdersTable(orders);
+
+  } catch (err) {
+    document.getElementById('loading').textContent = 'Error loading data: ' + err.message;
+  }
+}
+
+init();
+</script>
+</body>
+</html>

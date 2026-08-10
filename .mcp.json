@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "amazon-seller": {
+      "command": "node",
+      "args": ["/Users/canduki21/amazon-claude-integration/server.js"],
+      "env": {
+        "AMAZON_CLIENT_ID": "",
+        "AMAZON_CLIENT_SECRET": "",
+        "AMAZON_REFRESH_TOKEN": "",
+        "AMAZON_MARKETPLACE_ID": "ATVPDKIKX0DER"
+      }
+    }
+  }
+}
