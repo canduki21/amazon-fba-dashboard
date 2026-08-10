@@ -1,0 +1,12 @@
+{
+  "_note": "COGS per unit from Operational Bookkeeping - Simulant Costs.pdf. Formula: (Total Simulant Cost/kg × weight_kg) + label cost. Does NOT include shipping to Amazon FBA.",
+  "byAsin": {
+    "B0D94YYYG7": { "cogs": 18.56, "product": "MGS-1 5kg", "formula": "$3.32/kg × 5kg + $1.96 label" },
+    "B0D96PS81D": { "cogs": 3.75,  "product": "LMS-1 1kg",  "formula": "$2.95/kg × 1kg + $0.80 label" },
+    "B0FN8JN6JP": { "cogs": 2.83,  "product": "LMS-1E 1kg", "formula": "$2.03/kg × 1kg + $0.80 label" },
+    "B0D6WZPZJV": { "cogs": 3.62,  "product": "LHS-1 1kg",  "formula": "$2.82/kg × 1kg + $0.80 label" },
+    "B0FM5NGXCW": { "cogs": 3.61,  "product": "LHS-1E 1kg", "formula": "$2.81/kg × 1kg + $0.80 label" },
+    "B0GPK3NCFR": { "cogs": 3.41,  "product": "JEZ-1 1kg",  "formula": "$2.61/kg × 1kg + $0.80 label" },
+    "B0GQCBJ5WM": { "cogs": 2.30,  "product": "CI-E 1kg",   "formula": "$1.50/kg × 1kg + $0.80 label" }
+  }
+}
