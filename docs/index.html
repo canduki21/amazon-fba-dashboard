@@ -359,6 +359,7 @@
               <th>Price @ 40% margin</th>
               <th>Price @ 50% margin</th>
               <th>Est. Profit Now</th>
+              <th style="color:var(--yellow);background:rgba(245,158,11,.08)">⭐ Ideal Price</th>
             </tr>
           </thead>
           <tbody id="profitability-body"></tbody>
@@ -685,6 +686,19 @@ function profitRow(p, cogs, cogsSource) {
     ? `<td style="font-weight:700;color:${profitNow >= 0 ? 'var(--green)' : 'var(--red)'}">${fmt(profitNow)} <span style="font-size:10px;color:var(--muted)">(${(marginNow*100).toFixed(0)}%)</span></td>`
     : '<td style="color:var(--muted)">Enter COGS →</td>';
 
+  // Ideal price = highest of (current price, 50% margin target), rounded to nearest .99
+  const idealRaw  = cogs > 0 ? Math.max(price, p50 ?? 0) : price;
+  const idealPrice = Math.floor(idealRaw) + 0.99;
+  const idealDiff  = idealPrice - price;
+  const idealTd    = cogs > 0
+    ? `<td style="background:rgba(245,158,11,.1);font-weight:800;color:var(--yellow);font-size:14px">
+        ${fmt(idealPrice)}
+        ${Math.abs(idealDiff) > 0.50
+          ? `<div style="font-size:10px;color:${idealDiff > 0 ? 'var(--red)' : 'var(--green)'};font-weight:600">${idealDiff > 0 ? '↑' : '↓'}${fmt(Math.abs(idealDiff))} vs current</div>`
+          : `<div style="font-size:10px;color:var(--green);font-weight:600">✓ on target</div>`}
+       </td>`
+    : '<td style="color:var(--muted);background:rgba(245,158,11,.05)">Enter COGS</td>';
+
   return `<tr class="${rowCls}" data-sku="${p.sellerSku}">
     <td style="max-width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${p.productName}">${short(p.productName, 36)}</td>
     <td style="font-weight:600">${fmt(price)}</td>
@@ -699,6 +713,7 @@ function profitRow(p, cogs, cogsSource) {
     ${priceTd(p40)}
     ${priceTd(p50)}
     ${profitTd}
+    ${idealTd}
   </tr>`;
 }
 
