@@ -354,9 +354,10 @@
               <th>Net After Fees</th>
               <th>Your COGS ($)</th>
               <th>Break-even</th>
-              <th>Price @ 15% margin</th>
-              <th>Price @ 25% margin</th>
-              <th>Price @ 35% margin</th>
+              <th>Price @ 20% margin</th>
+              <th>Price @ 30% margin</th>
+              <th>Price @ 40% margin</th>
+              <th>Price @ 50% margin</th>
               <th>Est. Profit Now</th>
             </tr>
           </thead>
@@ -365,8 +366,10 @@
       </div>
       <div style="padding:10px 0 2px;font-size:11px;color:var(--muted)">
         Break-even = (COGS + FBA fee) ÷ (1 − referral rate) &nbsp;·&nbsp;
-        Price @ margin M = (COGS + FBA fee) ÷ (1 − referral rate − M) &nbsp;·&nbsp;
-        Margin = profit ÷ sale price
+        Optimal price @ margin M = (COGS + FBA fee) ÷ (1 − referral rate − M) &nbsp;·&nbsp;
+        Margin = profit ÷ sale price &nbsp;·&nbsp;
+        <span style="color:var(--green)">Green</span> = current price already at or above target &nbsp;·&nbsp;
+        <span style="color:var(--red)">Red + ↑</span> = amount you need to raise price
       </div>
     </div>
 
@@ -658,9 +661,10 @@ function profitRow(p, cogs, cogsSource) {
   const referralRate = f.referralRate;
 
   const breakEven = calcPriceAtMargin(cogs, fbaFee, referralRate, 0);
-  const p15       = calcPriceAtMargin(cogs, fbaFee, referralRate, 0.15);
-  const p25       = calcPriceAtMargin(cogs, fbaFee, referralRate, 0.25);
-  const p35       = calcPriceAtMargin(cogs, fbaFee, referralRate, 0.35);
+  const p20       = calcPriceAtMargin(cogs, fbaFee, referralRate, 0.20);
+  const p30       = calcPriceAtMargin(cogs, fbaFee, referralRate, 0.30);
+  const p40       = calcPriceAtMargin(cogs, fbaFee, referralRate, 0.40);
+  const p50       = calcPriceAtMargin(cogs, fbaFee, referralRate, 0.50);
 
   const netNow    = price * (1 - referralRate) - fbaFee;
   const profitNow = cogs > 0 ? netNow - cogs : null;
@@ -690,9 +694,10 @@ function profitRow(p, cogs, cogsSource) {
     <td style="font-weight:600;color:var(--accent2)">${fmt(f.netAfterFees)}</td>
     <td><input class="cogs-input" type="number" min="0" step="0.01" placeholder="0.00" value="${cogs > 0 ? cogs : ''}" data-sku="${p.sellerSku}" />${sourceTag}</td>
     ${priceTd(breakEven)}
-    ${priceTd(p15)}
-    ${priceTd(p25)}
-    ${priceTd(p35)}
+    ${priceTd(p20)}
+    ${priceTd(p30)}
+    ${priceTd(p40)}
+    ${priceTd(p50)}
     ${profitTd}
   </tr>`;
 }
