@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T12:43:10.585Z",
+  "lastUpdated": "2026-08-11T18:49:05.089Z",
   "inventory": [
     {
       "asin": "B0D94YYYG7",
@@ -46,7 +46,7 @@
       "fnSku": "X004PYNWAN",
       "sellerSku": "B7-E2EI-16S3",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-08-11T07:20:56Z",
+      "lastUpdatedTime": "2026-08-11T18:30:30Z",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 14,
       "stores": []
@@ -156,7 +156,7 @@
       "fnSku": "X0050NU7MJ",
       "sellerSku": "VM-8X3M-SECN",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-07-23T04:02:52Z",
+      "lastUpdatedTime": "2026-08-11T14:31:12Z",
       "productName": "Jezero Delta Simulant (JEZ 1), Mars Soil Simulant and Martian Regolith Analog from the Perseverance Jezero Landing Site, for Laboratory Research and Hardware Testing",
       "totalQuantity": 8,
       "stores": []
@@ -939,7 +939,7 @@
         "Invoice"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-08-11T09:48:41Z",
+      "LastUpdateDate": "2026-08-11T17:04:40Z",
       "ShipmentServiceLevelCategory": "Expedited"
     },
     {
@@ -1068,11 +1068,15 @@
       "SellerOrderId": "113-2976099-1161000",
       "PaymentMethod": "Other",
       "IsBusinessOrder": true,
+      "OrderTotal": {
+        "CurrencyCode": "USD",
+        "Amount": "123.03"
+      },
       "PaymentMethodDetails": [
         "Standard"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-08-10T20:53:54Z",
+      "LastUpdateDate": "2026-08-11T15:43:05Z",
       "ShipmentServiceLevelCategory": "Expedited"
     }
   ],
@@ -1113,7 +1117,7 @@
       "revenuePerDay": 17.82,
       "avgPrice": 66.84,
       "daysRemaining": 63,
-      "orderByDate": "2026-09-13T12:43:10.113Z",
+      "orderByDate": "2026-09-13T18:49:04.690Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "fees": {
@@ -1162,23 +1166,23 @@
       "sellerSku": "B7-E2EI-16S3",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 14,
-      "lastUpdatedTime": "2026-08-11T07:20:56Z",
+      "lastUpdatedTime": "2026-08-11T18:30:30Z",
       "unitsSold30d": 12,
-      "revenue30d": 558.9,
+      "revenue30d": 624.45,
       "velocity": 0.4,
-      "revenuePerDay": 18.63,
-      "avgPrice": 46.57,
+      "revenuePerDay": 20.82,
+      "avgPrice": 52.04,
       "daysRemaining": 35,
-      "orderByDate": "2026-08-16T12:43:10.113Z",
+      "orderByDate": "2026-08-16T18:49:04.690Z",
       "recommendedQty": 36,
       "urgency": "warning",
       "fees": {
-        "totalFees": 13.12,
-        "referralFee": 6.99,
-        "fbaFee": 6.13,
+        "totalFees": 14.21,
+        "referralFee": 7.81,
+        "fbaFee": 6.4,
         "referralRate": 0.1501,
-        "netAfterFees": 33.45,
-        "atPrice": 46.57
+        "netAfterFees": 37.83,
+        "atPrice": 52.04
       }
     },
     {
@@ -1265,7 +1269,7 @@
       "revenuePerDay": 4.37,
       "avgPrice": 65.55,
       "daysRemaining": 360,
-      "orderByDate": "2027-07-07T12:43:10.113Z",
+      "orderByDate": "2027-07-07T18:49:04.690Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1317,12 +1321,12 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "fees": {
-        "totalFees": 12.01,
-        "referralFee": 5.88,
+        "totalFees": 12.71,
+        "referralFee": 6.58,
         "fbaFee": 6.13,
         "referralRate": 0.15,
-        "netAfterFees": 27.19,
-        "atPrice": 39.2
+        "netAfterFees": 31.15,
+        "atPrice": 43.86
       }
     },
     {
@@ -1332,21 +1336,21 @@
       "totalQuantity": 23,
       "lastUpdatedTime": "2026-08-11T02:49:04Z",
       "unitsSold30d": 10,
-      "revenue30d": 392,
+      "revenue30d": 438.55,
       "velocity": 0.333,
-      "revenuePerDay": 13.07,
-      "avgPrice": 39.2,
+      "revenuePerDay": 14.62,
+      "avgPrice": 43.86,
       "daysRemaining": 69,
-      "orderByDate": "2026-09-19T12:43:10.113Z",
+      "orderByDate": "2026-09-19T18:49:04.690Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "fees": {
-        "totalFees": 12.01,
-        "referralFee": 5.88,
+        "totalFees": 12.71,
+        "referralFee": 6.58,
         "fbaFee": 6.13,
         "referralRate": 0.15,
-        "netAfterFees": 27.19,
-        "atPrice": 39.2
+        "netAfterFees": 31.15,
+        "atPrice": 43.86
       }
     },
     {
@@ -1386,7 +1390,7 @@
       "sellerSku": "VM-8X3M-SECN",
       "productName": "Jezero Delta Simulant (JEZ 1), Mars Soil Simulant and Martian Regolith Analog from the Perseverance Jezero Landing Site, for Laboratory Research and Hardware Testing",
       "totalQuantity": 8,
-      "lastUpdatedTime": "2026-07-23T04:02:52Z",
+      "lastUpdatedTime": "2026-08-11T14:31:12Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
