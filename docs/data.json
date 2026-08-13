@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T01:11:10.037Z",
+  "lastUpdated": "2026-08-13T07:14:38.240Z",
   "inventory": [
     {
       "asin": "B0D94YYYG7",
@@ -1184,7 +1184,7 @@
       "revenuePerDay": 15.53,
       "avgPrice": 58.22,
       "daysRemaining": 63,
-      "orderByDate": "2026-09-15T01:11:09.586Z",
+      "orderByDate": "2026-09-15T07:14:37.668Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "fees": {
@@ -1240,7 +1240,7 @@
       "revenuePerDay": 20.82,
       "avgPrice": 52.04,
       "daysRemaining": 32,
-      "orderByDate": "2026-08-15T01:11:09.587Z",
+      "orderByDate": "2026-08-15T07:14:37.668Z",
       "recommendedQty": 36,
       "urgency": "warning",
       "fees": {
@@ -1264,7 +1264,7 @@
       "revenuePerDay": 0,
       "avgPrice": 0,
       "daysRemaining": 420,
-      "orderByDate": "2027-09-07T01:11:09.587Z",
+      "orderByDate": "2027-09-07T07:14:37.668Z",
       "recommendedQty": 3,
       "urgency": "ok"
     },
@@ -1336,7 +1336,7 @@
       "revenuePerDay": 4.37,
       "avgPrice": 65.55,
       "daysRemaining": 360,
-      "orderByDate": "2027-07-09T01:11:09.587Z",
+      "orderByDate": "2027-07-09T07:14:37.668Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1408,7 +1408,7 @@
       "revenuePerDay": 16.25,
       "avgPrice": 44.32,
       "daysRemaining": 57,
-      "orderByDate": "2026-09-09T01:11:09.587Z",
+      "orderByDate": "2026-09-09T07:14:37.668Z",
       "recommendedQty": 33,
       "urgency": "ok",
       "fees": {
