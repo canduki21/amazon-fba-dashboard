@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T07:10:38.399Z",
+  "lastUpdated": "2026-08-14T12:43:24.269Z",
   "inventory": [
     {
       "asin": "B0D94YYYG7",
@@ -16,7 +16,7 @@
       "fnSku": "X004PYQDZJ",
       "sellerSku": "1N-OGY7-5MMW",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-08-14T04:52:29Z",
+      "lastUpdatedTime": "2026-08-14T11:51:37Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 17,
       "stores": []
@@ -46,7 +46,7 @@
       "fnSku": "X004PYNWAN",
       "sellerSku": "B7-E2EI-16S3",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-08-14T05:00:11Z",
+      "lastUpdatedTime": "2026-08-14T08:10:02Z",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 13,
       "stores": []
@@ -1146,14 +1146,14 @@
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 17,
-      "lastUpdatedTime": "2026-08-14T04:52:29Z",
+      "lastUpdatedTime": "2026-08-14T11:51:37Z",
       "unitsSold30d": 8,
       "revenue30d": 465.75,
       "velocity": 0.267,
       "revenuePerDay": 15.53,
       "avgPrice": 58.22,
       "daysRemaining": 63,
-      "orderByDate": "2026-09-16T07:10:37.793Z",
+      "orderByDate": "2026-09-16T12:43:23.823Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "fees": {
@@ -1202,14 +1202,14 @@
       "sellerSku": "B7-E2EI-16S3",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 13,
-      "lastUpdatedTime": "2026-08-14T05:00:11Z",
+      "lastUpdatedTime": "2026-08-14T08:10:02Z",
       "unitsSold30d": 12,
       "revenue30d": 624.45,
       "velocity": 0.4,
       "revenuePerDay": 20.82,
       "avgPrice": 52.04,
       "daysRemaining": 32,
-      "orderByDate": "2026-08-16T07:10:37.793Z",
+      "orderByDate": "2026-08-16T12:43:23.823Z",
       "recommendedQty": 36,
       "urgency": "warning",
       "fees": {
@@ -1233,7 +1233,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 49,
       "daysRemaining": 390,
-      "orderByDate": "2027-08-09T07:10:37.793Z",
+      "orderByDate": "2027-08-09T12:43:23.823Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1313,7 +1313,7 @@
       "revenuePerDay": 4.37,
       "avgPrice": 65.55,
       "daysRemaining": 360,
-      "orderByDate": "2027-07-10T07:10:37.793Z",
+      "orderByDate": "2027-07-10T12:43:23.823Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1385,7 +1385,7 @@
       "revenuePerDay": 14.62,
       "avgPrice": 43.86,
       "daysRemaining": 63,
-      "orderByDate": "2026-09-16T07:10:37.793Z",
+      "orderByDate": "2026-09-16T12:43:23.823Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "fees": {
