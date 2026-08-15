@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T06:21:45.040Z",
+  "lastUpdated": "2026-08-15T12:19:34.909Z",
   "inventory": [
     {
       "asin": "B0D94YYYG7",
@@ -46,7 +46,7 @@
       "fnSku": "X004PYNWAN",
       "sellerSku": "B7-E2EI-16S3",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-08-14T21:19:30Z",
+      "lastUpdatedTime": "2026-08-15T08:50:14Z",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 12,
       "stores": []
@@ -1181,7 +1181,7 @@
       "revenuePerDay": 17.82,
       "avgPrice": 66.84,
       "daysRemaining": 60,
-      "orderByDate": "2026-09-14T06:21:44.428Z",
+      "orderByDate": "2026-09-14T12:19:34.371Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "fees": {
@@ -1230,14 +1230,14 @@
       "sellerSku": "B7-E2EI-16S3",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 12,
-      "lastUpdatedTime": "2026-08-14T21:19:30Z",
+      "lastUpdatedTime": "2026-08-15T08:50:14Z",
       "unitsSold30d": 12,
       "revenue30d": 755.55,
       "velocity": 0.4,
       "revenuePerDay": 25.18,
       "avgPrice": 62.96,
       "daysRemaining": 30,
-      "orderByDate": "2026-08-15T06:21:44.428Z",
+      "orderByDate": "2026-08-15T12:19:34.371Z",
       "recommendedQty": 36,
       "urgency": "urgent",
       "fees": {
@@ -1261,7 +1261,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 49,
       "daysRemaining": 390,
-      "orderByDate": "2027-08-10T06:21:44.428Z",
+      "orderByDate": "2027-08-10T12:19:34.371Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1341,7 +1341,7 @@
       "revenuePerDay": 4.37,
       "avgPrice": 65.55,
       "daysRemaining": 360,
-      "orderByDate": "2027-07-11T06:21:44.428Z",
+      "orderByDate": "2027-07-11T12:19:34.371Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1413,7 +1413,7 @@
       "revenuePerDay": 16.25,
       "avgPrice": 48.76,
       "daysRemaining": 60,
-      "orderByDate": "2026-09-14T06:21:44.428Z",
+      "orderByDate": "2026-09-14T12:19:34.371Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "fees": {
