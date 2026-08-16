@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T18:15:59.542Z",
+  "lastUpdated": "2026-08-16T00:45:07.950Z",
   "inventory": [
     {
       "asin": "B0D94YYYG7",
@@ -203,44 +203,6 @@
     }
   ],
   "orders": [
-    {
-      "BuyerInfo": {},
-      "AmazonOrderId": "113-4760365-8408237",
-      "EarliestShipDate": "2026-07-17T06:59:59Z",
-      "SalesChannel": "Amazon.com",
-      "OrderStatus": "Shipped",
-      "NumberOfItemsShipped": 1,
-      "OrderType": "StandardOrder",
-      "IsPremiumOrder": false,
-      "IsPrime": false,
-      "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 0,
-      "HasRegulatedItems": false,
-      "IsReplacementOrder": "false",
-      "IsSoldByAB": false,
-      "LatestShipDate": "2026-07-17T06:59:59Z",
-      "ShipServiceLevel": "SecondDay",
-      "IsISPU": false,
-      "MarketplaceId": "ATVPDKIKX0DER",
-      "PurchaseDate": "2026-07-16T22:48:17Z",
-      "ShippingAddress": {
-        "StateOrRegion": "IN",
-        "City": "FORT WAYNE",
-        "CountryCode": "US",
-        "County": "ALLEN"
-      },
-      "IsAccessPointOrder": false,
-      "SellerOrderId": "113-4760365-8408237",
-      "PaymentMethod": "Other",
-      "IsBusinessOrder": false,
-      "OrderTotal": {
-        "CurrencyCode": "USD",
-        "Amount": "62.10"
-      },
-      "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-07-17T09:31:06Z",
-      "ShipmentServiceLevelCategory": "SecondDay"
-    },
     {
       "BuyerInfo": {},
       "AmazonOrderId": "113-5780132-9797814",
@@ -1143,7 +1105,7 @@
       "revenuePerDay": 17.82,
       "avgPrice": 66.84,
       "daysRemaining": 60,
-      "orderByDate": "2026-09-14T18:15:58.979Z",
+      "orderByDate": "2026-09-15T00:45:07.490Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "fees": {
@@ -1199,7 +1161,7 @@
       "revenuePerDay": 25.18,
       "avgPrice": 62.96,
       "daysRemaining": 30,
-      "orderByDate": "2026-08-15T18:15:58.979Z",
+      "orderByDate": "2026-08-16T00:45:07.490Z",
       "recommendedQty": 36,
       "urgency": "urgent",
       "fees": {
@@ -1223,7 +1185,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 49,
       "daysRemaining": 390,
-      "orderByDate": "2027-08-10T18:15:58.979Z",
+      "orderByDate": "2027-08-11T00:45:07.490Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1283,12 +1245,12 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "fees": {
-        "totalFees": 14.27,
-        "referralFee": 7.87,
+        "totalFees": 14.68,
+        "referralFee": 8.28,
         "fbaFee": 6.4,
-        "referralRate": 0.1201,
-        "netAfterFees": 51.28,
-        "atPrice": 65.55
+        "referralRate": 0.12,
+        "netAfterFees": 54.32,
+        "atPrice": 69
       }
     },
     {
@@ -1297,22 +1259,22 @@
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1 – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 24,
       "lastUpdatedTime": "2026-08-14T20:49:55Z",
-      "unitsSold30d": 2,
-      "revenue30d": 131.1,
-      "velocity": 0.067,
-      "revenuePerDay": 4.37,
-      "avgPrice": 65.55,
-      "daysRemaining": 360,
-      "orderByDate": "2027-07-11T18:15:58.979Z",
-      "recommendedQty": 6,
+      "unitsSold30d": 1,
+      "revenue30d": 69,
+      "velocity": 0.033,
+      "revenuePerDay": 2.3,
+      "avgPrice": 69,
+      "daysRemaining": 720,
+      "orderByDate": "2028-07-06T00:45:07.490Z",
+      "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
-        "totalFees": 14.27,
-        "referralFee": 7.87,
+        "totalFees": 14.68,
+        "referralFee": 8.28,
         "fbaFee": 6.4,
-        "referralRate": 0.1201,
-        "netAfterFees": 51.28,
-        "atPrice": 65.55
+        "referralRate": 0.12,
+        "netAfterFees": 54.32,
+        "atPrice": 69
       }
     },
     {
@@ -1331,12 +1293,12 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "fees": {
-        "totalFees": 14.27,
-        "referralFee": 7.87,
+        "totalFees": 14.68,
+        "referralFee": 8.28,
         "fbaFee": 6.4,
-        "referralRate": 0.1201,
-        "netAfterFees": 51.28,
-        "atPrice": 65.55
+        "referralRate": 0.12,
+        "netAfterFees": 54.32,
+        "atPrice": 69
       }
     },
     {
@@ -1375,7 +1337,7 @@
       "revenuePerDay": 14.62,
       "avgPrice": 48.73,
       "daysRemaining": 66,
-      "orderByDate": "2026-09-20T18:15:58.979Z",
+      "orderByDate": "2026-09-21T00:45:07.490Z",
       "recommendedQty": 27,
       "urgency": "ok",
       "fees": {
