@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T06:23:41.582Z",
+  "lastUpdated": "2026-08-16T12:20:38.412Z",
   "inventory": [
     {
       "asin": "B0D94YYYG7",
@@ -16,7 +16,7 @@
       "fnSku": "X004PYQDZJ",
       "sellerSku": "1N-OGY7-5MMW",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-08-15T15:34:30Z",
+      "lastUpdatedTime": "2026-08-16T11:45:19Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 16,
       "stores": []
@@ -203,44 +203,6 @@
     }
   ],
   "orders": [
-    {
-      "BuyerInfo": {},
-      "AmazonOrderId": "113-5780132-9797814",
-      "EarliestShipDate": "2026-07-21T06:59:59Z",
-      "SalesChannel": "Amazon.com",
-      "OrderStatus": "Shipped",
-      "NumberOfItemsShipped": 1,
-      "OrderType": "StandardOrder",
-      "IsPremiumOrder": false,
-      "IsPrime": false,
-      "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 0,
-      "HasRegulatedItems": false,
-      "IsReplacementOrder": "false",
-      "IsSoldByAB": false,
-      "LatestShipDate": "2026-07-21T06:59:59Z",
-      "ShipServiceLevel": "Standard",
-      "IsISPU": false,
-      "MarketplaceId": "ATVPDKIKX0DER",
-      "PurchaseDate": "2026-07-17T06:37:49Z",
-      "ShippingAddress": {
-        "StateOrRegion": "FL",
-        "City": "Jacksonville",
-        "CountryCode": "US",
-        "County": "Duval"
-      },
-      "IsAccessPointOrder": false,
-      "SellerOrderId": "113-5780132-9797814",
-      "PaymentMethod": "Other",
-      "IsBusinessOrder": false,
-      "OrderTotal": {
-        "CurrencyCode": "USD",
-        "Amount": "69.00"
-      },
-      "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-07-20T08:29:22Z",
-      "ShipmentServiceLevelCategory": "Standard"
-    },
     {
       "BuyerInfo": {},
       "AmazonOrderId": "112-0934904-3172256",
@@ -1085,12 +1047,12 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "fees": {
-        "totalFees": 16.61,
-        "referralFee": 10.03,
+        "totalFees": 16.56,
+        "referralFee": 9.98,
         "fbaFee": 6.58,
-        "referralRate": 0.1501,
-        "netAfterFees": 50.23,
-        "atPrice": 66.84
+        "referralRate": 0.15,
+        "netAfterFees": 49.98,
+        "atPrice": 66.54
       }
     },
     {
@@ -1098,23 +1060,23 @@
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 16,
-      "lastUpdatedTime": "2026-08-15T15:34:30Z",
-      "unitsSold30d": 8,
-      "revenue30d": 534.75,
-      "velocity": 0.267,
-      "revenuePerDay": 17.82,
-      "avgPrice": 66.84,
-      "daysRemaining": 60,
-      "orderByDate": "2026-09-15T06:23:41.066Z",
-      "recommendedQty": 24,
+      "lastUpdatedTime": "2026-08-16T11:45:19Z",
+      "unitsSold30d": 7,
+      "revenue30d": 465.75,
+      "velocity": 0.233,
+      "revenuePerDay": 15.53,
+      "avgPrice": 66.54,
+      "daysRemaining": 68,
+      "orderByDate": "2026-09-23T12:20:37.925Z",
+      "recommendedQty": 21,
       "urgency": "ok",
       "fees": {
-        "totalFees": 16.61,
-        "referralFee": 10.03,
+        "totalFees": 16.56,
+        "referralFee": 9.98,
         "fbaFee": 6.58,
-        "referralRate": 0.1501,
-        "netAfterFees": 50.23,
-        "atPrice": 66.84
+        "referralRate": 0.15,
+        "netAfterFees": 49.98,
+        "atPrice": 66.54
       }
     },
     {
@@ -1161,7 +1123,7 @@
       "revenuePerDay": 25.18,
       "avgPrice": 62.96,
       "daysRemaining": 30,
-      "orderByDate": "2026-08-16T06:23:41.066Z",
+      "orderByDate": "2026-08-16T12:20:37.925Z",
       "recommendedQty": 36,
       "urgency": "urgent",
       "fees": {
@@ -1185,7 +1147,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 49,
       "daysRemaining": 390,
-      "orderByDate": "2027-08-11T06:23:41.066Z",
+      "orderByDate": "2027-08-11T12:20:37.925Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1265,7 +1227,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 720,
-      "orderByDate": "2028-07-06T06:23:41.066Z",
+      "orderByDate": "2028-07-06T12:20:37.925Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1337,7 +1299,7 @@
       "revenuePerDay": 14.62,
       "avgPrice": 48.73,
       "daysRemaining": 66,
-      "orderByDate": "2026-09-21T06:23:41.066Z",
+      "orderByDate": "2026-09-21T12:20:37.925Z",
       "recommendedQty": 27,
       "urgency": "ok",
       "fees": {
@@ -1461,12 +1423,12 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "fees": {
-        "totalFees": 16.61,
-        "referralFee": 10.03,
+        "totalFees": 16.56,
+        "referralFee": 9.98,
         "fbaFee": 6.58,
-        "referralRate": 0.1501,
-        "netAfterFees": 50.23,
-        "atPrice": 66.84
+        "referralRate": 0.15,
+        "netAfterFees": 49.98,
+        "atPrice": 66.54
       }
     }
   ]
