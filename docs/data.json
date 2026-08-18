@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T06:27:45.742Z",
+  "lastUpdated": "2026-08-18T12:26:33.376Z",
   "inventory": [
     {
       "asin": "B0D94YYYG7",
@@ -126,9 +126,9 @@
       "fnSku": "B0FM5NGXCW",
       "sellerSku": "LE-M9RA-IUOW",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-08-18T00:27:40Z",
+      "lastUpdatedTime": "2026-08-18T08:09:09Z",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
-      "totalQuantity": 20,
+      "totalQuantity": 19,
       "stores": []
     },
     {
@@ -203,46 +203,6 @@
     }
   ],
   "orders": [
-    {
-      "BuyerInfo": {},
-      "AmazonOrderId": "112-0934904-3172256",
-      "EarliestShipDate": "2026-07-22T06:59:59Z",
-      "SalesChannel": "Amazon.com",
-      "OrderStatus": "Shipped",
-      "NumberOfItemsShipped": 1,
-      "OrderType": "StandardOrder",
-      "IsPremiumOrder": false,
-      "IsPrime": false,
-      "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 0,
-      "HasRegulatedItems": false,
-      "IsReplacementOrder": "false",
-      "IsSoldByAB": false,
-      "LatestShipDate": "2026-07-22T06:59:59Z",
-      "ShipServiceLevel": "Expedited",
-      "IsISPU": false,
-      "MarketplaceId": "ATVPDKIKX0DER",
-      "PurchaseDate": "2026-07-19T08:37:31Z",
-      "ShippingAddress": {
-        "StateOrRegion": "ישראל",
-        "City": "חיפה",
-        "CountryCode": "IL"
-      },
-      "IsAccessPointOrder": false,
-      "SellerOrderId": "112-0934904-3172256",
-      "PaymentMethod": "Other",
-      "IsBusinessOrder": false,
-      "OrderTotal": {
-        "CurrencyCode": "USD",
-        "Amount": "99.03"
-      },
-      "PaymentMethodDetails": [
-        "Standard"
-      ],
-      "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-07-22T16:58:18Z",
-      "ShipmentServiceLevelCategory": "Expedited"
-    },
     {
       "BuyerInfo": {},
       "AmazonOrderId": "113-5534387-1331417",
@@ -1065,13 +1025,13 @@
       "AmazonOrderId": "111-7683743-9791434",
       "EarliestShipDate": "2026-08-18T06:59:59Z",
       "SalesChannel": "Amazon.com",
-      "OrderStatus": "Pending",
-      "NumberOfItemsShipped": 0,
+      "OrderStatus": "Shipped",
+      "NumberOfItemsShipped": 1,
       "OrderType": "StandardOrder",
       "IsPremiumOrder": false,
       "IsPrime": false,
       "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 1,
+      "NumberOfItemsUnshipped": 0,
       "HasRegulatedItems": false,
       "IsReplacementOrder": "false",
       "IsSoldByAB": false,
@@ -1080,15 +1040,24 @@
       "IsISPU": false,
       "MarketplaceId": "ATVPDKIKX0DER",
       "PurchaseDate": "2026-08-17T21:03:43Z",
+      "ShippingAddress": {
+        "StateOrRegion": "VA",
+        "City": "LYNCHBURG",
+        "CountryCode": "US"
+      },
       "IsAccessPointOrder": false,
       "SellerOrderId": "111-7683743-9791434",
       "PaymentMethod": "Other",
       "IsBusinessOrder": false,
+      "OrderTotal": {
+        "CurrencyCode": "USD",
+        "Amount": "51.60"
+      },
       "PaymentMethodDetails": [
         "Standard"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-08-17T21:03:47Z",
+      "LastUpdateDate": "2026-08-18T08:08:42Z",
       "ShipmentServiceLevelCategory": "Expedited"
     }
   ],
@@ -1129,7 +1098,7 @@
       "revenuePerDay": 15.53,
       "avgPrice": 66.54,
       "daysRemaining": 68,
-      "orderByDate": "2026-09-25T06:27:45.235Z",
+      "orderByDate": "2026-09-25T12:26:32.941Z",
       "recommendedQty": 21,
       "urgency": "ok",
       "fees": {
@@ -1185,7 +1154,7 @@
       "revenuePerDay": 25.18,
       "avgPrice": 62.96,
       "daysRemaining": 32,
-      "orderByDate": "2026-08-20T06:27:45.235Z",
+      "orderByDate": "2026-08-20T12:26:32.941Z",
       "recommendedQty": 36,
       "urgency": "warning",
       "fees": {
@@ -1209,7 +1178,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 49,
       "daysRemaining": 390,
-      "orderByDate": "2027-08-13T06:27:45.235Z",
+      "orderByDate": "2027-08-13T12:26:32.941Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1289,7 +1258,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 34.5,
       "daysRemaining": 360,
-      "orderByDate": "2027-07-14T06:27:45.235Z",
+      "orderByDate": "2027-07-14T12:26:32.941Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1341,36 +1310,36 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "fees": {
-        "totalFees": 12.71,
-        "referralFee": 6.58,
+        "totalFees": 13.44,
+        "referralFee": 7.31,
         "fbaFee": 6.13,
         "referralRate": 0.15,
-        "netAfterFees": 31.15,
-        "atPrice": 43.86
+        "netAfterFees": 35.29,
+        "atPrice": 48.73
       }
     },
     {
       "asin": "B0FM5NGXCW",
       "sellerSku": "LE-M9RA-IUOW",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
-      "totalQuantity": 20,
-      "lastUpdatedTime": "2026-08-18T00:27:40Z",
-      "unitsSold30d": 10,
+      "totalQuantity": 19,
+      "lastUpdatedTime": "2026-08-18T08:09:09Z",
+      "unitsSold30d": 9,
       "revenue30d": 438.55,
-      "velocity": 0.333,
+      "velocity": 0.3,
       "revenuePerDay": 14.62,
-      "avgPrice": 43.86,
-      "daysRemaining": 60,
-      "orderByDate": "2026-09-17T06:27:45.236Z",
-      "recommendedQty": 30,
+      "avgPrice": 48.73,
+      "daysRemaining": 63,
+      "orderByDate": "2026-09-20T12:26:32.941Z",
+      "recommendedQty": 27,
       "urgency": "ok",
       "fees": {
-        "totalFees": 12.71,
-        "referralFee": 6.58,
+        "totalFees": 13.44,
+        "referralFee": 7.31,
         "fbaFee": 6.13,
         "referralRate": 0.15,
-        "netAfterFees": 31.15,
-        "atPrice": 43.86
+        "netAfterFees": 35.29,
+        "atPrice": 48.73
       }
     },
     {
