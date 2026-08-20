@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T18:20:40.689Z",
+  "lastUpdated": "2026-08-20T00:42:25.651Z",
   "inventory": [
     {
       "asin": "B0D94YYYG7",
@@ -96,9 +96,9 @@
       "fnSku": "X004PYNXF7",
       "sellerSku": "LC-M9RA-IUOW",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-08-18T23:20:07Z",
+      "lastUpdatedTime": "2026-08-19T18:58:13Z",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1 – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
-      "totalQuantity": 24,
+      "totalQuantity": 23,
       "stores": []
     },
     {
@@ -953,13 +953,13 @@
       "AmazonOrderId": "111-7436290-8789047",
       "EarliestShipDate": "2026-08-18T06:59:59Z",
       "SalesChannel": "Amazon.com",
-      "OrderStatus": "Pending",
-      "NumberOfItemsShipped": 0,
+      "OrderStatus": "Shipped",
+      "NumberOfItemsShipped": 1,
       "OrderType": "StandardOrder",
       "IsPremiumOrder": false,
       "IsPrime": false,
       "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 1,
+      "NumberOfItemsUnshipped": 0,
       "HasRegulatedItems": false,
       "IsReplacementOrder": "false",
       "IsSoldByAB": false,
@@ -968,15 +968,24 @@
       "IsISPU": false,
       "MarketplaceId": "ATVPDKIKX0DER",
       "PurchaseDate": "2026-08-17T16:53:05Z",
+      "ShippingAddress": {
+        "StateOrRegion": "CO",
+        "City": "WINTER PARK",
+        "CountryCode": "US"
+      },
       "IsAccessPointOrder": false,
       "SellerOrderId": "111-7436290-8789047",
       "PaymentMethod": "Other",
       "IsBusinessOrder": false,
+      "OrderTotal": {
+        "CurrencyCode": "USD",
+        "Amount": "76.73"
+      },
       "PaymentMethodDetails": [
         "Standard"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-08-17T16:53:20Z",
+      "LastUpdateDate": "2026-08-19T18:48:57Z",
       "ShipmentServiceLevelCategory": "Expedited"
     },
     {
@@ -1057,7 +1066,7 @@
       "revenuePerDay": 6.79,
       "avgPrice": 67.85,
       "daysRemaining": 310,
-      "orderByDate": "2027-05-26T18:20:40.245Z",
+      "orderByDate": "2027-05-27T00:42:25.119Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "fees": {
@@ -1113,7 +1122,7 @@
       "revenuePerDay": 16.9,
       "avgPrice": 63.39,
       "daysRemaining": 48,
-      "orderByDate": "2026-09-06T18:20:40.245Z",
+      "orderByDate": "2026-09-07T00:42:25.119Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "fees": {
@@ -1137,7 +1146,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 49,
       "daysRemaining": 600,
-      "orderByDate": "2028-03-11T18:20:40.245Z",
+      "orderByDate": "2028-03-12T00:42:25.119Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1197,36 +1206,36 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "fees": {
-        "totalFees": 10.27,
-        "referralFee": 4.14,
-        "fbaFee": 6.13,
+        "totalFees": 14.68,
+        "referralFee": 8.28,
+        "fbaFee": 6.4,
         "referralRate": 0.12,
-        "netAfterFees": 24.23,
-        "atPrice": 34.5
+        "netAfterFees": 54.32,
+        "atPrice": 69
       }
     },
     {
       "asin": "B0D6WZPZJV",
       "sellerSku": "LC-M9RA-IUOW",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1 – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
-      "totalQuantity": 24,
-      "lastUpdatedTime": "2026-08-18T23:20:07Z",
+      "totalQuantity": 23,
+      "lastUpdatedTime": "2026-08-19T18:58:13Z",
       "unitsSold30d": 2,
-      "revenue30d": 69,
+      "revenue30d": 138,
       "velocity": 0.067,
-      "revenuePerDay": 2.3,
-      "avgPrice": 34.5,
-      "daysRemaining": 360,
-      "orderByDate": "2027-07-15T18:20:40.245Z",
+      "revenuePerDay": 4.6,
+      "avgPrice": 69,
+      "daysRemaining": 345,
+      "orderByDate": "2027-07-01T00:42:25.119Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
-        "totalFees": 10.27,
-        "referralFee": 4.14,
-        "fbaFee": 6.13,
+        "totalFees": 14.68,
+        "referralFee": 8.28,
+        "fbaFee": 6.4,
         "referralRate": 0.12,
-        "netAfterFees": 24.23,
-        "atPrice": 34.5
+        "netAfterFees": 54.32,
+        "atPrice": 69
       }
     },
     {
@@ -1245,12 +1254,12 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "fees": {
-        "totalFees": 10.27,
-        "referralFee": 4.14,
-        "fbaFee": 6.13,
+        "totalFees": 14.68,
+        "referralFee": 8.28,
+        "fbaFee": 6.4,
         "referralRate": 0.12,
-        "netAfterFees": 24.23,
-        "atPrice": 34.5
+        "netAfterFees": 54.32,
+        "atPrice": 69
       }
     },
     {
@@ -1289,7 +1298,7 @@
       "revenuePerDay": 14.62,
       "avgPrice": 48.73,
       "daysRemaining": 73,
-      "orderByDate": "2026-10-01T18:20:40.245Z",
+      "orderByDate": "2026-10-02T00:42:25.119Z",
       "recommendedQty": 27,
       "urgency": "ok",
       "fees": {
