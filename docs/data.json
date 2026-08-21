@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T12:28:15.127Z",
+  "lastUpdated": "2026-08-21T18:23:48.169Z",
   "inventory": [
     {
       "asin": "B0D94YYYG7",
@@ -16,7 +16,7 @@
       "fnSku": "X004PYQDZJ",
       "sellerSku": "1N-OGY7-5MMW",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-08-20T18:27:08Z",
+      "lastUpdatedTime": "2026-08-21T15:11:37Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 31,
       "stores": []
@@ -26,9 +26,9 @@
       "fnSku": "B0FXHKJGC2",
       "sellerSku": "47-GGQ5-KT2S",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-08-20T22:22:17Z",
+      "lastUpdatedTime": "2026-08-21T16:21:39Z",
       "productName": "Mission Astro-Farmer Lunar Soil Plant Growth Kit, Grow Plants in Lunar Regolith Simulant, Home Science Experiment for Space and Gardening Enthusiasts",
-      "totalQuantity": 1,
+      "totalQuantity": 0,
       "stores": []
     },
     {
@@ -1059,14 +1059,14 @@
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 31,
-      "lastUpdatedTime": "2026-08-20T18:27:08Z",
+      "lastUpdatedTime": "2026-08-21T15:11:37Z",
       "unitsSold30d": 3,
       "revenue30d": 203.55,
       "velocity": 0.1,
       "revenuePerDay": 6.79,
       "avgPrice": 67.85,
       "daysRemaining": 310,
-      "orderByDate": "2027-05-28T12:28:14.676Z",
+      "orderByDate": "2027-05-28T18:23:47.732Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "fees": {
@@ -1082,8 +1082,8 @@
       "asin": "B0FXHKJGC2",
       "sellerSku": "47-GGQ5-KT2S",
       "productName": "Mission Astro-Farmer Lunar Soil Plant Growth Kit, Grow Plants in Lunar Regolith Simulant, Home Science Experiment for Space and Gardening Enthusiasts",
-      "totalQuantity": 1,
-      "lastUpdatedTime": "2026-08-20T22:22:17Z",
+      "totalQuantity": 0,
+      "lastUpdatedTime": "2026-08-21T16:21:39Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -1091,8 +1091,8 @@
       "avgPrice": null,
       "daysRemaining": null,
       "orderByDate": null,
-      "recommendedQty": null,
-      "urgency": "no-sales"
+      "recommendedQty": 10,
+      "urgency": "out-of-stock"
     },
     {
       "asin": "B0GQCBJ5WM",
@@ -1122,7 +1122,7 @@
       "revenuePerDay": 16.9,
       "avgPrice": 63.39,
       "daysRemaining": 48,
-      "orderByDate": "2026-09-08T12:28:14.676Z",
+      "orderByDate": "2026-09-08T18:23:47.733Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "fees": {
@@ -1146,7 +1146,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 49,
       "daysRemaining": 600,
-      "orderByDate": "2028-03-13T12:28:14.676Z",
+      "orderByDate": "2028-03-13T18:23:47.733Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1226,7 +1226,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 345,
-      "orderByDate": "2027-07-02T12:28:14.676Z",
+      "orderByDate": "2027-07-02T18:23:47.733Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1298,7 +1298,7 @@
       "revenuePerDay": 14.62,
       "avgPrice": 48.73,
       "daysRemaining": 73,
-      "orderByDate": "2026-10-03T12:28:14.676Z",
+      "orderByDate": "2026-10-03T18:23:47.733Z",
       "recommendedQty": 27,
       "urgency": "ok",
       "fees": {
