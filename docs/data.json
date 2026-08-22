@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T18:23:48.169Z",
+  "lastUpdated": "2026-08-22T00:42:24.005Z",
   "inventory": [
     {
       "asin": "B0D94YYYG7",
@@ -46,7 +46,7 @@
       "fnSku": "X004PYNWAN",
       "sellerSku": "B7-E2EI-16S3",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-08-19T18:02:00Z",
+      "lastUpdatedTime": "2026-08-21T20:33:10Z",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 13,
       "stores": []
@@ -96,7 +96,7 @@
       "fnSku": "X004PYNXF7",
       "sellerSku": "LC-M9RA-IUOW",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-08-21T07:22:42Z",
+      "lastUpdatedTime": "2026-08-21T20:32:34Z",
       "productName": "Lunar Highlands Regolith Simulant LHS-1 – High-Fidelity Moon Soil Simulant for Research, Hardware Testing, Rover Studies, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 23,
       "stores": []
@@ -126,7 +126,7 @@
       "fnSku": "B0FM5NGXCW",
       "sellerSku": "LE-M9RA-IUOW",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-08-20T21:38:30Z",
+      "lastUpdatedTime": "2026-08-21T22:16:10Z",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 22,
       "stores": []
@@ -1066,7 +1066,7 @@
       "revenuePerDay": 6.79,
       "avgPrice": 67.85,
       "daysRemaining": 310,
-      "orderByDate": "2027-05-28T18:23:47.732Z",
+      "orderByDate": "2027-05-29T00:42:23.504Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "fees": {
@@ -1115,14 +1115,14 @@
       "sellerSku": "B7-E2EI-16S3",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 13,
-      "lastUpdatedTime": "2026-08-19T18:02:00Z",
+      "lastUpdatedTime": "2026-08-21T20:33:10Z",
       "unitsSold30d": 8,
       "revenue30d": 507.15,
       "velocity": 0.267,
       "revenuePerDay": 16.9,
       "avgPrice": 63.39,
       "daysRemaining": 48,
-      "orderByDate": "2026-09-08T18:23:47.733Z",
+      "orderByDate": "2026-09-09T00:42:23.504Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "fees": {
@@ -1146,7 +1146,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 49,
       "daysRemaining": 600,
-      "orderByDate": "2028-03-13T18:23:47.733Z",
+      "orderByDate": "2028-03-14T00:42:23.504Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1219,14 +1219,14 @@
       "sellerSku": "LC-M9RA-IUOW",
       "productName": "Lunar Highlands Regolith Simulant LHS-1 – High-Fidelity Moon Soil Simulant for Research, Hardware Testing, Rover Studies, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 23,
-      "lastUpdatedTime": "2026-08-21T07:22:42Z",
+      "lastUpdatedTime": "2026-08-21T20:32:34Z",
       "unitsSold30d": 2,
       "revenue30d": 138,
       "velocity": 0.067,
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 345,
-      "orderByDate": "2027-07-02T18:23:47.733Z",
+      "orderByDate": "2027-07-03T00:42:23.504Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1291,14 +1291,14 @@
       "sellerSku": "LE-M9RA-IUOW",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 22,
-      "lastUpdatedTime": "2026-08-20T21:38:30Z",
+      "lastUpdatedTime": "2026-08-21T22:16:10Z",
       "unitsSold30d": 9,
       "revenue30d": 438.55,
       "velocity": 0.3,
       "revenuePerDay": 14.62,
       "avgPrice": 48.73,
       "daysRemaining": 73,
-      "orderByDate": "2026-10-03T18:23:47.733Z",
+      "orderByDate": "2026-10-04T00:42:23.504Z",
       "recommendedQty": 27,
       "urgency": "ok",
       "fees": {
