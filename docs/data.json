@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T19:39:15.147Z",
+  "lastUpdated": "2026-08-27T05:54:08.272Z",
   "inventory": [
     {
       "asin": "B0D94YYYG7",
@@ -203,78 +203,6 @@
     }
   ],
   "orders": [
-    {
-      "BuyerInfo": {},
-      "AmazonOrderId": "114-4161781-7919465",
-      "EarliestShipDate": "1970-01-01T00:00:00Z",
-      "SalesChannel": "Amazon.com",
-      "OrderStatus": "Canceled",
-      "NumberOfItemsShipped": 0,
-      "OrderType": "StandardOrder",
-      "IsPremiumOrder": false,
-      "IsPrime": false,
-      "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 0,
-      "HasRegulatedItems": false,
-      "IsReplacementOrder": "false",
-      "IsSoldByAB": false,
-      "LatestShipDate": "1970-01-01T00:00:00Z",
-      "ShipServiceLevel": "Standard",
-      "IsISPU": false,
-      "MarketplaceId": "ATVPDKIKX0DER",
-      "PurchaseDate": "2026-07-28T01:40:13Z",
-      "IsAccessPointOrder": false,
-      "SellerOrderId": "114-4161781-7919465",
-      "PaymentMethod": "Other",
-      "IsBusinessOrder": false,
-      "PaymentMethodDetails": [
-        "Standard"
-      ],
-      "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-07-28T01:52:41Z",
-      "ShipmentServiceLevelCategory": "Standard"
-    },
-    {
-      "BuyerInfo": {},
-      "AmazonOrderId": "114-8514770-7024225",
-      "EarliestShipDate": "2026-07-29T06:59:59Z",
-      "SalesChannel": "Amazon.com",
-      "OrderStatus": "Shipped",
-      "NumberOfItemsShipped": 1,
-      "OrderType": "StandardOrder",
-      "IsPremiumOrder": false,
-      "IsPrime": false,
-      "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 0,
-      "HasRegulatedItems": false,
-      "IsReplacementOrder": "false",
-      "IsSoldByAB": false,
-      "LatestShipDate": "2026-07-29T06:59:59Z",
-      "ShipServiceLevel": "Standard",
-      "IsISPU": false,
-      "MarketplaceId": "ATVPDKIKX0DER",
-      "PurchaseDate": "2026-07-28T01:43:33Z",
-      "ShippingAddress": {
-        "StateOrRegion": "CENTRAL LUZON",
-        "City": "GUIMBA",
-        "CountryCode": "PH",
-        "County": "Santo Cristo"
-      },
-      "IsAccessPointOrder": false,
-      "SellerOrderId": "114-8514770-7024225",
-      "PaymentMethod": "Other",
-      "IsBusinessOrder": false,
-      "OrderTotal": {
-        "CurrencyCode": "USD",
-        "Amount": "49.00"
-      },
-      "PaymentMethodDetails": [
-        "Standard"
-      ],
-      "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-07-28T17:09:53Z",
-      "ShipmentServiceLevelCategory": "Standard"
-    },
     {
       "BuyerInfo": {},
       "AmazonOrderId": "112-6552928-1641037",
@@ -946,7 +874,7 @@
       "revenuePerDay": 6.79,
       "avgPrice": 67.85,
       "daysRemaining": 290,
-      "orderByDate": "2027-05-13T19:39:14.665Z",
+      "orderByDate": "2027-05-14T05:54:07.859Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "fees": {
@@ -1002,7 +930,7 @@
       "revenuePerDay": 8.63,
       "avgPrice": 64.69,
       "daysRemaining": 105,
-      "orderByDate": "2026-11-09T19:39:14.665Z",
+      "orderByDate": "2026-11-10T05:54:07.859Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "fees": {
@@ -1026,7 +954,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 49,
       "daysRemaining": 600,
-      "orderByDate": "2028-03-18T19:39:14.665Z",
+      "orderByDate": "2028-03-19T05:54:07.859Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1106,7 +1034,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 330,
-      "orderByDate": "2027-06-22T19:39:14.665Z",
+      "orderByDate": "2027-06-23T05:54:07.860Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1161,9 +1089,9 @@
         "totalFees": 13.43,
         "referralFee": 7.3,
         "fbaFee": 6.13,
-        "referralRate": 0.1499,
-        "netAfterFees": 35.26,
-        "atPrice": 48.69
+        "referralRate": 0.1501,
+        "netAfterFees": 35.22,
+        "atPrice": 48.65
       }
     },
     {
@@ -1172,22 +1100,22 @@
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 22,
       "lastUpdatedTime": "2026-08-24T04:40:59Z",
-      "unitsSold30d": 8,
-      "revenue30d": 389.55,
-      "velocity": 0.267,
-      "revenuePerDay": 12.99,
-      "avgPrice": 48.69,
-      "daysRemaining": 82,
-      "orderByDate": "2026-10-17T19:39:14.665Z",
-      "recommendedQty": 24,
+      "unitsSold30d": 7,
+      "revenue30d": 340.55,
+      "velocity": 0.233,
+      "revenuePerDay": 11.35,
+      "avgPrice": 48.65,
+      "daysRemaining": 94,
+      "orderByDate": "2026-10-30T05:54:07.860Z",
+      "recommendedQty": 21,
       "urgency": "ok",
       "fees": {
         "totalFees": 13.43,
         "referralFee": 7.3,
         "fbaFee": 6.13,
-        "referralRate": 0.1499,
-        "netAfterFees": 35.26,
-        "atPrice": 48.69
+        "referralRate": 0.1501,
+        "netAfterFees": 35.22,
+        "atPrice": 48.65
       }
     },
     {
