@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T17:08:22.652Z",
+  "lastUpdated": "2026-08-28T01:56:04.355Z",
   "inventory": [
     {
       "asin": "B0D94YYYG7",
@@ -203,46 +203,6 @@
     }
   ],
   "orders": [
-    {
-      "BuyerInfo": {},
-      "AmazonOrderId": "112-6552928-1641037",
-      "EarliestShipDate": "2026-07-29T06:59:59Z",
-      "SalesChannel": "Amazon.com",
-      "OrderStatus": "Shipped",
-      "NumberOfItemsShipped": 1,
-      "OrderType": "StandardOrder",
-      "IsPremiumOrder": false,
-      "IsPrime": false,
-      "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 0,
-      "HasRegulatedItems": false,
-      "IsReplacementOrder": "false",
-      "IsSoldByAB": false,
-      "LatestShipDate": "2026-07-29T06:59:59Z",
-      "ShipServiceLevel": "Expedited",
-      "IsISPU": false,
-      "MarketplaceId": "ATVPDKIKX0DER",
-      "PurchaseDate": "2026-07-28T23:30:23Z",
-      "ShippingAddress": {
-        "StateOrRegion": "WI",
-        "City": "RACINE",
-        "CountryCode": "US"
-      },
-      "IsAccessPointOrder": false,
-      "SellerOrderId": "112-6552928-1641037",
-      "PaymentMethod": "Other",
-      "IsBusinessOrder": false,
-      "OrderTotal": {
-        "CurrencyCode": "USD",
-        "Amount": "65.52"
-      },
-      "PaymentMethodDetails": [
-        "Standard"
-      ],
-      "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-08-01T03:48:55Z",
-      "ShipmentServiceLevelCategory": "Expedited"
-    },
     {
       "BuyerInfo": {},
       "AmazonOrderId": "112-5536242-4162623",
@@ -874,7 +834,7 @@
       "revenuePerDay": 6.79,
       "avgPrice": 67.85,
       "daysRemaining": 280,
-      "orderByDate": "2027-05-04T17:08:22.184Z",
+      "orderByDate": "2027-05-05T01:56:03.876Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "fees": {
@@ -924,22 +884,22 @@
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 14,
       "lastUpdatedTime": "2026-08-26T05:35:07Z",
-      "unitsSold30d": 4,
-      "revenue30d": 258.75,
-      "velocity": 0.133,
-      "revenuePerDay": 8.63,
-      "avgPrice": 64.69,
-      "daysRemaining": 105,
-      "orderByDate": "2026-11-10T17:08:22.184Z",
-      "recommendedQty": 12,
+      "unitsSold30d": 3,
+      "revenue30d": 196.65,
+      "velocity": 0.1,
+      "revenuePerDay": 6.56,
+      "avgPrice": 65.55,
+      "daysRemaining": 140,
+      "orderByDate": "2026-12-16T01:56:03.876Z",
+      "recommendedQty": 9,
       "urgency": "ok",
       "fees": {
-        "totalFees": 16.1,
-        "referralFee": 9.7,
+        "totalFees": 16.23,
+        "referralFee": 9.83,
         "fbaFee": 6.4,
-        "referralRate": 0.1499,
-        "netAfterFees": 48.59,
-        "atPrice": 64.69
+        "referralRate": 0.15,
+        "netAfterFees": 49.32,
+        "atPrice": 65.55
       }
     },
     {
@@ -954,7 +914,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 49,
       "daysRemaining": 600,
-      "orderByDate": "2028-03-19T17:08:22.184Z",
+      "orderByDate": "2028-03-20T01:56:03.876Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1034,7 +994,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 330,
-      "orderByDate": "2027-06-23T17:08:22.184Z",
+      "orderByDate": "2027-06-24T01:56:03.876Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1106,7 +1066,7 @@
       "revenuePerDay": 11.35,
       "avgPrice": 48.65,
       "daysRemaining": 94,
-      "orderByDate": "2026-10-30T17:08:22.184Z",
+      "orderByDate": "2026-10-31T01:56:03.876Z",
       "recommendedQty": 21,
       "urgency": "ok",
       "fees": {
