@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T02:30:11.826Z",
+  "lastUpdated": "2026-08-31T12:13:33.315Z",
   "inventory": [
     {
       "asin": "B0D94YYYG7",
@@ -66,9 +66,9 @@
       "fnSku": "X004PYKAKD",
       "sellerSku": "FC-L4HM-QZ1N",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-08-29T23:12:53Z",
+      "lastUpdatedTime": "2026-08-31T11:15:27Z",
       "productName": "Lunar Simulated Soil Display Jars – Moon Dust Display Set for Kids, Teachers, Classrooms, Science Projects, Space Lovers, and STEM Learning",
-      "totalQuantity": 6,
+      "totalQuantity": 5,
       "stores": []
     },
     {
@@ -801,13 +801,13 @@
       "AmazonOrderId": "112-9356278-4133018",
       "EarliestShipDate": "2026-08-30T06:59:59Z",
       "SalesChannel": "Amazon.com",
-      "OrderStatus": "Pending",
-      "NumberOfItemsShipped": 0,
+      "OrderStatus": "Shipped",
+      "NumberOfItemsShipped": 1,
       "OrderType": "StandardOrder",
       "IsPremiumOrder": false,
       "IsPrime": false,
       "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 1,
+      "NumberOfItemsUnshipped": 0,
       "HasRegulatedItems": false,
       "IsReplacementOrder": "false",
       "IsSoldByAB": false,
@@ -816,15 +816,24 @@
       "IsISPU": false,
       "MarketplaceId": "ATVPDKIKX0DER",
       "PurchaseDate": "2026-08-29T19:57:26Z",
+      "ShippingAddress": {
+        "StateOrRegion": "FL",
+        "City": "ORLANDO",
+        "CountryCode": "US"
+      },
       "IsAccessPointOrder": false,
       "SellerOrderId": "112-9356278-4133018",
       "PaymentMethod": "Other",
       "IsBusinessOrder": false,
+      "OrderTotal": {
+        "CurrencyCode": "USD",
+        "Amount": "35.78"
+      },
       "PaymentMethodDetails": [
         "Standard"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-08-29T23:05:11Z",
+      "LastUpdateDate": "2026-08-31T04:46:15Z",
       "ShipmentServiceLevelCategory": "Expedited"
     }
   ],
@@ -865,7 +874,7 @@
       "revenuePerDay": 6.79,
       "avgPrice": 67.85,
       "daysRemaining": 280,
-      "orderByDate": "2027-05-08T02:30:11.368Z",
+      "orderByDate": "2027-05-08T12:13:32.754Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "fees": {
@@ -921,7 +930,7 @@
       "revenuePerDay": 6.56,
       "avgPrice": 65.55,
       "daysRemaining": 130,
-      "orderByDate": "2026-12-09T02:30:11.368Z",
+      "orderByDate": "2026-12-09T12:13:32.754Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "fees": {
@@ -945,7 +954,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 49,
       "daysRemaining": 600,
-      "orderByDate": "2028-03-23T02:30:11.368Z",
+      "orderByDate": "2028-03-23T12:13:32.754Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -961,17 +970,25 @@
       "asin": "B0D96Q9F68",
       "sellerSku": "FC-L4HM-QZ1N",
       "productName": "Lunar Simulated Soil Display Jars – Moon Dust Display Set for Kids, Teachers, Classrooms, Science Projects, Space Lovers, and STEM Learning",
-      "totalQuantity": 6,
-      "lastUpdatedTime": "2026-08-29T23:12:53Z",
+      "totalQuantity": 5,
+      "lastUpdatedTime": "2026-08-31T11:15:27Z",
       "unitsSold30d": 1,
-      "revenue30d": 0,
+      "revenue30d": 33.6,
       "velocity": 0.033,
-      "revenuePerDay": 0,
-      "avgPrice": 0,
-      "daysRemaining": 180,
-      "orderByDate": "2027-01-28T02:30:11.368Z",
+      "revenuePerDay": 1.12,
+      "avgPrice": 33.6,
+      "daysRemaining": 150,
+      "orderByDate": "2026-12-29T12:13:32.754Z",
       "recommendedQty": 3,
-      "urgency": "ok"
+      "urgency": "ok",
+      "fees": {
+        "totalFees": 9.39,
+        "referralFee": 5.04,
+        "fbaFee": 4.35,
+        "referralRate": 0.15,
+        "netAfterFees": 24.21,
+        "atPrice": 33.6
+      }
     },
     {
       "asin": "B0FVGX8LVQ",
@@ -1025,7 +1042,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 330,
-      "orderByDate": "2027-06-27T02:30:11.368Z",
+      "orderByDate": "2027-06-27T12:13:32.754Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1097,7 +1114,7 @@
       "revenuePerDay": 11.35,
       "avgPrice": 48.65,
       "daysRemaining": 94,
-      "orderByDate": "2026-11-03T02:30:11.368Z",
+      "orderByDate": "2026-11-03T12:13:32.754Z",
       "recommendedQty": 21,
       "urgency": "ok",
       "fees": {
