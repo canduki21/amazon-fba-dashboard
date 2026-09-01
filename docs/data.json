@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T02:45:19.534Z",
+  "lastUpdated": "2026-09-01T10:49:41.278Z",
   "inventory": [
     {
       "asin": "B0D94YYYG7",
@@ -905,7 +905,7 @@
       "revenuePerDay": 6.79,
       "avgPrice": 50.89,
       "daysRemaining": 210,
-      "orderByDate": "2027-02-28T02:45:19.115Z",
+      "orderByDate": "2027-02-28T10:49:40.646Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "fees": {
@@ -961,7 +961,7 @@
       "revenuePerDay": 6.56,
       "avgPrice": 65.55,
       "daysRemaining": 130,
-      "orderByDate": "2026-12-10T02:45:19.115Z",
+      "orderByDate": "2026-12-10T10:49:40.646Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "fees": {
@@ -985,7 +985,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 49,
       "daysRemaining": 600,
-      "orderByDate": "2028-03-24T02:45:19.115Z",
+      "orderByDate": "2028-03-24T10:49:40.646Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1009,7 +1009,7 @@
       "revenuePerDay": 1.12,
       "avgPrice": 33.6,
       "daysRemaining": 150,
-      "orderByDate": "2026-12-30T02:45:19.115Z",
+      "orderByDate": "2026-12-30T10:49:40.646Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1073,7 +1073,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 330,
-      "orderByDate": "2027-06-28T02:45:19.115Z",
+      "orderByDate": "2027-06-28T10:49:40.646Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1145,7 +1145,7 @@
       "revenuePerDay": 11.35,
       "avgPrice": 48.65,
       "daysRemaining": 94,
-      "orderByDate": "2026-11-04T02:45:19.115Z",
+      "orderByDate": "2026-11-04T10:49:40.646Z",
       "recommendedQty": 21,
       "urgency": "ok",
       "fees": {
@@ -1201,7 +1201,7 @@
       "revenuePerDay": 0,
       "avgPrice": 0,
       "daysRemaining": 240,
-      "orderByDate": "2027-03-30T02:45:19.115Z",
+      "orderByDate": "2027-03-30T10:49:40.646Z",
       "recommendedQty": 3,
       "urgency": "ok"
     },
