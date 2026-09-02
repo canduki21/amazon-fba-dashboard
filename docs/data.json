@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T02:05:31.404Z",
+  "lastUpdated": "2026-09-02T10:14:07.828Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -26,7 +26,7 @@
       "fnSku": "X004PYQDZJ",
       "sellerSku": "1N-OGY7-5MMW",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-09-02T01:49:24Z",
+      "lastUpdatedTime": "2026-09-02T09:20:13Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 28,
       "stores": []
@@ -156,7 +156,7 @@
       "fnSku": "B0FM5NGXCW",
       "sellerSku": "LE-M9RA-IUOW",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-09-01T22:07:54Z",
+      "lastUpdatedTime": "2026-09-02T10:10:30Z",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 22,
       "stores": []
@@ -196,7 +196,7 @@
       "fnSku": "X0050NU7MJ",
       "sellerSku": "VM-8X3M-SECN",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-09-01T23:40:32Z",
+      "lastUpdatedTime": "2026-09-02T09:19:57Z",
       "productName": "Jezero Delta Simulant (JEZ 1), Mars Soil Simulant and Martian Regolith Analog from the Perseverance Jezero Landing Site, for Laboratory Research and Hardware Testing",
       "totalQuantity": 8,
       "stores": []
@@ -946,14 +946,14 @@
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 28,
-      "lastUpdatedTime": "2026-09-02T01:49:24Z",
+      "lastUpdatedTime": "2026-09-02T09:20:13Z",
       "unitsSold30d": 5,
       "revenue30d": 203.55,
       "velocity": 0.167,
       "revenuePerDay": 6.79,
       "avgPrice": 40.71,
       "daysRemaining": 168,
-      "orderByDate": "2027-01-18T02:05:30.875Z",
+      "orderByDate": "2027-01-18T10:14:07.309Z",
       "recommendedQty": 15,
       "urgency": "ok",
       "fees": {
@@ -1041,7 +1041,7 @@
       "revenuePerDay": 6.56,
       "avgPrice": 65.55,
       "daysRemaining": 130,
-      "orderByDate": "2026-12-11T02:05:30.875Z",
+      "orderByDate": "2026-12-11T10:14:07.309Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "fees": {
@@ -1065,7 +1065,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 49,
       "daysRemaining": 600,
-      "orderByDate": "2028-03-25T02:05:30.875Z",
+      "orderByDate": "2028-03-25T10:14:07.309Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1089,7 +1089,7 @@
       "revenuePerDay": 1.12,
       "avgPrice": 33.6,
       "daysRemaining": 150,
-      "orderByDate": "2026-12-31T02:05:30.875Z",
+      "orderByDate": "2026-12-31T10:14:07.309Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1153,7 +1153,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 330,
-      "orderByDate": "2027-06-29T02:05:30.875Z",
+      "orderByDate": "2027-06-29T10:14:07.309Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1218,14 +1218,14 @@
       "sellerSku": "LE-M9RA-IUOW",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 22,
-      "lastUpdatedTime": "2026-09-01T22:07:54Z",
+      "lastUpdatedTime": "2026-09-02T10:10:30Z",
       "unitsSold30d": 6,
       "revenue30d": 242.55,
       "velocity": 0.2,
       "revenuePerDay": 8.09,
       "avgPrice": 40.43,
       "daysRemaining": 110,
-      "orderByDate": "2026-11-21T02:05:30.875Z",
+      "orderByDate": "2026-11-21T10:14:07.309Z",
       "recommendedQty": 18,
       "urgency": "ok",
       "fees": {
@@ -1290,14 +1290,14 @@
       "sellerSku": "VM-8X3M-SECN",
       "productName": "Jezero Delta Simulant (JEZ 1), Mars Soil Simulant and Martian Regolith Analog from the Perseverance Jezero Landing Site, for Laboratory Research and Hardware Testing",
       "totalQuantity": 8,
-      "lastUpdatedTime": "2026-09-01T23:40:32Z",
+      "lastUpdatedTime": "2026-09-02T09:19:57Z",
       "unitsSold30d": 2,
       "revenue30d": 0,
       "velocity": 0.067,
       "revenuePerDay": 0,
       "avgPrice": 0,
       "daysRemaining": 120,
-      "orderByDate": "2026-12-01T02:05:30.875Z",
+      "orderByDate": "2026-12-01T10:14:07.309Z",
       "recommendedQty": 6,
       "urgency": "ok"
     },
