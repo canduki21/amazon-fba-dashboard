@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T10:17:47.208Z",
+  "lastUpdated": "2026-09-04T15:28:46.810Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -1051,7 +1051,7 @@
       "revenuePerDay": 6.79,
       "avgPrice": 20.36,
       "daysRemaining": 84,
-      "orderByDate": "2026-10-28T10:17:46.729Z",
+      "orderByDate": "2026-10-28T15:28:46.376Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "fees": {
@@ -1139,7 +1139,7 @@
       "revenuePerDay": 6.56,
       "avgPrice": 65.55,
       "daysRemaining": 130,
-      "orderByDate": "2026-12-13T10:17:46.729Z",
+      "orderByDate": "2026-12-13T15:28:46.376Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "fees": {
@@ -1163,7 +1163,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 24.5,
       "daysRemaining": 300,
-      "orderByDate": "2027-06-01T10:17:46.729Z",
+      "orderByDate": "2027-06-01T15:28:46.376Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1187,7 +1187,7 @@
       "revenuePerDay": 1.12,
       "avgPrice": 33.6,
       "daysRemaining": 150,
-      "orderByDate": "2027-01-02T10:17:46.729Z",
+      "orderByDate": "2027-01-02T15:28:46.376Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1251,7 +1251,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 540,
-      "orderByDate": "2028-01-27T10:17:46.729Z",
+      "orderByDate": "2028-01-27T15:28:46.376Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1323,7 +1323,7 @@
       "revenuePerDay": 8,
       "avgPrice": 34.3,
       "daysRemaining": 154,
-      "orderByDate": "2027-01-06T10:17:46.729Z",
+      "orderByDate": "2027-01-06T15:28:46.376Z",
       "recommendedQty": 21,
       "urgency": "ok",
       "fees": {
@@ -1395,7 +1395,7 @@
       "revenuePerDay": 4.14,
       "avgPrice": 62.1,
       "daysRemaining": 90,
-      "orderByDate": "2026-11-03T10:17:46.729Z",
+      "orderByDate": "2026-11-03T15:28:46.376Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
