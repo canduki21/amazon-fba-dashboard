@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-09-04T15:28:46.810Z",
+  "lastUpdated": "2026-09-04T20:03:56.754Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
       "fnSku": "X0059NXGWX",
       "sellerSku": "0W-3LJZ-W9LO",
       "condition": "NewItem",
-      "lastUpdatedTime": "",
+      "lastUpdatedTime": "2026-09-04T17:13:26Z",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (Five Kilograms)",
-      "totalQuantity": 0,
+      "totalQuantity": 18,
       "stores": []
     },
     {
@@ -26,7 +26,7 @@
       "fnSku": "X004PYQDZJ",
       "sellerSku": "1N-OGY7-5MMW",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-09-04T07:49:45Z",
+      "lastUpdatedTime": "2026-09-04T19:58:07Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 28,
       "stores": []
@@ -36,9 +36,9 @@
       "fnSku": "X0059NX75T",
       "sellerSku": "2I-VCYM-TCVD",
       "condition": "NewItem",
-      "lastUpdatedTime": "",
+      "lastUpdatedTime": "2026-09-04T17:39:23Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (Five Kilograms)",
-      "totalQuantity": 0,
+      "totalQuantity": 10,
       "stores": []
     },
     {
@@ -76,9 +76,9 @@
       "fnSku": "X004PYNWAN",
       "sellerSku": "B7-E2EI-16S3",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-08-30T07:00:15Z",
+      "lastUpdatedTime": "2026-09-04T17:13:04Z",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
-      "totalQuantity": 13,
+      "totalQuantity": 38,
       "stores": []
     },
     {
@@ -96,9 +96,9 @@
       "fnSku": "X004PYKAKD",
       "sellerSku": "FC-L4HM-QZ1N",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-08-31T11:15:27Z",
+      "lastUpdatedTime": "2026-09-04T17:39:22Z",
       "productName": "Lunar Simulated Soil Display Jars – Moon Dust Display Set for Kids, Teachers, Classrooms, Science Projects, Space Lovers, and STEM Learning",
-      "totalQuantity": 5,
+      "totalQuantity": 15,
       "stores": []
     },
     {
@@ -206,9 +206,9 @@
       "fnSku": "X004PN72SH",
       "sellerSku": "WT-YT56-01YK",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-08-28T02:05:37Z",
+      "lastUpdatedTime": "2026-09-04T17:39:56Z",
       "productName": "Martian Simulated Soil Display Jars – Mars Dust Educational Display for Kids, Teachers, Classrooms, Science Projects, Space Lovers, and STEM Learning",
-      "totalQuantity": 7,
+      "totalQuantity": 17,
       "stores": []
     },
     {
@@ -1003,8 +1003,8 @@
       "asin": "B0HHFJ7PMW",
       "sellerSku": "0W-3LJZ-W9LO",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (Five Kilograms)",
-      "totalQuantity": 0,
-      "lastUpdatedTime": "",
+      "totalQuantity": 18,
+      "lastUpdatedTime": "2026-09-04T17:13:26Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -1012,8 +1012,8 @@
       "avgPrice": null,
       "daysRemaining": null,
       "orderByDate": null,
-      "recommendedQty": 10,
-      "urgency": "out-of-stock"
+      "recommendedQty": null,
+      "urgency": "no-sales"
     },
     {
       "asin": "B0D94YYYG7",
@@ -1044,14 +1044,14 @@
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 28,
-      "lastUpdatedTime": "2026-09-04T07:49:45Z",
+      "lastUpdatedTime": "2026-09-04T19:58:07Z",
       "unitsSold30d": 10,
       "revenue30d": 203.55,
       "velocity": 0.333,
       "revenuePerDay": 6.79,
       "avgPrice": 20.36,
       "daysRemaining": 84,
-      "orderByDate": "2026-10-28T15:28:46.376Z",
+      "orderByDate": "2026-10-28T20:03:56.148Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "fees": {
@@ -1067,8 +1067,8 @@
       "asin": "B0HHFQM45L",
       "sellerSku": "2I-VCYM-TCVD",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (Five Kilograms)",
-      "totalQuantity": 0,
-      "lastUpdatedTime": "",
+      "totalQuantity": 10,
+      "lastUpdatedTime": "2026-09-04T17:39:23Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -1076,8 +1076,8 @@
       "avgPrice": null,
       "daysRemaining": null,
       "orderByDate": null,
-      "recommendedQty": 10,
-      "urgency": "out-of-stock"
+      "recommendedQty": null,
+      "urgency": "no-sales"
     },
     {
       "asin": "B0FXHKJGC2",
@@ -1131,15 +1131,15 @@
       "asin": "B0D96PS81D",
       "sellerSku": "B7-E2EI-16S3",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
-      "totalQuantity": 13,
-      "lastUpdatedTime": "2026-08-30T07:00:15Z",
+      "totalQuantity": 38,
+      "lastUpdatedTime": "2026-09-04T17:13:04Z",
       "unitsSold30d": 3,
       "revenue30d": 196.65,
       "velocity": 0.1,
       "revenuePerDay": 6.56,
       "avgPrice": 65.55,
-      "daysRemaining": 130,
-      "orderByDate": "2026-12-13T15:28:46.376Z",
+      "daysRemaining": 380,
+      "orderByDate": "2027-08-20T20:03:56.149Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "fees": {
@@ -1163,7 +1163,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 24.5,
       "daysRemaining": 300,
-      "orderByDate": "2027-06-01T15:28:46.376Z",
+      "orderByDate": "2027-06-01T20:03:56.149Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1179,15 +1179,15 @@
       "asin": "B0D96Q9F68",
       "sellerSku": "FC-L4HM-QZ1N",
       "productName": "Lunar Simulated Soil Display Jars – Moon Dust Display Set for Kids, Teachers, Classrooms, Science Projects, Space Lovers, and STEM Learning",
-      "totalQuantity": 5,
-      "lastUpdatedTime": "2026-08-31T11:15:27Z",
+      "totalQuantity": 15,
+      "lastUpdatedTime": "2026-09-04T17:39:22Z",
       "unitsSold30d": 1,
       "revenue30d": 33.6,
       "velocity": 0.033,
       "revenuePerDay": 1.12,
       "avgPrice": 33.6,
-      "daysRemaining": 150,
-      "orderByDate": "2027-01-02T15:28:46.376Z",
+      "daysRemaining": 450,
+      "orderByDate": "2027-10-29T20:03:56.149Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1251,7 +1251,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 540,
-      "orderByDate": "2028-01-27T15:28:46.376Z",
+      "orderByDate": "2028-01-27T20:03:56.149Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1323,7 +1323,7 @@
       "revenuePerDay": 8,
       "avgPrice": 34.3,
       "daysRemaining": 154,
-      "orderByDate": "2027-01-06T15:28:46.376Z",
+      "orderByDate": "2027-01-06T20:03:56.149Z",
       "recommendedQty": 21,
       "urgency": "ok",
       "fees": {
@@ -1395,7 +1395,7 @@
       "revenuePerDay": 4.14,
       "avgPrice": 62.1,
       "daysRemaining": 90,
-      "orderByDate": "2026-11-03T15:28:46.376Z",
+      "orderByDate": "2026-11-03T20:03:56.149Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1411,8 +1411,8 @@
       "asin": "B0D96SB2VQ",
       "sellerSku": "WT-YT56-01YK",
       "productName": "Martian Simulated Soil Display Jars – Mars Dust Educational Display for Kids, Teachers, Classrooms, Science Projects, Space Lovers, and STEM Learning",
-      "totalQuantity": 7,
-      "lastUpdatedTime": "2026-08-28T02:05:37Z",
+      "totalQuantity": 17,
+      "lastUpdatedTime": "2026-09-04T17:39:56Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
