@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T02:08:00.299Z",
+  "lastUpdated": "2026-09-05T09:41:40.088Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -26,9 +26,9 @@
       "fnSku": "X004PYQDZJ",
       "sellerSku": "1N-OGY7-5MMW",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-09-04T20:29:07Z",
+      "lastUpdatedTime": "2026-09-05T06:00:22Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
-      "totalQuantity": 28,
+      "totalQuantity": 24,
       "stores": []
     },
     {
@@ -156,7 +156,7 @@
       "fnSku": "B0FM5NGXCW",
       "sellerSku": "LE-M9RA-IUOW",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-09-05T00:12:46Z",
+      "lastUpdatedTime": "2026-09-05T05:12:12Z",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 36,
       "stores": []
@@ -798,7 +798,7 @@
         "Standard"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-09-03T09:22:00Z",
+      "LastUpdateDate": "2026-09-05T05:14:44Z",
       "ShipmentServiceLevelCategory": "Standard"
     },
     {
@@ -940,13 +940,13 @@
       "AmazonOrderId": "114-6270085-6143447",
       "EarliestShipDate": "2026-09-04T06:59:59Z",
       "SalesChannel": "Amazon.com",
-      "OrderStatus": "Pending",
-      "NumberOfItemsShipped": 0,
+      "OrderStatus": "Shipped",
+      "NumberOfItemsShipped": 2,
       "OrderType": "StandardOrder",
       "IsPremiumOrder": false,
       "IsPrime": false,
       "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 2,
+      "NumberOfItemsUnshipped": 0,
       "HasRegulatedItems": false,
       "IsReplacementOrder": "false",
       "IsSoldByAB": false,
@@ -955,15 +955,24 @@
       "IsISPU": false,
       "MarketplaceId": "ATVPDKIKX0DER",
       "PurchaseDate": "2026-09-04T01:54:47Z",
+      "ShippingAddress": {
+        "StateOrRegion": "AL",
+        "City": "HOMEWOOD",
+        "CountryCode": "US"
+      },
       "IsAccessPointOrder": false,
       "SellerOrderId": "114-6270085-6143447",
       "PaymentMethod": "Other",
       "IsBusinessOrder": false,
+      "OrderTotal": {
+        "CurrencyCode": "USD",
+        "Amount": "126.68"
+      },
       "PaymentMethodDetails": [
         "Standard"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-09-04T01:55:06Z",
+      "LastUpdateDate": "2026-09-05T05:59:49Z",
       "ShipmentServiceLevelCategory": "Expedited"
     },
     {
@@ -971,13 +980,13 @@
       "AmazonOrderId": "114-4273748-8884218",
       "EarliestShipDate": "2026-09-04T06:59:59Z",
       "SalesChannel": "Amazon.com",
-      "OrderStatus": "Pending",
-      "NumberOfItemsShipped": 0,
+      "OrderStatus": "Shipped",
+      "NumberOfItemsShipped": 2,
       "OrderType": "StandardOrder",
       "IsPremiumOrder": false,
       "IsPrime": false,
       "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 2,
+      "NumberOfItemsUnshipped": 0,
       "HasRegulatedItems": false,
       "IsReplacementOrder": "false",
       "IsSoldByAB": false,
@@ -986,15 +995,24 @@
       "IsISPU": false,
       "MarketplaceId": "ATVPDKIKX0DER",
       "PurchaseDate": "2026-09-04T02:44:07Z",
+      "ShippingAddress": {
+        "StateOrRegion": "AL",
+        "City": "HOMEWOOD",
+        "CountryCode": "US"
+      },
       "IsAccessPointOrder": false,
       "SellerOrderId": "114-4273748-8884218",
       "PaymentMethod": "Other",
       "IsBusinessOrder": false,
+      "OrderTotal": {
+        "CurrencyCode": "USD",
+        "Amount": "126.68"
+      },
       "PaymentMethodDetails": [
         "Standard"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-09-04T02:44:11Z",
+      "LastUpdateDate": "2026-09-05T05:59:52Z",
       "ShipmentServiceLevelCategory": "Expedited"
     },
     {
@@ -1062,36 +1080,36 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "fees": {
-        "totalFees": 9.36,
-        "referralFee": 3.05,
+        "totalFees": 12.88,
+        "referralFee": 6.57,
         "fbaFee": 6.31,
-        "referralRate": 0.1498,
-        "netAfterFees": 11,
-        "atPrice": 20.36
+        "referralRate": 0.15,
+        "netAfterFees": 30.93,
+        "atPrice": 43.81
       }
     },
     {
       "asin": "B0D94YYYG7",
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
-      "totalQuantity": 28,
-      "lastUpdatedTime": "2026-09-04T20:29:07Z",
+      "totalQuantity": 24,
+      "lastUpdatedTime": "2026-09-05T06:00:22Z",
       "unitsSold30d": 10,
-      "revenue30d": 203.55,
+      "revenue30d": 438.15,
       "velocity": 0.333,
-      "revenuePerDay": 6.79,
-      "avgPrice": 20.36,
-      "daysRemaining": 84,
-      "orderByDate": "2026-10-29T02:07:59.783Z",
+      "revenuePerDay": 14.6,
+      "avgPrice": 43.81,
+      "daysRemaining": 72,
+      "orderByDate": "2026-10-17T09:41:39.606Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "fees": {
-        "totalFees": 9.36,
-        "referralFee": 3.05,
+        "totalFees": 12.88,
+        "referralFee": 6.57,
         "fbaFee": 6.31,
-        "referralRate": 0.1498,
-        "netAfterFees": 11,
-        "atPrice": 20.36
+        "referralRate": 0.15,
+        "netAfterFees": 30.93,
+        "atPrice": 43.81
       }
     },
     {
@@ -1170,7 +1188,7 @@
       "revenuePerDay": 6.56,
       "avgPrice": 65.55,
       "daysRemaining": 380,
-      "orderByDate": "2027-08-21T02:07:59.784Z",
+      "orderByDate": "2027-08-21T09:41:39.606Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "fees": {
@@ -1194,7 +1212,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 24.5,
       "daysRemaining": 480,
-      "orderByDate": "2027-11-29T02:07:59.784Z",
+      "orderByDate": "2027-11-29T09:41:39.606Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1218,7 +1236,7 @@
       "revenuePerDay": 1.12,
       "avgPrice": 33.6,
       "daysRemaining": 450,
-      "orderByDate": "2027-10-30T02:07:59.784Z",
+      "orderByDate": "2027-10-30T09:41:39.606Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1282,7 +1300,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 540,
-      "orderByDate": "2028-01-28T02:07:59.784Z",
+      "orderByDate": "2028-01-28T09:41:39.606Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1347,14 +1365,14 @@
       "sellerSku": "LE-M9RA-IUOW",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 36,
-      "lastUpdatedTime": "2026-09-05T00:12:46Z",
+      "lastUpdatedTime": "2026-09-05T05:12:12Z",
       "unitsSold30d": 8,
       "revenue30d": 240.1,
       "velocity": 0.267,
       "revenuePerDay": 8,
       "avgPrice": 30.01,
       "daysRemaining": 135,
-      "orderByDate": "2026-12-19T02:07:59.784Z",
+      "orderByDate": "2026-12-19T09:41:39.606Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "fees": {
@@ -1426,7 +1444,7 @@
       "revenuePerDay": 4.14,
       "avgPrice": 62.1,
       "daysRemaining": 90,
-      "orderByDate": "2026-11-04T02:07:59.784Z",
+      "orderByDate": "2026-11-04T09:41:39.606Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1518,12 +1536,12 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "fees": {
-        "totalFees": 9.36,
-        "referralFee": 3.05,
+        "totalFees": 12.88,
+        "referralFee": 6.57,
         "fbaFee": 6.31,
-        "referralRate": 0.1498,
-        "netAfterFees": 11,
-        "atPrice": 20.36
+        "referralRate": 0.15,
+        "netAfterFees": 30.93,
+        "atPrice": 43.81
       }
     }
   ]
