@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T02:12:22.496Z",
+  "lastUpdated": "2026-09-08T10:19:00.810Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -156,7 +156,7 @@
       "fnSku": "B0FM5NGXCW",
       "sellerSku": "LE-M9RA-IUOW",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-09-08T01:44:50Z",
+      "lastUpdatedTime": "2026-09-08T08:38:48Z",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 33,
       "stores": []
@@ -166,7 +166,7 @@
       "fnSku": "X0059NWLPL",
       "sellerSku": "LV-HT0X-91ID",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-09-08T01:45:05Z",
+      "lastUpdatedTime": "2026-09-08T08:38:39Z",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (Five Kilograms)",
       "totalQuantity": 19,
       "stores": []
@@ -236,7 +236,7 @@
       "fnSku": "X0059NRJK3",
       "sellerSku": "Y4-I0WQ-45K9",
       "condition": "NewItem",
-      "lastUpdatedTime": "2026-09-07T21:58:02Z",
+      "lastUpdatedTime": "2026-09-08T03:31:32Z",
       "productName": "Lunar Highlands Regolith Simulant LHS-1 – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (Five Kilograms)",
       "totalQuantity": 20,
       "stores": []
@@ -1087,7 +1087,7 @@
       "revenuePerDay": 16.33,
       "avgPrice": 54.43,
       "daysRemaining": 73,
-      "orderByDate": "2026-10-21T02:12:21.960Z",
+      "orderByDate": "2026-10-21T10:19:00.337Z",
       "recommendedQty": 27,
       "urgency": "ok",
       "fees": {
@@ -1175,7 +1175,7 @@
       "revenuePerDay": 2.19,
       "avgPrice": 65.55,
       "daysRemaining": 1140,
-      "orderByDate": "2029-09-22T02:12:21.960Z",
+      "orderByDate": "2029-09-22T10:19:00.337Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1199,7 +1199,7 @@
       "revenuePerDay": 1.63,
       "avgPrice": 24.5,
       "daysRemaining": 480,
-      "orderByDate": "2027-12-02T02:12:21.960Z",
+      "orderByDate": "2027-12-02T10:19:00.337Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1223,7 +1223,7 @@
       "revenuePerDay": 1.12,
       "avgPrice": 33.6,
       "daysRemaining": 450,
-      "orderByDate": "2027-11-02T02:12:21.960Z",
+      "orderByDate": "2027-11-02T10:19:00.337Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "fees": {
@@ -1287,7 +1287,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 540,
-      "orderByDate": "2028-01-31T02:12:21.960Z",
+      "orderByDate": "2028-01-31T10:19:00.337Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1352,14 +1352,14 @@
       "sellerSku": "LE-M9RA-IUOW",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 33,
-      "lastUpdatedTime": "2026-09-08T01:44:50Z",
+      "lastUpdatedTime": "2026-09-08T08:38:48Z",
       "unitsSold30d": 9,
       "revenue30d": 387.1,
       "velocity": 0.3,
       "revenuePerDay": 12.9,
       "avgPrice": 43.01,
       "daysRemaining": 110,
-      "orderByDate": "2026-11-27T02:12:21.960Z",
+      "orderByDate": "2026-11-27T10:19:00.337Z",
       "recommendedQty": 27,
       "urgency": "ok",
       "fees": {
@@ -1376,7 +1376,7 @@
       "sellerSku": "LV-HT0X-91ID",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (Five Kilograms)",
       "totalQuantity": 19,
-      "lastUpdatedTime": "2026-09-08T01:45:05Z",
+      "lastUpdatedTime": "2026-09-08T08:38:39Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -1431,7 +1431,7 @@
       "revenuePerDay": 4.14,
       "avgPrice": 62.1,
       "daysRemaining": 90,
-      "orderByDate": "2026-11-07T02:12:21.960Z",
+      "orderByDate": "2026-11-07T10:19:00.337Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "fees": {
@@ -1496,7 +1496,7 @@
       "sellerSku": "Y4-I0WQ-45K9",
       "productName": "Lunar Highlands Regolith Simulant LHS-1 – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (Five Kilograms)",
       "totalQuantity": 20,
-      "lastUpdatedTime": "2026-09-07T21:58:02Z",
+      "lastUpdatedTime": "2026-09-08T03:31:32Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
