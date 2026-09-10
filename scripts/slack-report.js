@@ -4,12 +4,23 @@ const path = require("path");
 const https = require("https");
 
 const data = JSON.parse(fs.readFileSync(path.join(__dirname, "../docs/data.json"), "utf8"));
+const cogs = JSON.parse(fs.readFileSync(path.join(__dirname, "../docs/cogs.json"), "utf8"));
+
 const { predictions } = data;
+
+const weightByAsin = {};
+Object.entries(cogs.byAsin).forEach(([asin, info]) => {
+  const match = info.product.match(/(\d+kg)/i);
+  if (match) weightByAsin[asin] = match[1];
+});
 
 const shortName = (name) => (name || "").split(",")[0].trim();
 
 const lines = predictions
-  .map((p) => `${shortName(p.productName) || p.sellerSku}=${p.totalQuantity}`)
+  .map((p) => {
+    const weight = weightByAsin[p.asin] ? ` (${weightByAsin[p.asin]})` : "";
+    return `${shortName(p.productName) || p.sellerSku}${weight}=${p.totalQuantity}`;
+  })
   .join("\n");
 
 const payload = JSON.stringify({ text: lines });
