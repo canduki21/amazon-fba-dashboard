@@ -14,7 +14,7 @@ Object.entries(cogs.byAsin).forEach(([asin, info]) => {
   if (match) weightByAsin[asin] = match[1];
 });
 
-const shortName = (name) => (name || "").split(",")[0].trim();
+const shortName = (name) => (name || "").split(/,|–/)[0].trim();
 
 const lines = predictions
   .map((p) => {
