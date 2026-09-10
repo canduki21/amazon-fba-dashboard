@@ -20,7 +20,10 @@ const lines = predictions
   .filter((p) => p.discoverable !== false)
   .map((p) => {
     const weight = weightByAsin[p.asin] ? ` (${weightByAsin[p.asin]})` : "";
-    return `${shortName(p.productName) || p.sellerSku}${weight}=${p.totalQuantity}`;
+    const fulfillable = p.fulfillableQty !== null && p.fulfillableQty !== undefined
+      ? ` | fulfillable: ${p.fulfillableQty}`
+      : "";
+    return `${shortName(p.productName) || p.sellerSku}${weight} | total: ${p.totalQuantity}${fulfillable}`;
   })
   .join("\n");
 
