@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T17:43:14.601Z",
+  "lastUpdated": "2026-09-10T18:04:59.330Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -1964,7 +1964,8 @@
       "orderByDate": null,
       "recommendedQty": null,
       "urgency": "no-sales",
-      "discoverable": true
+      "discoverable": true,
+      "fulfillableQty": null
     },
     {
       "asin": "B0D94YYYG7",
@@ -1982,6 +1983,7 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
+      "fulfillableQty": null,
       "fees": {
         "totalFees": 14.74,
         "referralFee": 8.16,
@@ -2003,10 +2005,11 @@
       "revenuePerDay": 16.33,
       "avgPrice": 54.43,
       "daysRemaining": 73,
-      "orderByDate": "2026-10-23T17:43:14.062Z",
+      "orderByDate": "2026-10-23T18:04:58.877Z",
       "recommendedQty": 27,
       "urgency": "ok",
       "discoverable": true,
+      "fulfillableQty": null,
       "fees": {
         "totalFees": 14.74,
         "referralFee": 8.16,
@@ -2031,7 +2034,8 @@
       "orderByDate": null,
       "recommendedQty": null,
       "urgency": "no-sales",
-      "discoverable": true
+      "discoverable": true,
+      "fulfillableQty": null
     },
     {
       "asin": "B0FXHKJGC2",
@@ -2048,7 +2052,8 @@
       "orderByDate": null,
       "recommendedQty": 10,
       "urgency": "out-of-stock",
-      "discoverable": false
+      "discoverable": false,
+      "fulfillableQty": null
     },
     {
       "asin": "B0HHFJV3Y3",
@@ -2065,7 +2070,8 @@
       "orderByDate": null,
       "recommendedQty": null,
       "urgency": "no-sales",
-      "discoverable": true
+      "discoverable": true,
+      "fulfillableQty": null
     },
     {
       "asin": "B0GQCBJ5WM",
@@ -2082,7 +2088,8 @@
       "orderByDate": null,
       "recommendedQty": null,
       "urgency": "no-sales",
-      "discoverable": true
+      "discoverable": true,
+      "fulfillableQty": null
     },
     {
       "asin": "B0D96PS81D",
@@ -2096,10 +2103,11 @@
       "revenuePerDay": 0,
       "avgPrice": 0,
       "daysRemaining": 570,
-      "orderByDate": "2028-03-03T17:43:14.062Z",
+      "orderByDate": "2028-03-03T18:04:58.877Z",
       "recommendedQty": 6,
       "urgency": "ok",
-      "discoverable": true
+      "discoverable": true,
+      "fulfillableQty": null
     },
     {
       "asin": "B0FN8JN6JP",
@@ -2113,10 +2121,11 @@
       "revenuePerDay": 3.2,
       "avgPrice": 32.01,
       "daysRemaining": 320,
-      "orderByDate": "2027-06-27T17:43:14.062Z",
+      "orderByDate": "2027-06-27T18:04:58.877Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
+      "fulfillableQty": null,
       "fees": {
         "totalFees": 10.93,
         "referralFee": 4.8,
@@ -2138,10 +2147,11 @@
       "revenuePerDay": 1.12,
       "avgPrice": 33.6,
       "daysRemaining": 450,
-      "orderByDate": "2027-11-04T17:43:14.062Z",
+      "orderByDate": "2027-11-04T18:04:58.877Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
+      "fulfillableQty": null,
       "fees": {
         "totalFees": 9.39,
         "referralFee": 5.04,
@@ -2166,7 +2176,8 @@
       "orderByDate": null,
       "recommendedQty": 10,
       "urgency": "out-of-stock",
-      "discoverable": false
+      "discoverable": false,
+      "fulfillableQty": null
     },
     {
       "asin": "B0D6WZPZJV",
@@ -2184,6 +2195,7 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
+      "fulfillableQty": null,
       "fees": {
         "totalFees": 14.68,
         "referralFee": 8.28,
@@ -2205,10 +2217,11 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 495,
-      "orderByDate": "2027-12-19T17:43:14.062Z",
+      "orderByDate": "2027-12-19T18:04:58.877Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
+      "fulfillableQty": null,
       "fees": {
         "totalFees": 14.68,
         "referralFee": 8.28,
@@ -2234,6 +2247,7 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
+      "fulfillableQty": null,
       "fees": {
         "totalFees": 14.68,
         "referralFee": 8.28,
@@ -2259,6 +2273,7 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
+      "fulfillableQty": null,
       "fees": {
         "totalFees": 12.65,
         "referralFee": 6.34,
@@ -2280,10 +2295,11 @@
       "revenuePerDay": 11.27,
       "avgPrice": 42.26,
       "daysRemaining": 120,
-      "orderByDate": "2026-12-09T17:43:14.062Z",
+      "orderByDate": "2026-12-09T18:04:58.877Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "discoverable": true,
+      "fulfillableQty": null,
       "fees": {
         "totalFees": 12.65,
         "referralFee": 6.34,
@@ -2308,7 +2324,8 @@
       "orderByDate": null,
       "recommendedQty": null,
       "urgency": "no-sales",
-      "discoverable": true
+      "discoverable": true,
+      "fulfillableQty": null
     },
     {
       "asin": "B0FTMQD7QK",
@@ -2325,7 +2342,8 @@
       "orderByDate": null,
       "recommendedQty": 10,
       "urgency": "out-of-stock",
-      "discoverable": false
+      "discoverable": false,
+      "fulfillableQty": null
     },
     {
       "asin": "B0FTMTQXS2",
@@ -2342,7 +2360,8 @@
       "orderByDate": null,
       "recommendedQty": 10,
       "urgency": "out-of-stock",
-      "discoverable": false
+      "discoverable": false,
+      "fulfillableQty": null
     },
     {
       "asin": "B0GPK3NCFR",
@@ -2356,10 +2375,11 @@
       "revenuePerDay": 4.14,
       "avgPrice": 62.1,
       "daysRemaining": 90,
-      "orderByDate": "2026-11-09T17:43:14.062Z",
+      "orderByDate": "2026-11-09T18:04:58.877Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
+      "fulfillableQty": null,
       "fees": {
         "totalFees": 15.72,
         "referralFee": 9.32,
@@ -2384,7 +2404,8 @@
       "orderByDate": null,
       "recommendedQty": null,
       "urgency": "no-sales",
-      "discoverable": true
+      "discoverable": true,
+      "fulfillableQty": null
     },
     {
       "asin": "B0FTMQD7QK",
@@ -2401,7 +2422,8 @@
       "orderByDate": null,
       "recommendedQty": 10,
       "urgency": "out-of-stock",
-      "discoverable": false
+      "discoverable": false,
+      "fulfillableQty": null
     },
     {
       "asin": "B0FVGX8LVQ",
@@ -2418,7 +2440,8 @@
       "orderByDate": null,
       "recommendedQty": 10,
       "urgency": "out-of-stock",
-      "discoverable": false
+      "discoverable": false,
+      "fulfillableQty": null
     },
     {
       "asin": "B0HHFCRYJW",
@@ -2435,7 +2458,8 @@
       "orderByDate": null,
       "recommendedQty": null,
       "urgency": "no-sales",
-      "discoverable": true
+      "discoverable": true,
+      "fulfillableQty": null
     },
     {
       "asin": "B0D94YYYG7",
@@ -2453,6 +2477,7 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
+      "fulfillableQty": null,
       "fees": {
         "totalFees": 14.74,
         "referralFee": 8.16,
