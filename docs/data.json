@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T18:04:59.330Z",
+  "lastUpdated": "2026-09-10T18:50:28.268Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -415,10 +415,10 @@
         "inboundShippedQuantity": 12,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 9,
+          "totalReservedQuantity": 8,
           "pendingCustomerOrderQuantity": 0,
           "pendingTransshipmentQuantity": 7,
-          "fcProcessingQuantity": 2
+          "fcProcessingQuantity": 1
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
@@ -451,9 +451,9 @@
           "futureSupplyBuyableQuantity": 12
         }
       },
-      "lastUpdatedTime": "2026-09-10T03:48:20Z",
+      "lastUpdatedTime": "2026-09-10T18:26:47Z",
       "productName": "Lunar Mare Engineering Grade Regolith Simulant LMS-1E – JSC-1A Successor Moon Soil Simulant for Research, Hardware Testing, Lunar Studies, and Engineering Projects (1, Kilogram) (LMS-1E)",
-      "totalQuantity": 32,
+      "totalQuantity": 31,
       "stores": []
     },
     {
@@ -727,10 +727,10 @@
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 8,
         "reservedQuantity": {
-          "totalReservedQuantity": 9,
+          "totalReservedQuantity": 8,
           "pendingCustomerOrderQuantity": 0,
           "pendingTransshipmentQuantity": 8,
-          "fcProcessingQuantity": 1
+          "fcProcessingQuantity": 0
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
@@ -763,9 +763,9 @@
           "futureSupplyBuyableQuantity": 8
         }
       },
-      "lastUpdatedTime": "2026-09-10T12:04:55Z",
+      "lastUpdatedTime": "2026-09-10T18:19:30Z",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
-      "totalQuantity": 32,
+      "totalQuantity": 31,
       "stores": []
     },
     {
@@ -1656,12 +1656,12 @@
       "EarliestShipDate": "2026-09-11T06:59:59Z",
       "SalesChannel": "Amazon.com",
       "OrderStatus": "Pending",
-      "NumberOfItemsShipped": 0,
+      "NumberOfItemsShipped": 2,
       "OrderType": "StandardOrder",
       "IsPremiumOrder": false,
       "IsPrime": false,
       "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 3,
+      "NumberOfItemsUnshipped": 1,
       "HasRegulatedItems": false,
       "IsReplacementOrder": "false",
       "IsSoldByAB": false,
@@ -1674,11 +1674,15 @@
       "SellerOrderId": "112-9897443-7766637",
       "PaymentMethod": "Other",
       "IsBusinessOrder": true,
+      "OrderTotal": {
+        "CurrencyCode": "USD",
+        "Amount": "98.00"
+      },
       "PaymentMethodDetails": [
         "Invoice"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-09-07T14:43:58Z",
+      "LastUpdateDate": "2026-09-10T18:19:09Z",
       "ShipmentServiceLevelCategory": "Standard"
     },
     {
@@ -1964,8 +1968,8 @@
       "orderByDate": null,
       "recommendedQty": null,
       "urgency": "no-sales",
-      "discoverable": true,
-      "fulfillableQty": null
+      "discoverable": false,
+      "fulfillableQty": 0
     },
     {
       "asin": "B0D94YYYG7",
@@ -1983,7 +1987,7 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": null,
+      "fulfillableQty": 0,
       "fees": {
         "totalFees": 14.74,
         "referralFee": 8.16,
@@ -2005,11 +2009,11 @@
       "revenuePerDay": 16.33,
       "avgPrice": 54.43,
       "daysRemaining": 73,
-      "orderByDate": "2026-10-23T18:04:58.877Z",
+      "orderByDate": "2026-10-23T18:50:27.763Z",
       "recommendedQty": 27,
       "urgency": "ok",
       "discoverable": true,
-      "fulfillableQty": null,
+      "fulfillableQty": 5,
       "fees": {
         "totalFees": 14.74,
         "referralFee": 8.16,
@@ -2034,8 +2038,8 @@
       "orderByDate": null,
       "recommendedQty": null,
       "urgency": "no-sales",
-      "discoverable": true,
-      "fulfillableQty": null
+      "discoverable": false,
+      "fulfillableQty": 0
     },
     {
       "asin": "B0FXHKJGC2",
@@ -2053,7 +2057,7 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": null
+      "fulfillableQty": 0
     },
     {
       "asin": "B0HHFJV3Y3",
@@ -2070,8 +2074,8 @@
       "orderByDate": null,
       "recommendedQty": null,
       "urgency": "no-sales",
-      "discoverable": true,
-      "fulfillableQty": null
+      "discoverable": false,
+      "fulfillableQty": 0
     },
     {
       "asin": "B0GQCBJ5WM",
@@ -2089,7 +2093,7 @@
       "recommendedQty": null,
       "urgency": "no-sales",
       "discoverable": true,
-      "fulfillableQty": null
+      "fulfillableQty": 6
     },
     {
       "asin": "B0D96PS81D",
@@ -2103,36 +2107,36 @@
       "revenuePerDay": 0,
       "avgPrice": 0,
       "daysRemaining": 570,
-      "orderByDate": "2028-03-03T18:04:58.877Z",
+      "orderByDate": "2028-03-03T18:50:27.763Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
-      "fulfillableQty": null
+      "fulfillableQty": 10
     },
     {
       "asin": "B0FN8JN6JP",
       "sellerSku": "BB-E2EI-16S3",
       "productName": "Lunar Mare Engineering Grade Regolith Simulant LMS-1E – JSC-1A Successor Moon Soil Simulant for Research, Hardware Testing, Lunar Studies, and Engineering Projects (1, Kilogram) (LMS-1E)",
-      "totalQuantity": 32,
-      "lastUpdatedTime": "2026-09-10T03:48:20Z",
+      "totalQuantity": 31,
+      "lastUpdatedTime": "2026-09-10T18:26:47Z",
       "unitsSold30d": 3,
-      "revenue30d": 96.04,
+      "revenue30d": 145.04,
       "velocity": 0.1,
-      "revenuePerDay": 3.2,
-      "avgPrice": 32.01,
-      "daysRemaining": 320,
-      "orderByDate": "2027-06-27T18:04:58.877Z",
+      "revenuePerDay": 4.83,
+      "avgPrice": 48.35,
+      "daysRemaining": 310,
+      "orderByDate": "2027-06-17T18:50:27.763Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
-      "fulfillableQty": null,
+      "fulfillableQty": 11,
       "fees": {
-        "totalFees": 10.93,
-        "referralFee": 4.8,
+        "totalFees": 13.38,
+        "referralFee": 7.25,
         "fbaFee": 6.13,
-        "referralRate": 0.15,
-        "netAfterFees": 21.08,
-        "atPrice": 32.01
+        "referralRate": 0.1499,
+        "netAfterFees": 34.97,
+        "atPrice": 48.35
       }
     },
     {
@@ -2147,11 +2151,11 @@
       "revenuePerDay": 1.12,
       "avgPrice": 33.6,
       "daysRemaining": 450,
-      "orderByDate": "2027-11-04T18:04:58.877Z",
+      "orderByDate": "2027-11-04T18:50:27.763Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
-      "fulfillableQty": null,
+      "fulfillableQty": 5,
       "fees": {
         "totalFees": 9.39,
         "referralFee": 5.04,
@@ -2177,7 +2181,7 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": null
+      "fulfillableQty": 0
     },
     {
       "asin": "B0D6WZPZJV",
@@ -2195,7 +2199,7 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": null,
+      "fulfillableQty": 0,
       "fees": {
         "totalFees": 14.68,
         "referralFee": 8.28,
@@ -2217,11 +2221,11 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 495,
-      "orderByDate": "2027-12-19T18:04:58.877Z",
+      "orderByDate": "2027-12-19T18:50:27.763Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
-      "fulfillableQty": null,
+      "fulfillableQty": 18,
       "fees": {
         "totalFees": 14.68,
         "referralFee": 8.28,
@@ -2247,7 +2251,7 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": null,
+      "fulfillableQty": 0,
       "fees": {
         "totalFees": 14.68,
         "referralFee": 8.28,
@@ -2273,40 +2277,40 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": null,
+      "fulfillableQty": 0,
       "fees": {
-        "totalFees": 12.65,
-        "referralFee": 6.34,
+        "totalFees": 13.57,
+        "referralFee": 7.26,
         "fbaFee": 6.31,
         "referralRate": 0.15,
-        "netAfterFees": 29.61,
-        "atPrice": 42.26
+        "netAfterFees": 34.82,
+        "atPrice": 48.39
       }
     },
     {
       "asin": "B0FM5NGXCW",
       "sellerSku": "LE-M9RA-IUOW",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
-      "totalQuantity": 32,
-      "lastUpdatedTime": "2026-09-10T12:04:55Z",
+      "totalQuantity": 31,
+      "lastUpdatedTime": "2026-09-10T18:19:30Z",
       "unitsSold30d": 8,
-      "revenue30d": 338.1,
+      "revenue30d": 387.1,
       "velocity": 0.267,
-      "revenuePerDay": 11.27,
-      "avgPrice": 42.26,
-      "daysRemaining": 120,
-      "orderByDate": "2026-12-09T18:04:58.877Z",
+      "revenuePerDay": 12.9,
+      "avgPrice": 48.39,
+      "daysRemaining": 116,
+      "orderByDate": "2026-12-05T18:50:27.763Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "discoverable": true,
-      "fulfillableQty": null,
+      "fulfillableQty": 15,
       "fees": {
-        "totalFees": 12.65,
-        "referralFee": 6.34,
+        "totalFees": 13.57,
+        "referralFee": 7.26,
         "fbaFee": 6.31,
         "referralRate": 0.15,
-        "netAfterFees": 29.61,
-        "atPrice": 42.26
+        "netAfterFees": 34.82,
+        "atPrice": 48.39
       }
     },
     {
@@ -2325,7 +2329,7 @@
       "recommendedQty": null,
       "urgency": "no-sales",
       "discoverable": true,
-      "fulfillableQty": null
+      "fulfillableQty": 3
     },
     {
       "asin": "B0FTMQD7QK",
@@ -2343,7 +2347,7 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": null
+      "fulfillableQty": 0
     },
     {
       "asin": "B0FTMTQXS2",
@@ -2361,7 +2365,7 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": null
+      "fulfillableQty": 0
     },
     {
       "asin": "B0GPK3NCFR",
@@ -2375,11 +2379,11 @@
       "revenuePerDay": 4.14,
       "avgPrice": 62.1,
       "daysRemaining": 90,
-      "orderByDate": "2026-11-09T18:04:58.877Z",
+      "orderByDate": "2026-11-09T18:50:27.763Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
-      "fulfillableQty": null,
+      "fulfillableQty": 6,
       "fees": {
         "totalFees": 15.72,
         "referralFee": 9.32,
@@ -2405,7 +2409,7 @@
       "recommendedQty": null,
       "urgency": "no-sales",
       "discoverable": true,
-      "fulfillableQty": null
+      "fulfillableQty": 7
     },
     {
       "asin": "B0FTMQD7QK",
@@ -2423,7 +2427,7 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": null
+      "fulfillableQty": 0
     },
     {
       "asin": "B0FVGX8LVQ",
@@ -2441,7 +2445,7 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": null
+      "fulfillableQty": 0
     },
     {
       "asin": "B0HHFCRYJW",
@@ -2458,8 +2462,8 @@
       "orderByDate": null,
       "recommendedQty": null,
       "urgency": "no-sales",
-      "discoverable": true,
-      "fulfillableQty": null
+      "discoverable": false,
+      "fulfillableQty": 0
     },
     {
       "asin": "B0D94YYYG7",
@@ -2477,7 +2481,7 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": null,
+      "fulfillableQty": 0,
       "fees": {
         "totalFees": 14.74,
         "referralFee": 8.16,
