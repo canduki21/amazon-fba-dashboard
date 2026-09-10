@@ -6,8 +6,10 @@ const https = require("https");
 const data = JSON.parse(fs.readFileSync(path.join(__dirname, "../docs/data.json"), "utf8"));
 const { predictions } = data;
 
+const shortName = (name) => (name || "").split(",")[0].trim();
+
 const lines = predictions
-  .map((p) => `${p.productName || p.sellerSku}=${p.totalQuantity}`)
+  .map((p) => `${shortName(p.productName) || p.sellerSku}=${p.totalQuantity}`)
   .join("\n");
 
 const payload = JSON.stringify({ text: lines });
