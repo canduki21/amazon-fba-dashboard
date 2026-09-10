@@ -7,17 +7,10 @@ const data = JSON.parse(fs.readFileSync(path.join(__dirname, "../docs/data.json"
 const { predictions } = data;
 
 const lines = predictions
-  .map((p) => `${p.sellerSku}: *${p.totalQuantity}*`)
+  .map((p) => `${p.productName || p.sellerSku}=${p.totalQuantity}`)
   .join("\n");
 
-const payload = JSON.stringify({
-  blocks: [
-    {
-      type: "section",
-      text: { type: "mrkdwn", text: `📦 *FBA Inventory*\n\n${lines}` },
-    },
-  ],
-});
+const payload = JSON.stringify({ text: lines });
 
 const webhookUrl = process.env.SLACK_WEBHOOK_URL;
 if (!webhookUrl) { console.error("SLACK_WEBHOOK_URL not set"); process.exit(1); }
