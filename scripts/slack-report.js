@@ -17,6 +17,7 @@ Object.entries(cogs.byAsin).forEach(([asin, info]) => {
 const shortName = (name) => (name || "").split(/,|–/)[0].trim();
 
 const lines = predictions
+  .filter((p) => p.discoverable !== false)
   .map((p) => {
     const weight = weightByAsin[p.asin] ? ` (${weightByAsin[p.asin]})` : "";
     return `${shortName(p.productName) || p.sellerSku}${weight}=${p.totalQuantity}`;
