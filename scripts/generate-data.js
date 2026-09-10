@@ -14,7 +14,9 @@ function buildPredictions(inventory, skuSales) {
     const revenue30d   = parseFloat(sales.revenue.toFixed(2));
     const velocity     = unitsSold30d / DAYS_IN_PERIOD; // units/day
     const revenuePerDay = revenue30d / DAYS_IN_PERIOD;
-    const currentQty   = item.totalQuantity;
+    const currentQty     = item.totalQuantity;
+    const fulfillableQty = item.stores?.[0]?.inventoryDetails?.fulfillableQuantity ?? currentQty;
+    const discoverable   = fulfillableQty > 0;
 
     let daysRemaining  = null;
     let orderByDate    = null;
@@ -57,6 +59,7 @@ function buildPredictions(inventory, skuSales) {
       orderByDate,
       recommendedQty,
       urgency,
+      discoverable,
     };
   });
 }
