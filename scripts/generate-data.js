@@ -15,7 +15,7 @@ function buildPredictions(inventory, skuSales) {
     const velocity     = unitsSold30d / DAYS_IN_PERIOD; // units/day
     const revenuePerDay = revenue30d / DAYS_IN_PERIOD;
     const currentQty     = item.totalQuantity;
-    const fulfillableQty = item.stores?.[0]?.inventoryDetails?.fulfillableQuantity ?? null;
+    const fulfillableQty = item.inventoryDetails?.fulfillableQuantity ?? null;
     const discoverable   = fulfillableQty !== null ? fulfillableQty > 0 : currentQty > 0;
 
     let daysRemaining  = null;
