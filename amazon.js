@@ -50,6 +50,7 @@ async function getInventory() {
     marketplaceIds: MARKETPLACE_ID,
     granularityType: "Marketplace",
     granularityId: MARKETPLACE_ID,
+    details: true,
   });
 }
 
