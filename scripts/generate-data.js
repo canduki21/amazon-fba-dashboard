@@ -15,8 +15,8 @@ function buildPredictions(inventory, skuSales) {
     const velocity     = unitsSold30d / DAYS_IN_PERIOD; // units/day
     const revenuePerDay = revenue30d / DAYS_IN_PERIOD;
     const currentQty     = item.totalQuantity;
-    const fulfillableQty = item.stores?.[0]?.inventoryDetails?.fulfillableQuantity ?? currentQty;
-    const discoverable   = fulfillableQty > 0;
+    const fulfillableQty = item.stores?.[0]?.inventoryDetails?.fulfillableQuantity ?? null;
+    const discoverable   = fulfillableQty !== null ? fulfillableQty > 0 : currentQty > 0;
 
     let daysRemaining  = null;
     let orderByDate    = null;
@@ -60,6 +60,7 @@ function buildPredictions(inventory, skuSales) {
       recommendedQty,
       urgency,
       discoverable,
+      fulfillableQty,
     };
   });
 }
