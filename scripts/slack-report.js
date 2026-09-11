@@ -3,10 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const https = require("https");
 
-const data = JSON.parse(fs.readFileSync(path.join(__dirname, "../docs/data.json"), "utf8"));
 const cogs = JSON.parse(fs.readFileSync(path.join(__dirname, "../docs/cogs.json"), "utf8"));
-
-const { predictions, lastUpdated } = data;
 
 const weightByAsin = {};
 Object.entries(cogs.byAsin).forEach(([asin, info]) => {
@@ -16,53 +13,61 @@ Object.entries(cogs.byAsin).forEach(([asin, info]) => {
 
 const shortName = (name) => (name || "").split(/,|–/)[0].trim();
 
-const updated = new Date(lastUpdated).toLocaleDateString("en-US", {
+const COL_NAME  = 36;
+const COL_WT    =  5;
+const COL_TOTAL =  7;
+const COL_AVAIL = 11;
+
+const pad  = (str, len) => String(str).padEnd(len);
+const lpad = (str, len) => String(str).padStart(len);
+
+const HEADER  = `${pad("Product", COL_NAME)} ${pad("Wt", COL_WT)} ${lpad("Total", COL_TOTAL)} ${lpad("Fulfillable", COL_AVAIL)}`;
+const DIVIDER = "─".repeat(HEADER.length);
+
+function buildTable(predictions) {
+  const active = predictions.filter((p) => p.discoverable !== false);
+  if (active.length === 0) return null;
+  const rows = active.map((p) => {
+    const name  = shortName(p.productName) || p.sellerSku;
+    const wt    = weightByAsin[p.asin] || "—";
+    const total = p.totalQuantity;
+    const avail = p.fulfillableQty != null ? p.fulfillableQty : "—";
+    return `${pad(name.slice(0, COL_NAME), COL_NAME)} ${pad(wt, COL_WT)} ${lpad(total, COL_TOTAL)} ${lpad(avail, COL_AVAIL)}`;
+  });
+  return [HEADER, DIVIDER, ...rows].join("\n");
+}
+
+const naData = JSON.parse(fs.readFileSync(path.join(__dirname, "../docs/data.json"), "utf8"));
+const euPath = path.join(__dirname, "../docs/data-eu.json");
+const euData = fs.existsSync(euPath) ? JSON.parse(fs.readFileSync(euPath, "utf8")) : null;
+
+const naTable = buildTable(naData.predictions);
+const euTable = euData ? buildTable(euData.predictions) : null;
+
+const updated = new Date(naData.lastUpdated).toLocaleDateString("en-US", {
   weekday: "long", month: "long", day: "numeric",
 });
 
-const active = predictions.filter((p) => p.discoverable !== false);
+const blocks = [
+  { type: "header", text: { type: "plain_text", text: "📦 FBA Inventory Report", emoji: true } },
+  { type: "context", elements: [{ type: "mrkdwn", text: updated }] },
+];
 
-const COL_NAME   = 36;
-const COL_WEIGHT =  5;
-const COL_TOTAL  =  7;
-const COL_AVAIL  = 11;
+if (naTable) {
+  blocks.push({ type: "section", text: { type: "mrkdwn", text: "*🇺🇸 United States (NA)*" } });
+  blocks.push({ type: "section", text: { type: "mrkdwn", text: "```" + naTable + "```" } });
+}
 
-const pad = (str, len) => String(str).padEnd(len);
-const lpad = (str, len) => String(str).padStart(len);
+if (euTable) {
+  blocks.push({ type: "divider" });
+  blocks.push({ type: "section", text: { type: "mrkdwn", text: "*🇪🇺 Europe (EU)*" } });
+  blocks.push({ type: "section", text: { type: "mrkdwn", text: "```" + euTable + "```" } });
+}
 
-const header = `${pad("Product", COL_NAME)} ${pad("Wt", COL_WEIGHT)} ${lpad("Total", COL_TOTAL)} ${lpad("Fulfillable", COL_AVAIL)}`;
-const divider = "─".repeat(header.length);
+blocks.push({ type: "divider" });
+blocks.push({ type: "context", elements: [{ type: "mrkdwn", text: `<https://canduki21.github.io/amazon-fba-dashboard/|View full dashboard>` }] });
 
-const rows = active.map((p) => {
-  const name   = shortName(p.productName) || p.sellerSku;
-  const weight = weightByAsin[p.asin] || "—";
-  const total  = p.totalQuantity;
-  const avail  = p.fulfillableQty !== null && p.fulfillableQty !== undefined ? p.fulfillableQty : "—";
-  return `${pad(name.slice(0, COL_NAME), COL_NAME)} ${pad(weight, COL_WEIGHT)} ${lpad(total, COL_TOTAL)} ${lpad(avail, COL_AVAIL)}`;
-});
-
-const table = [header, divider, ...rows].join("\n");
-
-const payload = JSON.stringify({
-  blocks: [
-    {
-      type: "header",
-      text: { type: "plain_text", text: "📦 FBA Inventory Report", emoji: true },
-    },
-    {
-      type: "context",
-      elements: [{ type: "mrkdwn", text: `${updated}  •  ${active.length} active listings` }],
-    },
-    {
-      type: "section",
-      text: { type: "mrkdwn", text: "```" + table + "```" },
-    },
-    {
-      type: "context",
-      elements: [{ type: "mrkdwn", text: `<https://canduki21.github.io/amazon-fba-dashboard/|View full dashboard>` }],
-    },
-  ],
-});
+const payload = JSON.stringify({ blocks });
 
 const webhookUrl = process.env.SLACK_WEBHOOK_URL;
 if (!webhookUrl) { console.error("SLACK_WEBHOOK_URL not set"); process.exit(1); }
