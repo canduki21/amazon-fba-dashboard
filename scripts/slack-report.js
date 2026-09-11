@@ -25,7 +25,7 @@ const HEADER  = `${pad("Product", COL_NAME)} ${pad("Wt", COL_WT)} ${lpad("Total"
 const DIVIDER = "─".repeat(HEADER.length);
 
 function buildTable(predictions) {
-  const active = predictions.filter((p) => p.discoverable !== false);
+  const active = predictions.filter((p) => p.totalQuantity > 0);
   if (active.length === 0) return null;
   const rows = active.map((p) => {
     const name  = shortName(p.productName) || p.sellerSku;
