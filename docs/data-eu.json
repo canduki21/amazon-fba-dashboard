@@ -1,6 +1,832 @@
 {
-  "lastUpdated": "2026-09-11T15:00:36.990Z",
-  "inventory": [],
+  "lastUpdated": "2026-09-11T15:01:29.231Z",
+  "inventory": [
+    {
+      "asin": "B0HHFJ7PMW",
+      "fnSku": "B0HHFJ7PMW",
+      "sellerSku": "0W-3LJZ-W9LO",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "",
+      "productName": "",
+      "totalQuantity": 0,
+      "stores": []
+    },
+    {
+      "asin": "B0D94YYYG7",
+      "fnSku": "B0D94YYYG7",
+      "sellerSku": "1N-OGY7-5MMW",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "",
+      "productName": "Mars Global Regolith-Simulant MGS-1 – Marsboden-Simulant für Forschung, Hardwaretests, Rover-Studien, ISRU-Forschung und fortgeschrittene Ausbildung (1 Kilogramm)",
+      "totalQuantity": 0,
+      "stores": []
+    },
+    {
+      "asin": "B0HHFQM45L",
+      "fnSku": "B0HHFQM45L",
+      "sellerSku": "2I-VCYM-TCVD",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "",
+      "productName": "",
+      "totalQuantity": 0,
+      "stores": []
+    },
+    {
+      "asin": "B0HHFJV3Y3",
+      "fnSku": "B0HHFJV3Y3",
+      "sellerSku": "77-YDYA-GYCX",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "",
+      "productName": "",
+      "totalQuantity": 0,
+      "stores": []
+    },
+    {
+      "asin": "B0FM5NGXCW",
+      "fnSku": "B0FM5NGXCW",
+      "sellerSku": "A2-I008-68I8",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 10,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": [
+            {
+              "name": "researchingQuantityInShortTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInMidTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInLongTerm",
+              "quantity": 0
+            }
+          ]
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "2026-09-03T20:15:40Z",
+      "productName": "Lunar Highlands Engineering Grade Regolithe Simulant (LHS-1E) Authentischer Mondstaub-Replikator – Ideal für Forschung, Materialtest und Bildungsprojekte (1 Kilogramm)",
+      "totalQuantity": 10,
+      "stores": []
+    },
+    {
+      "asin": "B0GQCBJ5WM",
+      "fnSku": "B0GQCBJ5WM",
+      "sellerSku": "A4-9EGF-MJ6Y",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "",
+      "productName": "CI-E Carbonaceous Chondrite Simulant - Orgueil-Asteroid Analog für reaktive & ISRU-Forschung",
+      "totalQuantity": 0,
+      "stores": []
+    },
+    {
+      "asin": "B0D96PS81D",
+      "fnSku": "B0D96PS81D",
+      "sellerSku": "B7-E2EI-16S3",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "",
+      "productName": "Lunar-Mare-Regolith-Simulant LMS-1 – Mondboden-Simulant für Forschung, Hardwaretests, Rover-Studien, Tests auf der Mondoberfläche und fortgeschrittene Ausbildung (1 Kilogramm)",
+      "totalQuantity": 0,
+      "stores": []
+    },
+    {
+      "asin": "B0FN8JN6JP",
+      "fnSku": "B0FN8JN6JP",
+      "sellerSku": "BB-E2EI-16S3",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "",
+      "productName": "Lunar-Mare-Regolith-Simulant in technischer Qualität LMS-1E – Nachfolger von JSC-1A, Mondboden-Simulant für Forschung, Hardwaretests, Mondstudien und technische Projekte (1 Kilogramm) (LMS-1E)",
+      "totalQuantity": 0,
+      "stores": []
+    },
+    {
+      "asin": "B0D96Q9F68",
+      "fnSku": "B0D96Q9F68",
+      "sellerSku": "FC-L4HM-QZ1N",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "",
+      "productName": "",
+      "totalQuantity": 0,
+      "stores": []
+    },
+    {
+      "asin": "B0D6WZPZJV",
+      "fnSku": "B0D6WZPZJV",
+      "sellerSku": "LC-M9RA-IUOW",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "",
+      "productName": "Lunar Highlands Simulant (LHS-1) | Echte Mondbodenreplikation, ideal für Forschung und Bildung (1, Kilogramm)",
+      "totalQuantity": 0,
+      "stores": []
+    },
+    {
+      "asin": "B0FM5NGXCW",
+      "fnSku": "B0FM5NGXCW",
+      "sellerSku": "LE-M9RA-IUOW",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 10,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": [
+            {
+              "name": "researchingQuantityInShortTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInMidTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInLongTerm",
+              "quantity": 0
+            }
+          ]
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "2026-09-03T20:15:40Z",
+      "productName": "Lunar Highlands Engineering Grade Regolithe Simulant (LHS-1E) Authentischer Mondstaub-Replikator – Ideal für Forschung, Materialtest und Bildungsprojekte (1 Kilogramm)",
+      "totalQuantity": 10,
+      "stores": []
+    },
+    {
+      "asin": "B0GPK3NCFR",
+      "fnSku": "B0GPK3NCFR",
+      "sellerSku": "VM-8X3M-SECN",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "",
+      "productName": "",
+      "totalQuantity": 0,
+      "stores": []
+    },
+    {
+      "asin": "B0D96SB2VQ",
+      "fnSku": "B0D96SB2VQ",
+      "sellerSku": "WT-YT56-01YK",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "",
+      "productName": "Martian Simulierte Boden-Display-Gläser | Neugier und Ausdauer: Mars in der Hand | Wird von Weltraumbehörden verwendet – tolles Geschenk für Wissenschaft und Weltraum-Enthusiasten",
+      "totalQuantity": 0,
+      "stores": []
+    },
+    {
+      "asin": "B0HHFCRYJW",
+      "fnSku": "B0HHFCRYJW",
+      "sellerSku": "Y4-I0WQ-45K9",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "",
+      "productName": "Lunar Highlands Regolith Simulant LHS-1 - Mondbodensimulant für Rover-Tests, Forschung, Hardware-Tests und geotechnische Studien (fünf Kilogramm)",
+      "totalQuantity": 0,
+      "stores": []
+    }
+  ],
   "orders": [],
-  "predictions": []
+  "predictions": [
+    {
+      "asin": "B0HHFJ7PMW",
+      "sellerSku": "0W-3LJZ-W9LO",
+      "productName": "",
+      "totalQuantity": 0,
+      "lastUpdatedTime": "",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
+      "discoverable": false,
+      "fulfillableQty": 0
+    },
+    {
+      "asin": "B0D94YYYG7",
+      "sellerSku": "1N-OGY7-5MMW",
+      "productName": "Mars Global Regolith-Simulant MGS-1 – Marsboden-Simulant für Forschung, Hardwaretests, Rover-Studien, ISRU-Forschung und fortgeschrittene Ausbildung (1 Kilogramm)",
+      "totalQuantity": 0,
+      "lastUpdatedTime": "",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
+      "discoverable": false,
+      "fulfillableQty": 0
+    },
+    {
+      "asin": "B0HHFQM45L",
+      "sellerSku": "2I-VCYM-TCVD",
+      "productName": "",
+      "totalQuantity": 0,
+      "lastUpdatedTime": "",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
+      "discoverable": false,
+      "fulfillableQty": 0
+    },
+    {
+      "asin": "B0HHFJV3Y3",
+      "sellerSku": "77-YDYA-GYCX",
+      "productName": "",
+      "totalQuantity": 0,
+      "lastUpdatedTime": "",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
+      "discoverable": false,
+      "fulfillableQty": 0
+    },
+    {
+      "asin": "B0FM5NGXCW",
+      "sellerSku": "A2-I008-68I8",
+      "productName": "Lunar Highlands Engineering Grade Regolithe Simulant (LHS-1E) Authentischer Mondstaub-Replikator – Ideal für Forschung, Materialtest und Bildungsprojekte (1 Kilogramm)",
+      "totalQuantity": 10,
+      "lastUpdatedTime": "2026-09-03T20:15:40Z",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": null,
+      "urgency": "no-sales",
+      "discoverable": false,
+      "fulfillableQty": 0
+    },
+    {
+      "asin": "B0GQCBJ5WM",
+      "sellerSku": "A4-9EGF-MJ6Y",
+      "productName": "CI-E Carbonaceous Chondrite Simulant - Orgueil-Asteroid Analog für reaktive & ISRU-Forschung",
+      "totalQuantity": 0,
+      "lastUpdatedTime": "",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
+      "discoverable": false,
+      "fulfillableQty": 0
+    },
+    {
+      "asin": "B0D96PS81D",
+      "sellerSku": "B7-E2EI-16S3",
+      "productName": "Lunar-Mare-Regolith-Simulant LMS-1 – Mondboden-Simulant für Forschung, Hardwaretests, Rover-Studien, Tests auf der Mondoberfläche und fortgeschrittene Ausbildung (1 Kilogramm)",
+      "totalQuantity": 0,
+      "lastUpdatedTime": "",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
+      "discoverable": false,
+      "fulfillableQty": 0
+    },
+    {
+      "asin": "B0FN8JN6JP",
+      "sellerSku": "BB-E2EI-16S3",
+      "productName": "Lunar-Mare-Regolith-Simulant in technischer Qualität LMS-1E – Nachfolger von JSC-1A, Mondboden-Simulant für Forschung, Hardwaretests, Mondstudien und technische Projekte (1 Kilogramm) (LMS-1E)",
+      "totalQuantity": 0,
+      "lastUpdatedTime": "",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
+      "discoverable": false,
+      "fulfillableQty": 0
+    },
+    {
+      "asin": "B0D96Q9F68",
+      "sellerSku": "FC-L4HM-QZ1N",
+      "productName": "",
+      "totalQuantity": 0,
+      "lastUpdatedTime": "",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
+      "discoverable": false,
+      "fulfillableQty": 0
+    },
+    {
+      "asin": "B0D6WZPZJV",
+      "sellerSku": "LC-M9RA-IUOW",
+      "productName": "Lunar Highlands Simulant (LHS-1) | Echte Mondbodenreplikation, ideal für Forschung und Bildung (1, Kilogramm)",
+      "totalQuantity": 0,
+      "lastUpdatedTime": "",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
+      "discoverable": false,
+      "fulfillableQty": 0
+    },
+    {
+      "asin": "B0FM5NGXCW",
+      "sellerSku": "LE-M9RA-IUOW",
+      "productName": "Lunar Highlands Engineering Grade Regolithe Simulant (LHS-1E) Authentischer Mondstaub-Replikator – Ideal für Forschung, Materialtest und Bildungsprojekte (1 Kilogramm)",
+      "totalQuantity": 10,
+      "lastUpdatedTime": "2026-09-03T20:15:40Z",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": null,
+      "urgency": "no-sales",
+      "discoverable": false,
+      "fulfillableQty": 0
+    },
+    {
+      "asin": "B0GPK3NCFR",
+      "sellerSku": "VM-8X3M-SECN",
+      "productName": "",
+      "totalQuantity": 0,
+      "lastUpdatedTime": "",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
+      "discoverable": false,
+      "fulfillableQty": 0
+    },
+    {
+      "asin": "B0D96SB2VQ",
+      "sellerSku": "WT-YT56-01YK",
+      "productName": "Martian Simulierte Boden-Display-Gläser | Neugier und Ausdauer: Mars in der Hand | Wird von Weltraumbehörden verwendet – tolles Geschenk für Wissenschaft und Weltraum-Enthusiasten",
+      "totalQuantity": 0,
+      "lastUpdatedTime": "",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
+      "discoverable": false,
+      "fulfillableQty": 0
+    },
+    {
+      "asin": "B0HHFCRYJW",
+      "sellerSku": "Y4-I0WQ-45K9",
+      "productName": "Lunar Highlands Regolith Simulant LHS-1 - Mondbodensimulant für Rover-Tests, Forschung, Hardware-Tests und geotechnische Studien (fünf Kilogramm)",
+      "totalQuantity": 0,
+      "lastUpdatedTime": "",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
+      "discoverable": false,
+      "fulfillableQty": 0
+    }
+  ]
 }
