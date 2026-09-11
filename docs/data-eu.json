@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T15:01:29.231Z",
+  "lastUpdated": "2026-09-11T15:07:45.338Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -592,7 +592,8 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": 0
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 0
     },
     {
       "asin": "B0D94YYYG7",
@@ -610,7 +611,8 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": 0
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 0
     },
     {
       "asin": "B0HHFQM45L",
@@ -628,7 +630,8 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": 0
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 0
     },
     {
       "asin": "B0HHFJV3Y3",
@@ -646,7 +649,8 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": 0
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 0
     },
     {
       "asin": "B0FM5NGXCW",
@@ -664,7 +668,8 @@
       "recommendedQty": null,
       "urgency": "no-sales",
       "discoverable": false,
-      "fulfillableQty": 0
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 10
     },
     {
       "asin": "B0GQCBJ5WM",
@@ -682,7 +687,8 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": 0
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 0
     },
     {
       "asin": "B0D96PS81D",
@@ -700,7 +706,8 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": 0
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 0
     },
     {
       "asin": "B0FN8JN6JP",
@@ -718,7 +725,8 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": 0
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 0
     },
     {
       "asin": "B0D96Q9F68",
@@ -736,7 +744,8 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": 0
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 0
     },
     {
       "asin": "B0D6WZPZJV",
@@ -754,7 +763,8 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": 0
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 0
     },
     {
       "asin": "B0FM5NGXCW",
@@ -772,7 +782,8 @@
       "recommendedQty": null,
       "urgency": "no-sales",
       "discoverable": false,
-      "fulfillableQty": 0
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 10
     },
     {
       "asin": "B0GPK3NCFR",
@@ -790,7 +801,8 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": 0
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 0
     },
     {
       "asin": "B0D96SB2VQ",
@@ -808,7 +820,8 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": 0
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 0
     },
     {
       "asin": "B0HHFCRYJW",
@@ -826,7 +839,8 @@
       "recommendedQty": 10,
       "urgency": "out-of-stock",
       "discoverable": false,
-      "fulfillableQty": 0
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 0
     }
   ]
 }
