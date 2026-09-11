@@ -15,8 +15,9 @@ function buildPredictions(inventory, skuSales) {
     const velocity       = unitsSold30d / DAYS_IN_PERIOD;
     const revenuePerDay  = revenue30d / DAYS_IN_PERIOD;
     const currentQty     = item.totalQuantity;
-    const fulfillableQty = item.inventoryDetails?.fulfillableQuantity ?? null;
-    const discoverable   = fulfillableQty !== null ? fulfillableQty > 0 : currentQty > 0;
+    const fulfillableQty    = item.inventoryDetails?.fulfillableQuantity ?? null;
+    const inboundWorkingQty = item.inventoryDetails?.inboundWorkingQuantity ?? 0;
+    const discoverable      = fulfillableQty !== null ? fulfillableQty > 0 : currentQty > 0;
 
     let daysRemaining  = null;
     let orderByDate    = null;
@@ -48,7 +49,7 @@ function buildPredictions(inventory, skuSales) {
       unitsSold30d, revenue30d,
       velocity: parseFloat(velocity.toFixed(3)),
       revenuePerDay: parseFloat(revenuePerDay.toFixed(2)),
-      avgPrice, daysRemaining, orderByDate, recommendedQty, urgency, discoverable, fulfillableQty,
+      avgPrice, daysRemaining, orderByDate, recommendedQty, urgency, discoverable, fulfillableQty, inboundWorkingQty,
     };
   });
 }
