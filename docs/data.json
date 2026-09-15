@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T21:12:30.477Z",
+  "lastUpdated": "2026-09-15T02:35:34.456Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -103,10 +103,10 @@
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 12,
+          "totalReservedQuantity": 11,
           "pendingCustomerOrderQuantity": 0,
           "pendingTransshipmentQuantity": 10,
-          "fcProcessingQuantity": 2
+          "fcProcessingQuantity": 1
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 1,
@@ -139,9 +139,9 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-09-14T17:32:33Z",
+      "lastUpdatedTime": "2026-09-15T01:55:55Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
-      "totalQuantity": 20,
+      "totalQuantity": 19,
       "stores": []
     },
     {
@@ -1897,13 +1897,13 @@
       "AmazonOrderId": "112-8574333-4770643",
       "EarliestShipDate": "2026-09-25T06:59:59Z",
       "SalesChannel": "Amazon.com",
-      "OrderStatus": "Pending",
-      "NumberOfItemsShipped": 0,
+      "OrderStatus": "Shipped",
+      "NumberOfItemsShipped": 1,
       "OrderType": "StandardOrder",
       "IsPremiumOrder": false,
       "IsPrime": false,
       "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 1,
+      "NumberOfItemsUnshipped": 0,
       "HasRegulatedItems": false,
       "IsReplacementOrder": "false",
       "IsSoldByAB": false,
@@ -1912,15 +1912,24 @@
       "IsISPU": false,
       "MarketplaceId": "ATVPDKIKX0DER",
       "PurchaseDate": "2026-09-11T20:27:56Z",
+      "ShippingAddress": {
+        "StateOrRegion": "PR",
+        "City": "SAN JUAN",
+        "CountryCode": "US"
+      },
       "IsAccessPointOrder": false,
       "SellerOrderId": "112-8574333-4770643",
       "PaymentMethod": "Other",
       "IsBusinessOrder": false,
+      "OrderTotal": {
+        "CurrencyCode": "USD",
+        "Amount": "65.39"
+      },
       "PaymentMethodDetails": [
         "Standard"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-09-11T20:27:59Z",
+      "LastUpdateDate": "2026-09-15T01:55:20Z",
       "ShipmentServiceLevelCategory": "Standard"
     },
     {
@@ -2001,39 +2010,39 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 14.65,
-        "referralFee": 8.07,
+        "totalFees": 15.53,
+        "referralFee": 8.95,
         "fbaFee": 6.58,
         "referralRate": 0.1499,
-        "netAfterFees": 39.17,
-        "atPrice": 53.82
+        "netAfterFees": 44.16,
+        "atPrice": 59.69
       }
     },
     {
       "asin": "B0D94YYYG7",
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
-      "totalQuantity": 20,
-      "lastUpdatedTime": "2026-09-14T17:32:33Z",
+      "totalQuantity": 19,
+      "lastUpdatedTime": "2026-09-15T01:55:55Z",
       "unitsSold30d": 10,
-      "revenue30d": 538.2,
+      "revenue30d": 596.85,
       "velocity": 0.333,
-      "revenuePerDay": 17.94,
-      "avgPrice": 53.82,
-      "daysRemaining": 60,
-      "orderByDate": "2026-10-14T21:12:29.995Z",
+      "revenuePerDay": 19.89,
+      "avgPrice": 59.69,
+      "daysRemaining": 57,
+      "orderByDate": "2026-10-12T02:35:33.892Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 8,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 14.65,
-        "referralFee": 8.07,
+        "totalFees": 15.53,
+        "referralFee": 8.95,
         "fbaFee": 6.58,
         "referralRate": 0.1499,
-        "netAfterFees": 39.17,
-        "atPrice": 53.82
+        "netAfterFees": 44.16,
+        "atPrice": 59.69
       }
     },
     {
@@ -2124,7 +2133,7 @@
       "revenuePerDay": 6.21,
       "avgPrice": 62.1,
       "daysRemaining": 350,
-      "orderByDate": "2027-07-31T21:12:29.995Z",
+      "orderByDate": "2027-08-01T02:35:33.892Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
@@ -2151,7 +2160,7 @@
       "revenuePerDay": 3.2,
       "avgPrice": 48.02,
       "daysRemaining": 450,
-      "orderByDate": "2027-11-08T21:12:29.995Z",
+      "orderByDate": "2027-11-09T02:35:33.892Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2178,7 +2187,7 @@
       "revenuePerDay": 1.12,
       "avgPrice": 33.6,
       "daysRemaining": 450,
-      "orderByDate": "2027-11-08T21:12:29.995Z",
+      "orderByDate": "2027-11-09T02:35:33.892Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2251,7 +2260,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 495,
-      "orderByDate": "2027-12-23T21:12:29.995Z",
+      "orderByDate": "2027-12-24T02:35:33.892Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2332,7 +2341,7 @@
       "revenuePerDay": 11.27,
       "avgPrice": 48.3,
       "daysRemaining": 132,
-      "orderByDate": "2026-12-25T21:12:29.995Z",
+      "orderByDate": "2026-12-26T02:35:33.892Z",
       "recommendedQty": 21,
       "urgency": "ok",
       "discoverable": true,
@@ -2416,7 +2425,7 @@
       "revenuePerDay": 4.14,
       "avgPrice": 62.1,
       "daysRemaining": 90,
-      "orderByDate": "2026-11-13T21:12:29.995Z",
+      "orderByDate": "2026-11-14T02:35:33.892Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2526,12 +2535,12 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 14.65,
-        "referralFee": 8.07,
+        "totalFees": 15.53,
+        "referralFee": 8.95,
         "fbaFee": 6.58,
         "referralRate": 0.1499,
-        "netAfterFees": 39.17,
-        "atPrice": 53.82
+        "netAfterFees": 44.16,
+        "atPrice": 59.69
       }
     }
   ]
