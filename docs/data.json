@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T10:31:31.686Z",
+  "lastUpdated": "2026-09-16T15:48:46.933Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -139,7 +139,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-09-15T21:49:34Z",
+      "lastUpdatedTime": "2026-09-16T12:31:34Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 19,
       "stores": []
@@ -191,7 +191,7 @@
           "futureSupplyBuyableQuantity": 10
         }
       },
-      "lastUpdatedTime": "2026-09-15T16:59:07Z",
+      "lastUpdatedTime": "2026-09-16T15:02:45Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (Five Kilograms)",
       "totalQuantity": 10,
       "stores": []
@@ -503,7 +503,7 @@
           "futureSupplyBuyableQuantity": 10
         }
       },
-      "lastUpdatedTime": "2026-09-15T16:57:20Z",
+      "lastUpdatedTime": "2026-09-16T11:11:37Z",
       "productName": "Lunar Simulated Soil Display Jars – Moon Dust Display Set for Kids, Teachers, Classrooms, Science Projects, Space Lovers, and STEM Learning",
       "totalQuantity": 15,
       "stores": []
@@ -1010,7 +1010,7 @@
           "futureSupplyBuyableQuantity": 10
         }
       },
-      "lastUpdatedTime": "2026-09-15T16:57:36Z",
+      "lastUpdatedTime": "2026-09-16T11:12:01Z",
       "productName": "Martian Simulated Soil Display Jars – Mars Dust Educational Display for Kids, Teachers, Classrooms, Science Projects, Space Lovers, and STEM Learning",
       "totalQuantity": 17,
       "stores": []
@@ -1125,14 +1125,14 @@
       "sellerSku": "Y4-I0WQ-45K9",
       "condition": "NewItem",
       "inventoryDetails": {
-        "fulfillableQuantity": 8,
+        "fulfillableQuantity": 12,
         "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 12,
+          "totalReservedQuantity": 8,
           "pendingCustomerOrderQuantity": 0,
-          "pendingTransshipmentQuantity": 12,
+          "pendingTransshipmentQuantity": 8,
           "fcProcessingQuantity": 0
         },
         "researchingQuantity": {
@@ -1166,7 +1166,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-09-16T05:22:51Z",
+      "lastUpdatedTime": "2026-09-16T11:39:30Z",
       "productName": "Lunar Highlands Regolith Simulant LHS-1 – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (Five Kilograms)",
       "totalQuantity": 20,
       "stores": []
@@ -2023,14 +2023,14 @@
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 19,
-      "lastUpdatedTime": "2026-09-15T21:49:34Z",
+      "lastUpdatedTime": "2026-09-16T12:31:34Z",
       "unitsSold30d": 10,
       "revenue30d": 596.85,
       "velocity": 0.333,
       "revenuePerDay": 19.89,
       "avgPrice": 59.69,
       "daysRemaining": 57,
-      "orderByDate": "2026-10-13T10:31:31.174Z",
+      "orderByDate": "2026-10-13T15:48:46.504Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "discoverable": true,
@@ -2050,7 +2050,7 @@
       "sellerSku": "2I-VCYM-TCVD",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (Five Kilograms)",
       "totalQuantity": 10,
-      "lastUpdatedTime": "2026-09-15T16:59:07Z",
+      "lastUpdatedTime": "2026-09-16T15:02:45Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -2133,7 +2133,7 @@
       "revenuePerDay": 6.21,
       "avgPrice": 62.1,
       "daysRemaining": 350,
-      "orderByDate": "2027-08-02T10:31:31.174Z",
+      "orderByDate": "2027-08-02T15:48:46.504Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
@@ -2160,7 +2160,7 @@
       "revenuePerDay": 3.2,
       "avgPrice": 48.02,
       "daysRemaining": 450,
-      "orderByDate": "2027-11-10T10:31:31.174Z",
+      "orderByDate": "2027-11-10T15:48:46.504Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2180,14 +2180,14 @@
       "sellerSku": "FC-L4HM-QZ1N",
       "productName": "Lunar Simulated Soil Display Jars – Moon Dust Display Set for Kids, Teachers, Classrooms, Science Projects, Space Lovers, and STEM Learning",
       "totalQuantity": 15,
-      "lastUpdatedTime": "2026-09-15T16:57:20Z",
+      "lastUpdatedTime": "2026-09-16T11:11:37Z",
       "unitsSold30d": 1,
       "revenue30d": 33.6,
       "velocity": 0.033,
       "revenuePerDay": 1.12,
       "avgPrice": 33.6,
       "daysRemaining": 450,
-      "orderByDate": "2027-11-10T10:31:31.174Z",
+      "orderByDate": "2027-11-10T15:48:46.504Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2260,7 +2260,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 495,
-      "orderByDate": "2027-12-25T10:31:31.174Z",
+      "orderByDate": "2027-12-25T15:48:46.504Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2341,7 +2341,7 @@
       "revenuePerDay": 11.27,
       "avgPrice": 48.3,
       "daysRemaining": 132,
-      "orderByDate": "2026-12-27T10:31:31.174Z",
+      "orderByDate": "2026-12-27T15:48:46.504Z",
       "recommendedQty": 21,
       "urgency": "ok",
       "discoverable": true,
@@ -2425,7 +2425,7 @@
       "revenuePerDay": 4.14,
       "avgPrice": 62.1,
       "daysRemaining": 90,
-      "orderByDate": "2026-11-15T10:31:31.174Z",
+      "orderByDate": "2026-11-15T15:48:46.504Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2445,7 +2445,7 @@
       "sellerSku": "WT-YT56-01YK",
       "productName": "Martian Simulated Soil Display Jars – Mars Dust Educational Display for Kids, Teachers, Classrooms, Science Projects, Space Lovers, and STEM Learning",
       "totalQuantity": 17,
-      "lastUpdatedTime": "2026-09-15T16:57:36Z",
+      "lastUpdatedTime": "2026-09-16T11:12:01Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -2502,7 +2502,7 @@
       "sellerSku": "Y4-I0WQ-45K9",
       "productName": "Lunar Highlands Regolith Simulant LHS-1 – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (Five Kilograms)",
       "totalQuantity": 20,
-      "lastUpdatedTime": "2026-09-16T05:22:51Z",
+      "lastUpdatedTime": "2026-09-16T11:39:30Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -2513,7 +2513,7 @@
       "recommendedQty": null,
       "urgency": "no-sales",
       "discoverable": true,
-      "fulfillableQty": 8,
+      "fulfillableQty": 12,
       "inboundWorkingQty": 0
     },
     {
