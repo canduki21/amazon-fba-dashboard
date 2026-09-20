@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T15:07:55.670Z",
+  "lastUpdated": "2026-09-20T20:01:03.985Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -295,7 +295,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-09-19T22:13:04Z",
+      "lastUpdatedTime": "2026-09-20T17:15:58Z",
       "productName": "Lunar Mare Engineering Grade Regolith Simulant LMS-1E – JSC-1A Successor Moon Soil Simulant for Research, Hardware Testing, Lunar Studies, and Engineering Projects (Five Kilograms)",
       "totalQuantity": 19,
       "stores": []
@@ -399,7 +399,7 @@
           "futureSupplyBuyableQuantity": 24
         }
       },
-      "lastUpdatedTime": "2026-09-20T08:26:44Z",
+      "lastUpdatedTime": "2026-09-20T15:21:51Z",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 35,
       "stores": []
@@ -451,7 +451,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-09-19T22:13:08Z",
+      "lastUpdatedTime": "2026-09-20T17:16:08Z",
       "productName": "Lunar Mare Engineering Grade Regolith Simulant LMS-1E – JSC-1A Successor Moon Soil Simulant for Research, Hardware Testing, Lunar Studies, and Engineering Projects (1, Kilogram) (LMS-1E)",
       "totalQuantity": 30,
       "stores": []
@@ -503,7 +503,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-09-20T00:45:26Z",
+      "lastUpdatedTime": "2026-09-20T16:59:33Z",
       "productName": "Lunar Simulated Soil Display Jars – Moon Dust Display Set for Kids, Teachers, Classrooms, Science Projects, Space Lovers, and STEM Learning",
       "totalQuantity": 14,
       "stores": []
@@ -763,7 +763,7 @@
           "futureSupplyBuyableQuantity": 10
         }
       },
-      "lastUpdatedTime": "2026-09-19T16:10:36Z",
+      "lastUpdatedTime": "2026-09-20T15:31:30Z",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 30,
       "stores": []
@@ -2123,7 +2123,7 @@
       "revenuePerDay": 19.89,
       "avgPrice": 59.69,
       "daysRemaining": 57,
-      "orderByDate": "2026-10-17T15:07:55.181Z",
+      "orderByDate": "2026-10-17T20:01:03.514Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "discoverable": true,
@@ -2181,7 +2181,7 @@
       "sellerSku": "77-YDYA-GYCX",
       "productName": "Lunar Mare Engineering Grade Regolith Simulant LMS-1E – JSC-1A Successor Moon Soil Simulant for Research, Hardware Testing, Lunar Studies, and Engineering Projects (Five Kilograms)",
       "totalQuantity": 19,
-      "lastUpdatedTime": "2026-09-19T22:13:04Z",
+      "lastUpdatedTime": "2026-09-20T17:15:58Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -2219,14 +2219,14 @@
       "sellerSku": "B7-E2EI-16S3",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 35,
-      "lastUpdatedTime": "2026-09-20T08:26:44Z",
+      "lastUpdatedTime": "2026-09-20T15:21:51Z",
       "unitsSold30d": 3,
       "revenue30d": 186.3,
       "velocity": 0.1,
       "revenuePerDay": 6.21,
       "avgPrice": 62.1,
       "daysRemaining": 350,
-      "orderByDate": "2027-08-06T15:07:55.181Z",
+      "orderByDate": "2027-08-06T20:01:03.514Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
@@ -2246,14 +2246,14 @@
       "sellerSku": "BB-E2EI-16S3",
       "productName": "Lunar Mare Engineering Grade Regolith Simulant LMS-1E – JSC-1A Successor Moon Soil Simulant for Research, Hardware Testing, Lunar Studies, and Engineering Projects (1, Kilogram) (LMS-1E)",
       "totalQuantity": 30,
-      "lastUpdatedTime": "2026-09-19T22:13:08Z",
+      "lastUpdatedTime": "2026-09-20T17:16:08Z",
       "unitsSold30d": 2,
       "revenue30d": 96.04,
       "velocity": 0.067,
       "revenuePerDay": 3.2,
       "avgPrice": 48.02,
       "daysRemaining": 450,
-      "orderByDate": "2027-11-14T15:07:55.181Z",
+      "orderByDate": "2027-11-14T20:01:03.514Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2273,14 +2273,14 @@
       "sellerSku": "FC-L4HM-QZ1N",
       "productName": "Lunar Simulated Soil Display Jars – Moon Dust Display Set for Kids, Teachers, Classrooms, Science Projects, Space Lovers, and STEM Learning",
       "totalQuantity": 14,
-      "lastUpdatedTime": "2026-09-20T00:45:26Z",
+      "lastUpdatedTime": "2026-09-20T16:59:33Z",
       "unitsSold30d": 2,
       "revenue30d": 75.6,
       "velocity": 0.067,
       "revenuePerDay": 2.52,
       "avgPrice": 37.8,
       "daysRemaining": 210,
-      "orderByDate": "2027-03-19T15:07:55.181Z",
+      "orderByDate": "2027-03-19T20:01:03.514Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2353,7 +2353,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 990,
-      "orderByDate": "2029-05-07T15:07:55.181Z",
+      "orderByDate": "2029-05-07T20:01:03.514Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2427,14 +2427,14 @@
       "sellerSku": "LE-M9RA-IUOW",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 30,
-      "lastUpdatedTime": "2026-09-19T16:10:36Z",
+      "lastUpdatedTime": "2026-09-20T15:31:30Z",
       "unitsSold30d": 9,
       "revenue30d": 338.1,
       "velocity": 0.3,
       "revenuePerDay": 11.27,
       "avgPrice": 37.57,
       "daysRemaining": 100,
-      "orderByDate": "2026-11-29T15:07:55.181Z",
+      "orderByDate": "2026-11-29T20:01:03.514Z",
       "recommendedQty": 27,
       "urgency": "ok",
       "discoverable": true,
@@ -2518,7 +2518,7 @@
       "revenuePerDay": 4.14,
       "avgPrice": 62.1,
       "daysRemaining": 90,
-      "orderByDate": "2026-11-19T15:07:55.181Z",
+      "orderByDate": "2026-11-19T20:01:03.514Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
