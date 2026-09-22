@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T15:58:51.225Z",
+  "lastUpdated": "2026-09-22T20:41:20.284Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -254,14 +254,14 @@
       "sellerSku": "77-YDYA-GYCX",
       "condition": "NewItem",
       "inventoryDetails": {
-        "fulfillableQuantity": 3,
+        "fulfillableQuantity": 7,
         "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 16,
+          "totalReservedQuantity": 12,
           "pendingCustomerOrderQuantity": 0,
-          "pendingTransshipmentQuantity": 16,
+          "pendingTransshipmentQuantity": 12,
           "fcProcessingQuantity": 0
         },
         "researchingQuantity": {
@@ -295,7 +295,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-09-22T10:47:41Z",
+      "lastUpdatedTime": "2026-09-22T16:51:50Z",
       "productName": "Lunar Mare Engineering Grade Regolith Simulant LMS-1E – JSC-1A Successor Moon Soil Simulant for Research, Hardware Testing, Lunar Studies, and Engineering Projects (Five Kilograms)",
       "totalQuantity": 19,
       "stores": []
@@ -2194,7 +2194,7 @@
       "revenuePerDay": 19.89,
       "avgPrice": 59.69,
       "daysRemaining": 57,
-      "orderByDate": "2026-10-19T15:58:50.798Z",
+      "orderByDate": "2026-10-19T20:41:19.753Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "discoverable": true,
@@ -2252,7 +2252,7 @@
       "sellerSku": "77-YDYA-GYCX",
       "productName": "Lunar Mare Engineering Grade Regolith Simulant LMS-1E – JSC-1A Successor Moon Soil Simulant for Research, Hardware Testing, Lunar Studies, and Engineering Projects (Five Kilograms)",
       "totalQuantity": 19,
-      "lastUpdatedTime": "2026-09-22T10:47:41Z",
+      "lastUpdatedTime": "2026-09-22T16:51:50Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -2263,7 +2263,7 @@
       "recommendedQty": null,
       "urgency": "no-sales",
       "discoverable": true,
-      "fulfillableQty": 3,
+      "fulfillableQty": 7,
       "inboundWorkingQty": 0
     },
     {
@@ -2297,7 +2297,7 @@
       "revenuePerDay": 6.21,
       "avgPrice": 62.1,
       "daysRemaining": 350,
-      "orderByDate": "2027-08-08T15:58:50.799Z",
+      "orderByDate": "2027-08-08T20:41:19.753Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
@@ -2324,7 +2324,7 @@
       "revenuePerDay": 3.2,
       "avgPrice": 48.02,
       "daysRemaining": 450,
-      "orderByDate": "2027-11-16T15:58:50.799Z",
+      "orderByDate": "2027-11-16T20:41:19.753Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2351,7 +2351,7 @@
       "revenuePerDay": 2.52,
       "avgPrice": 37.8,
       "daysRemaining": 210,
-      "orderByDate": "2027-03-21T15:58:50.799Z",
+      "orderByDate": "2027-03-21T20:41:19.753Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2424,7 +2424,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 990,
-      "orderByDate": "2029-05-09T15:58:50.799Z",
+      "orderByDate": "2029-05-09T20:41:19.753Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2505,7 +2505,7 @@
       "revenuePerDay": 12.9,
       "avgPrice": 35.19,
       "daysRemaining": 79,
-      "orderByDate": "2026-11-10T15:58:50.799Z",
+      "orderByDate": "2026-11-10T20:41:19.753Z",
       "recommendedQty": 33,
       "urgency": "ok",
       "discoverable": true,
@@ -2589,7 +2589,7 @@
       "revenuePerDay": 4.14,
       "avgPrice": 62.1,
       "daysRemaining": 90,
-      "orderByDate": "2026-11-21T15:58:50.799Z",
+      "orderByDate": "2026-11-21T20:41:19.753Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
