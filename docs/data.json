@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T02:32:08.198Z",
+  "lastUpdated": "2026-09-23T10:30:08.047Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -139,7 +139,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-09-22T10:27:11Z",
+      "lastUpdatedTime": "2026-09-23T04:52:49Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 19,
       "stores": []
@@ -448,7 +448,7 @@
         },
         "futureSupplyQuantity": {
           "reservedFutureSupplyQuantity": 0,
-          "futureSupplyBuyableQuantity": 0
+          "futureSupplyBuyableQuantity": 12
         }
       },
       "lastUpdatedTime": "2026-09-23T02:02:09Z",
@@ -722,14 +722,14 @@
       "sellerSku": "LE-M9RA-IUOW",
       "condition": "NewItem",
       "inventoryDetails": {
-        "fulfillableQuantity": 17,
+        "fulfillableQuantity": 18,
         "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 12,
+          "totalReservedQuantity": 11,
           "pendingCustomerOrderQuantity": 3,
-          "pendingTransshipmentQuantity": 9,
+          "pendingTransshipmentQuantity": 8,
           "fcProcessingQuantity": 0
         },
         "researchingQuantity": {
@@ -763,7 +763,7 @@
           "futureSupplyBuyableQuantity": 10
         }
       },
-      "lastUpdatedTime": "2026-09-22T22:33:26Z",
+      "lastUpdatedTime": "2026-09-23T05:39:33Z",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 29,
       "stores": []
@@ -774,14 +774,14 @@
       "sellerSku": "LV-HT0X-91ID",
       "condition": "NewItem",
       "inventoryDetails": {
-        "fulfillableQuantity": 16,
+        "fulfillableQuantity": 19,
         "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 3,
+          "totalReservedQuantity": 0,
           "pendingCustomerOrderQuantity": 0,
-          "pendingTransshipmentQuantity": 3,
+          "pendingTransshipmentQuantity": 0,
           "fcProcessingQuantity": 0
         },
         "researchingQuantity": {
@@ -815,7 +815,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-09-17T11:09:50Z",
+      "lastUpdatedTime": "2026-09-23T05:40:01Z",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (Five Kilograms)",
       "totalQuantity": 19,
       "stores": []
@@ -2187,14 +2187,14 @@
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 19,
-      "lastUpdatedTime": "2026-09-22T10:27:11Z",
+      "lastUpdatedTime": "2026-09-23T04:52:49Z",
       "unitsSold30d": 10,
       "revenue30d": 596.85,
       "velocity": 0.333,
       "revenuePerDay": 19.89,
       "avgPrice": 59.69,
       "daysRemaining": 57,
-      "orderByDate": "2026-10-20T02:32:07.632Z",
+      "orderByDate": "2026-10-20T10:30:07.598Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "discoverable": true,
@@ -2297,7 +2297,7 @@
       "revenuePerDay": 6.21,
       "avgPrice": 62.1,
       "daysRemaining": 350,
-      "orderByDate": "2027-08-09T02:32:07.632Z",
+      "orderByDate": "2027-08-09T10:30:07.598Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
@@ -2324,7 +2324,7 @@
       "revenuePerDay": 3.2,
       "avgPrice": 48.02,
       "daysRemaining": 450,
-      "orderByDate": "2027-11-17T02:32:07.632Z",
+      "orderByDate": "2027-11-17T10:30:07.598Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2351,7 +2351,7 @@
       "revenuePerDay": 2.52,
       "avgPrice": 37.8,
       "daysRemaining": 210,
-      "orderByDate": "2027-03-22T02:32:07.632Z",
+      "orderByDate": "2027-03-22T10:30:07.598Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2424,7 +2424,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 990,
-      "orderByDate": "2029-05-10T02:32:07.632Z",
+      "orderByDate": "2029-05-10T10:30:07.598Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2498,18 +2498,18 @@
       "sellerSku": "LE-M9RA-IUOW",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 29,
-      "lastUpdatedTime": "2026-09-22T22:33:26Z",
+      "lastUpdatedTime": "2026-09-23T05:39:33Z",
       "unitsSold30d": 11,
       "revenue30d": 387.1,
       "velocity": 0.367,
       "revenuePerDay": 12.9,
       "avgPrice": 35.19,
       "daysRemaining": 79,
-      "orderByDate": "2026-11-11T02:32:07.632Z",
+      "orderByDate": "2026-11-11T10:30:07.598Z",
       "recommendedQty": 33,
       "urgency": "ok",
       "discoverable": true,
-      "fulfillableQty": 17,
+      "fulfillableQty": 18,
       "inboundWorkingQty": 0,
       "fees": {
         "totalFees": 11.59,
@@ -2525,7 +2525,7 @@
       "sellerSku": "LV-HT0X-91ID",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (Five Kilograms)",
       "totalQuantity": 19,
-      "lastUpdatedTime": "2026-09-17T11:09:50Z",
+      "lastUpdatedTime": "2026-09-23T05:40:01Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -2536,7 +2536,7 @@
       "recommendedQty": null,
       "urgency": "no-sales",
       "discoverable": true,
-      "fulfillableQty": 16,
+      "fulfillableQty": 19,
       "inboundWorkingQty": 0
     },
     {
@@ -2589,7 +2589,7 @@
       "revenuePerDay": 4.14,
       "avgPrice": 62.1,
       "daysRemaining": 90,
-      "orderByDate": "2026-11-22T02:32:07.632Z",
+      "orderByDate": "2026-11-22T10:30:07.598Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
