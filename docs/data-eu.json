@@ -1,6 +1,45 @@
 {
-  "lastUpdated": "2026-09-24T16:10:53.689Z",
+  "lastUpdated": "2026-09-24T20:57:37.811Z",
   "inventory": [
+    {
+      "asin": "B0D96SB2VQ",
+      "fnSku": "B0D96SB2VQ",
+      "sellerSku": "0V-UKEZ-SPR8",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "",
+      "productName": "Martian Simulierte Boden-Display-Gläser | Neugier und Ausdauer: Mars in der Hand | Wird von Weltraumbehörden verwendet – tolles Geschenk für Wissenschaft und Weltraum-Enthusiasten",
+      "totalQuantity": 0,
+      "stores": []
+    },
     {
       "asin": "B0HHFJ7PMW",
       "fnSku": "B0HHFJ7PMW",
@@ -366,6 +405,45 @@
       "stores": []
     },
     {
+      "asin": "B0HHFJV3Y3",
+      "fnSku": "B0HHFJV3Y3",
+      "sellerSku": "J3-W6H3-5H0P",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "",
+      "productName": "Lunar-Mare-Regolith-Simulant in technischer Qualität LMS-1E – Nachfolger von JSC-1A, Mondboden-Simulant für Forschung, Hardwaretests, Mondstudien und technische Projekte (fünf Kilogramm) (LMS-1E)",
+      "totalQuantity": 0,
+      "stores": []
+    },
+    {
       "asin": "B0D6WZPZJV",
       "fnSku": "B0D6WZPZJV",
       "sellerSku": "LC-M9RA-IUOW",
@@ -496,6 +574,45 @@
       "stores": []
     },
     {
+      "asin": "B0GQCBJ5WM",
+      "fnSku": "B0GQCBJ5WM",
+      "sellerSku": "M2-6R72-N918",
+      "condition": "NewItem",
+      "inventoryDetails": {
+        "fulfillableQuantity": 0,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        },
+        "futureSupplyQuantity": {
+          "reservedFutureSupplyQuantity": 0,
+          "futureSupplyBuyableQuantity": 0
+        }
+      },
+      "lastUpdatedTime": "",
+      "productName": "CI-E Carbonaceous Chondrite Simulant - Orgueil-Asteroid Analog für reaktive & ISRU-Forschung",
+      "totalQuantity": 0,
+      "stores": []
+    },
+    {
       "asin": "B0GPK3NCFR",
       "fnSku": "B0GPK3NCFR",
       "sellerSku": "VM-8X3M-SECN",
@@ -615,6 +732,25 @@
   ],
   "orders": [],
   "predictions": [
+    {
+      "asin": "B0D96SB2VQ",
+      "sellerSku": "0V-UKEZ-SPR8",
+      "productName": "Martian Simulierte Boden-Display-Gläser | Neugier und Ausdauer: Mars in der Hand | Wird von Weltraumbehörden verwendet – tolles Geschenk für Wissenschaft und Weltraum-Enthusiasten",
+      "totalQuantity": 0,
+      "lastUpdatedTime": "",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
+      "discoverable": false,
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 0
+    },
     {
       "asin": "B0HHFJ7PMW",
       "sellerSku": "0W-3LJZ-W9LO",
@@ -787,6 +923,25 @@
       "inboundWorkingQty": 0
     },
     {
+      "asin": "B0HHFJV3Y3",
+      "sellerSku": "J3-W6H3-5H0P",
+      "productName": "Lunar-Mare-Regolith-Simulant in technischer Qualität LMS-1E – Nachfolger von JSC-1A, Mondboden-Simulant für Forschung, Hardwaretests, Mondstudien und technische Projekte (fünf Kilogramm) (LMS-1E)",
+      "totalQuantity": 0,
+      "lastUpdatedTime": "",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
+      "discoverable": false,
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 0
+    },
+    {
       "asin": "B0D6WZPZJV",
       "sellerSku": "LC-M9RA-IUOW",
       "productName": "Lunar Highlands Simulant (LHS-1) | Echte Mondbodenreplikation, ideal für Forschung und Bildung (1, Kilogramm)",
@@ -828,6 +983,25 @@
       "asin": "B0HHFPW1ZM",
       "sellerSku": "LV-HT0X-91ID",
       "productName": "Lunar Highlands Engineering Grade Regolithe Simulant (LHS-1E) Authentischer Mondstaub-Replikator – Ideal für Forschung, Materialtest und Bildungsprojekte (fünf Kilogramm)",
+      "totalQuantity": 0,
+      "lastUpdatedTime": "",
+      "unitsSold30d": 0,
+      "revenue30d": 0,
+      "velocity": 0,
+      "revenuePerDay": 0,
+      "avgPrice": null,
+      "daysRemaining": null,
+      "orderByDate": null,
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
+      "discoverable": false,
+      "fulfillableQty": 0,
+      "inboundWorkingQty": 0
+    },
+    {
+      "asin": "B0GQCBJ5WM",
+      "sellerSku": "M2-6R72-N918",
+      "productName": "CI-E Carbonaceous Chondrite Simulant - Orgueil-Asteroid Analog für reaktive & ISRU-Forschung",
       "totalQuantity": 0,
       "lastUpdatedTime": "",
       "unitsSold30d": 0,
