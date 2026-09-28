@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T12:25:30.376Z",
+  "lastUpdated": "2026-09-28T22:47:08.740Z",
   "inventory": [
     {
       "asin": "B0D96SB2VQ",
@@ -203,7 +203,7 @@
       "condition": "NewItem",
       "inventoryDetails": {
         "fulfillableQuantity": 0,
-        "inboundWorkingQuantity": 10,
+        "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
@@ -245,7 +245,7 @@
       },
       "lastUpdatedTime": "2026-09-03T20:15:40Z",
       "productName": "Lunar Highlands Engineering Grade Regolithe Simulant (LHS-1E) Authentischer Mondstaub-Replikator – Ideal für Forschung, Materialtest und Bildungsprojekte (1 Kilogramm)",
-      "totalQuantity": 10,
+      "totalQuantity": 0,
       "stores": []
     },
     {
@@ -489,7 +489,7 @@
       "condition": "NewItem",
       "inventoryDetails": {
         "fulfillableQuantity": 0,
-        "inboundWorkingQuantity": 10,
+        "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
@@ -531,7 +531,7 @@
       },
       "lastUpdatedTime": "2026-09-03T20:15:40Z",
       "productName": "Lunar Highlands Engineering Grade Regolithe Simulant (LHS-1E) Authentischer Mondstaub-Replikator – Ideal für Forschung, Materialtest und Bildungsprojekte (1 Kilogramm)",
-      "totalQuantity": 10,
+      "totalQuantity": 0,
       "stores": []
     },
     {
@@ -831,7 +831,7 @@
       "asin": "B0FM5NGXCW",
       "sellerSku": "A2-I008-68I8",
       "productName": "Lunar Highlands Engineering Grade Regolithe Simulant (LHS-1E) Authentischer Mondstaub-Replikator – Ideal für Forschung, Materialtest und Bildungsprojekte (1 Kilogramm)",
-      "totalQuantity": 10,
+      "totalQuantity": 0,
       "lastUpdatedTime": "2026-09-03T20:15:40Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
@@ -840,11 +840,11 @@
       "avgPrice": null,
       "daysRemaining": null,
       "orderByDate": null,
-      "recommendedQty": null,
-      "urgency": "no-sales",
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
       "discoverable": false,
       "fulfillableQty": 0,
-      "inboundWorkingQty": 10
+      "inboundWorkingQty": 0
     },
     {
       "asin": "B0GQCBJ5WM",
@@ -964,7 +964,7 @@
       "asin": "B0FM5NGXCW",
       "sellerSku": "LE-M9RA-IUOW",
       "productName": "Lunar Highlands Engineering Grade Regolithe Simulant (LHS-1E) Authentischer Mondstaub-Replikator – Ideal für Forschung, Materialtest und Bildungsprojekte (1 Kilogramm)",
-      "totalQuantity": 10,
+      "totalQuantity": 0,
       "lastUpdatedTime": "2026-09-03T20:15:40Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
@@ -973,11 +973,11 @@
       "avgPrice": null,
       "daysRemaining": null,
       "orderByDate": null,
-      "recommendedQty": null,
-      "urgency": "no-sales",
+      "recommendedQty": 10,
+      "urgency": "out-of-stock",
       "discoverable": false,
       "fulfillableQty": 0,
-      "inboundWorkingQty": 10
+      "inboundWorkingQty": 0
     },
     {
       "asin": "B0HHFPW1ZM",
