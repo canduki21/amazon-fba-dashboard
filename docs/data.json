@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T22:09:09.067Z",
+  "lastUpdated": "2026-10-02T03:15:31.088Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -48,7 +48,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-09-30T03:46:25Z",
+      "lastUpdatedTime": "2026-10-02T02:58:26Z",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (Five Kilograms)",
       "totalQuantity": 18,
       "stores": []
@@ -399,7 +399,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-10-01T08:21:12Z",
+      "lastUpdatedTime": "2026-10-02T02:57:37Z",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 34,
       "stores": []
@@ -1212,46 +1212,6 @@
     }
   ],
   "orders": [
-    {
-      "BuyerInfo": {},
-      "AmazonOrderId": "113-0376447-1569029",
-      "EarliestShipDate": "2026-09-03T19:02:55Z",
-      "SalesChannel": "Amazon.com",
-      "OrderStatus": "Shipped",
-      "NumberOfItemsShipped": 2,
-      "OrderType": "StandardOrder",
-      "IsPremiumOrder": false,
-      "IsPrime": false,
-      "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 0,
-      "HasRegulatedItems": false,
-      "IsReplacementOrder": "false",
-      "IsSoldByAB": false,
-      "LatestShipDate": "2026-09-03T19:02:55Z",
-      "ShipServiceLevel": "Standard",
-      "IsISPU": false,
-      "MarketplaceId": "ATVPDKIKX0DER",
-      "PurchaseDate": "2026-09-01T23:34:48Z",
-      "ShippingAddress": {
-        "StateOrRegion": "NY",
-        "City": "New York",
-        "CountryCode": "US"
-      },
-      "IsAccessPointOrder": false,
-      "SellerOrderId": "113-0376447-1569029",
-      "PaymentMethod": "Other",
-      "IsBusinessOrder": false,
-      "OrderTotal": {
-        "CurrencyCode": "USD",
-        "Amount": "131.47"
-      },
-      "PaymentMethodDetails": [
-        "Standard"
-      ],
-      "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-09-05T20:07:40Z",
-      "ShipmentServiceLevelCategory": "Standard"
-    },
     {
       "BuyerInfo": {},
       "AmazonOrderId": "113-2555987-2222610",
@@ -2475,7 +2435,7 @@
       "sellerSku": "0W-3LJZ-W9LO",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (Five Kilograms)",
       "totalQuantity": 18,
-      "lastUpdatedTime": "2026-09-30T03:46:25Z",
+      "lastUpdatedTime": "2026-10-02T02:58:26Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -2508,12 +2468,12 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 15.85,
-        "referralFee": 9.27,
+        "totalFees": 15.9,
+        "referralFee": 9.32,
         "fbaFee": 6.58,
-        "referralRate": 0.15,
-        "netAfterFees": 45.96,
-        "atPrice": 61.81
+        "referralRate": 0.1501,
+        "netAfterFees": 46.2,
+        "atPrice": 62.1
       }
     },
     {
@@ -2522,25 +2482,25 @@
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 15,
       "lastUpdatedTime": "2026-09-30T21:10:30Z",
-      "unitsSold30d": 12,
-      "revenue30d": 741.75,
-      "velocity": 0.4,
-      "revenuePerDay": 24.73,
-      "avgPrice": 61.81,
-      "daysRemaining": 37,
-      "orderByDate": "2026-10-08T22:09:08.475Z",
-      "recommendedQty": 36,
+      "unitsSold30d": 11,
+      "revenue30d": 683.1,
+      "velocity": 0.367,
+      "revenuePerDay": 22.77,
+      "avgPrice": 62.1,
+      "daysRemaining": 40,
+      "orderByDate": "2026-10-12T03:15:30.579Z",
+      "recommendedQty": 33,
       "urgency": "warning",
       "discoverable": true,
       "fulfillableQty": 15,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 15.85,
-        "referralFee": 9.27,
+        "totalFees": 15.9,
+        "referralFee": 9.32,
         "fbaFee": 6.58,
-        "referralRate": 0.15,
-        "netAfterFees": 45.96,
-        "atPrice": 61.81
+        "referralRate": 0.1501,
+        "netAfterFees": 46.2,
+        "atPrice": 62.1
       }
     },
     {
@@ -2624,14 +2584,14 @@
       "sellerSku": "B7-E2EI-16S3",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 34,
-      "lastUpdatedTime": "2026-10-01T08:21:12Z",
+      "lastUpdatedTime": "2026-10-02T02:57:37Z",
       "unitsSold30d": 5,
       "revenue30d": 251.85,
       "velocity": 0.167,
       "revenuePerDay": 8.39,
       "avgPrice": 50.37,
       "daysRemaining": 204,
-      "orderByDate": "2027-03-24T22:09:08.475Z",
+      "orderByDate": "2027-03-25T03:15:30.579Z",
       "recommendedQty": 15,
       "urgency": "ok",
       "discoverable": true,
@@ -2658,7 +2618,7 @@
       "revenuePerDay": 4.83,
       "avgPrice": 36.26,
       "daysRemaining": 217,
-      "orderByDate": "2027-04-06T22:09:08.475Z",
+      "orderByDate": "2027-04-07T03:15:30.579Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -2685,7 +2645,7 @@
       "revenuePerDay": 2.8,
       "avgPrice": 42,
       "daysRemaining": 195,
-      "orderByDate": "2027-03-15T22:09:08.475Z",
+      "orderByDate": "2027-03-16T03:15:30.579Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2758,7 +2718,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 960,
-      "orderByDate": "2029-04-18T22:09:08.475Z",
+      "orderByDate": "2029-04-19T03:15:30.579Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2839,7 +2799,7 @@
       "revenuePerDay": 19.44,
       "avgPrice": 41.65,
       "daysRemaining": 51,
-      "orderByDate": "2026-10-22T22:09:08.475Z",
+      "orderByDate": "2026-10-23T03:15:30.579Z",
       "recommendedQty": 42,
       "urgency": "ok",
       "discoverable": true,
@@ -2866,7 +2826,7 @@
       "revenuePerDay": 0,
       "avgPrice": 0,
       "daysRemaining": 570,
-      "orderByDate": "2028-03-24T22:09:08.475Z",
+      "orderByDate": "2028-03-25T03:15:30.579Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2917,25 +2877,25 @@
       "productName": "Jezero Delta Simulant (JEZ 1), Mars Soil Simulant and Martian Regolith Analog from the Perseverance Jezero Landing Site, for Laboratory Research and Hardware Testing",
       "totalQuantity": 5,
       "lastUpdatedTime": "2026-09-26T03:25:35Z",
-      "unitsSold30d": 2,
-      "revenue30d": 131.1,
-      "velocity": 0.067,
-      "revenuePerDay": 4.37,
-      "avgPrice": 65.55,
-      "daysRemaining": 75,
-      "orderByDate": "2026-11-15T22:09:08.475Z",
-      "recommendedQty": 6,
+      "unitsSold30d": 1,
+      "revenue30d": 69,
+      "velocity": 0.033,
+      "revenuePerDay": 2.3,
+      "avgPrice": 69,
+      "daysRemaining": 150,
+      "orderByDate": "2027-01-30T03:15:30.579Z",
+      "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 5,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 16.23,
-        "referralFee": 9.83,
+        "totalFees": 16.75,
+        "referralFee": 10.35,
         "fbaFee": 6.4,
         "referralRate": 0.15,
-        "netAfterFees": 49.32,
-        "atPrice": 65.55
+        "netAfterFees": 52.25,
+        "atPrice": 69
       }
     },
     {
@@ -3033,12 +2993,12 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 15.85,
-        "referralFee": 9.27,
+        "totalFees": 15.9,
+        "referralFee": 9.32,
         "fbaFee": 6.58,
-        "referralRate": 0.15,
-        "netAfterFees": 45.96,
-        "atPrice": 61.81
+        "referralRate": 0.1501,
+        "netAfterFees": 46.2,
+        "atPrice": 62.1
       }
     }
   ]
