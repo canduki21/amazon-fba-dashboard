@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T11:32:58.610Z",
+  "lastUpdated": "2026-10-04T16:11:43.311Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -103,10 +103,10 @@
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 1,
+          "totalReservedQuantity": 0,
           "pendingCustomerOrderQuantity": 0,
           "pendingTransshipmentQuantity": 0,
-          "fcProcessingQuantity": 1
+          "fcProcessingQuantity": 0
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 2,
@@ -139,9 +139,9 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-10-04T11:31:24Z",
+      "lastUpdatedTime": "2026-10-04T14:39:22Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
-      "totalQuantity": 14,
+      "totalQuantity": 13,
       "stores": []
     },
     {
@@ -1010,7 +1010,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-09-27T13:24:23Z",
+      "lastUpdatedTime": "2026-10-04T12:53:26Z",
       "productName": "Martian Simulated Soil Display Jars – Mars Dust Educational Display for Kids, Teachers, Classrooms, Science Projects, Space Lovers, and STEM Learning",
       "totalQuantity": 17,
       "stores": []
@@ -2292,13 +2292,13 @@
       "AmazonOrderId": "111-7277050-9709066",
       "EarliestShipDate": "2026-10-03T06:59:59Z",
       "SalesChannel": "Amazon.com",
-      "OrderStatus": "Pending",
-      "NumberOfItemsShipped": 0,
+      "OrderStatus": "Shipped",
+      "NumberOfItemsShipped": 1,
       "OrderType": "StandardOrder",
       "IsPremiumOrder": false,
       "IsPrime": false,
       "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 1,
+      "NumberOfItemsUnshipped": 0,
       "HasRegulatedItems": false,
       "IsReplacementOrder": "false",
       "IsSoldByAB": false,
@@ -2307,15 +2307,24 @@
       "IsISPU": false,
       "MarketplaceId": "ATVPDKIKX0DER",
       "PurchaseDate": "2026-10-02T11:03:12Z",
+      "ShippingAddress": {
+        "StateOrRegion": "Ontario",
+        "City": "Burlington",
+        "CountryCode": "CA"
+      },
       "IsAccessPointOrder": false,
       "SellerOrderId": "111-7277050-9709066",
       "PaymentMethod": "Other",
       "IsBusinessOrder": false,
+      "OrderTotal": {
+        "CurrencyCode": "USD",
+        "Amount": "77.45"
+      },
       "PaymentMethodDetails": [
         "Standard"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-10-02T11:03:15Z",
+      "LastUpdateDate": "2026-10-04T14:38:29Z",
       "ShipmentServiceLevelCategory": "Standard"
     }
   ],
@@ -2358,39 +2367,39 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 14.93,
-        "referralFee": 8.35,
+        "totalFees": 16.41,
+        "referralFee": 9.83,
         "fbaFee": 6.58,
-        "referralRate": 0.1499,
-        "netAfterFees": 40.76,
-        "atPrice": 55.69
+        "referralRate": 0.15,
+        "netAfterFees": 49.14,
+        "atPrice": 65.55
       }
     },
     {
       "asin": "B0D94YYYG7",
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
-      "totalQuantity": 14,
-      "lastUpdatedTime": "2026-10-04T11:31:24Z",
+      "totalQuantity": 13,
+      "lastUpdatedTime": "2026-10-04T14:39:22Z",
       "unitsSold30d": 7,
-      "revenue30d": 389.85,
+      "revenue30d": 458.85,
       "velocity": 0.233,
-      "revenuePerDay": 13,
-      "avgPrice": 55.69,
-      "daysRemaining": 60,
-      "orderByDate": "2026-11-03T11:32:58.106Z",
+      "revenuePerDay": 15.29,
+      "avgPrice": 65.55,
+      "daysRemaining": 55,
+      "orderByDate": "2026-10-29T16:11:42.803Z",
       "recommendedQty": 21,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 13,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 14.93,
-        "referralFee": 8.35,
+        "totalFees": 16.41,
+        "referralFee": 9.83,
         "fbaFee": 6.58,
-        "referralRate": 0.1499,
-        "netAfterFees": 40.76,
-        "atPrice": 55.69
+        "referralRate": 0.15,
+        "netAfterFees": 49.14,
+        "atPrice": 65.55
       }
     },
     {
@@ -2481,7 +2490,7 @@
       "revenuePerDay": 8.39,
       "avgPrice": 50.37,
       "daysRemaining": 204,
-      "orderByDate": "2027-03-27T11:32:58.106Z",
+      "orderByDate": "2027-03-27T16:11:42.803Z",
       "recommendedQty": 15,
       "urgency": "ok",
       "discoverable": true,
@@ -2508,7 +2517,7 @@
       "revenuePerDay": 4.83,
       "avgPrice": 48.35,
       "daysRemaining": 280,
-      "orderByDate": "2027-06-11T11:32:58.106Z",
+      "orderByDate": "2027-06-11T16:11:42.803Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
@@ -2535,7 +2544,7 @@
       "revenuePerDay": 2.8,
       "avgPrice": 42,
       "daysRemaining": 195,
-      "orderByDate": "2027-03-18T11:32:58.106Z",
+      "orderByDate": "2027-03-18T16:11:42.803Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2608,7 +2617,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 960,
-      "orderByDate": "2029-04-21T11:32:58.106Z",
+      "orderByDate": "2029-04-21T16:11:42.803Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2689,7 +2698,7 @@
       "revenuePerDay": 17.8,
       "avgPrice": 44.51,
       "daysRemaining": 82,
-      "orderByDate": "2026-11-25T11:32:58.106Z",
+      "orderByDate": "2026-11-25T16:11:42.803Z",
       "recommendedQty": 36,
       "urgency": "ok",
       "discoverable": true,
@@ -2716,7 +2725,7 @@
       "revenuePerDay": 0,
       "avgPrice": 0,
       "daysRemaining": 570,
-      "orderByDate": "2028-03-27T11:32:58.106Z",
+      "orderByDate": "2028-03-27T16:11:42.803Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2773,7 +2782,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 150,
-      "orderByDate": "2027-02-01T11:32:58.106Z",
+      "orderByDate": "2027-02-01T16:11:42.803Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2793,7 +2802,7 @@
       "sellerSku": "WT-YT56-01YK",
       "productName": "Martian Simulated Soil Display Jars – Mars Dust Educational Display for Kids, Teachers, Classrooms, Science Projects, Space Lovers, and STEM Learning",
       "totalQuantity": 17,
-      "lastUpdatedTime": "2026-09-27T13:24:23Z",
+      "lastUpdatedTime": "2026-10-04T12:53:26Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -2883,12 +2892,12 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 14.93,
-        "referralFee": 8.35,
+        "totalFees": 16.41,
+        "referralFee": 9.83,
         "fbaFee": 6.58,
-        "referralRate": 0.1499,
-        "netAfterFees": 40.76,
-        "atPrice": 55.69
+        "referralRate": 0.15,
+        "netAfterFees": 49.14,
+        "atPrice": 65.55
       }
     }
   ]
