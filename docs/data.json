@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T03:29:24.566Z",
+  "lastUpdated": "2026-10-10T11:37:26.412Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -364,9 +364,9 @@
         "inboundReceivingQuantity": 20,
         "reservedQuantity": {
           "totalReservedQuantity": 1,
-          "pendingCustomerOrderQuantity": 1,
+          "pendingCustomerOrderQuantity": 0,
           "pendingTransshipmentQuantity": 0,
-          "fcProcessingQuantity": 0
+          "fcProcessingQuantity": 1
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
@@ -399,7 +399,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-10-08T05:27:14Z",
+      "lastUpdatedTime": "2026-10-10T08:44:04Z",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 48,
       "stores": []
@@ -1166,7 +1166,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-09-29T10:25:26Z",
+      "lastUpdatedTime": "2026-10-10T05:48:10Z",
       "productName": "Lunar Highlands Regolith Simulant LHS-1 – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (Five Kilograms)",
       "totalQuantity": 20,
       "stores": []
@@ -2317,7 +2317,7 @@
       "revenuePerDay": 19.89,
       "avgPrice": 66.32,
       "daysRemaining": 106,
-      "orderByDate": "2026-12-25T03:29:24.053Z",
+      "orderByDate": "2026-12-25T11:37:25.965Z",
       "recommendedQty": 27,
       "urgency": "ok",
       "discoverable": true,
@@ -2413,14 +2413,14 @@
       "sellerSku": "B7-E2EI-16S3",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 48,
-      "lastUpdatedTime": "2026-10-08T05:27:14Z",
+      "lastUpdatedTime": "2026-10-10T08:44:04Z",
       "unitsSold30d": 3,
       "revenue30d": 127.65,
       "velocity": 0.1,
       "revenuePerDay": 4.25,
       "avgPrice": 42.55,
       "daysRemaining": 480,
-      "orderByDate": "2028-01-03T03:29:24.054Z",
+      "orderByDate": "2028-01-03T11:37:25.965Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
@@ -2447,7 +2447,7 @@
       "revenuePerDay": 4.9,
       "avgPrice": 49,
       "daysRemaining": 270,
-      "orderByDate": "2027-06-07T03:29:24.054Z",
+      "orderByDate": "2027-06-07T11:37:25.965Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
@@ -2474,7 +2474,7 @@
       "revenuePerDay": 2.8,
       "avgPrice": 42,
       "daysRemaining": 195,
-      "orderByDate": "2027-03-24T03:29:24.054Z",
+      "orderByDate": "2027-03-24T11:37:25.965Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2604,7 +2604,7 @@
       "revenuePerDay": 14.54,
       "avgPrice": 43.61,
       "daysRemaining": 96,
-      "orderByDate": "2026-12-15T03:29:24.054Z",
+      "orderByDate": "2026-12-15T11:37:25.965Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "discoverable": true,
@@ -2631,7 +2631,7 @@
       "revenuePerDay": 6.53,
       "avgPrice": 196,
       "daysRemaining": 540,
-      "orderByDate": "2028-03-03T03:29:24.054Z",
+      "orderByDate": "2028-03-03T11:37:25.965Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2696,7 +2696,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 150,
-      "orderByDate": "2027-02-07T03:29:24.054Z",
+      "orderByDate": "2027-02-07T11:37:25.965Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2773,7 +2773,7 @@
       "sellerSku": "Y4-I0WQ-45K9",
       "productName": "Lunar Highlands Regolith Simulant LHS-1 – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (Five Kilograms)",
       "totalQuantity": 20,
-      "lastUpdatedTime": "2026-09-29T10:25:26Z",
+      "lastUpdatedTime": "2026-10-10T05:48:10Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
