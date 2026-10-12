@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T13:57:20.685Z",
+  "lastUpdated": "2026-10-12T23:58:24.741Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -139,7 +139,7 @@
           "futureSupplyBuyableQuantity": 21
         }
       },
-      "lastUpdatedTime": "2026-10-11T11:48:33Z",
+      "lastUpdatedTime": "2026-10-12T15:40:31Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 32,
       "stores": []
@@ -295,7 +295,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-10-11T15:59:50Z",
+      "lastUpdatedTime": "2026-10-12T15:50:46Z",
       "productName": "Lunar Mare Engineering Grade Regolith Simulant LMS-1E – JSC-1A Successor Moon Soil Simulant for Research, Hardware Testing, Lunar Studies, and Engineering Projects (Five Kilograms)",
       "totalQuantity": 23,
       "stores": []
@@ -462,13 +462,13 @@
       "sellerSku": "FC-L4HM-QZ1N",
       "condition": "NewItem",
       "inventoryDetails": {
-        "fulfillableQuantity": 13,
+        "fulfillableQuantity": 12,
         "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 0,
-          "pendingCustomerOrderQuantity": 0,
+          "totalReservedQuantity": 1,
+          "pendingCustomerOrderQuantity": 1,
           "pendingTransshipmentQuantity": 0,
           "fcProcessingQuantity": 0
         },
@@ -503,7 +503,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-10-07T10:21:29Z",
+      "lastUpdatedTime": "2026-10-12T18:54:48Z",
       "productName": "Lunar Simulated Soil Display Jars – Moon Dust Display Set for Kids, Teachers, Classrooms, Science Projects, Space Lovers, and STEM Learning",
       "totalQuantity": 13,
       "stores": []
@@ -1874,7 +1874,7 @@
         "Invoice"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-10-10T21:30:24Z",
+      "LastUpdateDate": "2026-10-12T21:09:03Z",
       "ShipmentServiceLevelCategory": "Standard"
     },
     {
@@ -2188,6 +2188,37 @@
       "IsGlobalExpressEnabled": false,
       "LastUpdateDate": "2026-10-12T09:06:21Z",
       "ShipmentServiceLevelCategory": "Expedited"
+    },
+    {
+      "BuyerInfo": {},
+      "AmazonOrderId": "114-4330479-7476238",
+      "EarliestShipDate": "2026-10-13T06:59:59Z",
+      "SalesChannel": "Amazon.com",
+      "OrderStatus": "Pending",
+      "NumberOfItemsShipped": 0,
+      "OrderType": "StandardOrder",
+      "IsPremiumOrder": false,
+      "IsPrime": false,
+      "FulfillmentChannel": "AFN",
+      "NumberOfItemsUnshipped": 1,
+      "HasRegulatedItems": false,
+      "IsReplacementOrder": "false",
+      "IsSoldByAB": false,
+      "LatestShipDate": "2026-10-13T06:59:59Z",
+      "ShipServiceLevel": "Expedited",
+      "IsISPU": false,
+      "MarketplaceId": "ATVPDKIKX0DER",
+      "PurchaseDate": "2026-10-12T18:48:41Z",
+      "IsAccessPointOrder": false,
+      "SellerOrderId": "114-4330479-7476238",
+      "PaymentMethod": "Other",
+      "IsBusinessOrder": true,
+      "PaymentMethodDetails": [
+        "Invoice"
+      ],
+      "IsGlobalExpressEnabled": false,
+      "LastUpdateDate": "2026-10-12T18:48:45Z",
+      "ShipmentServiceLevelCategory": "Expedited"
     }
   ],
   "predictions": [
@@ -2242,14 +2273,14 @@
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 32,
-      "lastUpdatedTime": "2026-10-11T11:48:33Z",
+      "lastUpdatedTime": "2026-10-12T15:40:31Z",
       "unitsSold30d": 7,
       "revenue30d": 479.55,
       "velocity": 0.233,
       "revenuePerDay": 15.99,
       "avgPrice": 68.51,
       "daysRemaining": 137,
-      "orderByDate": "2027-01-27T13:57:20.259Z",
+      "orderByDate": "2027-01-27T23:58:24.151Z",
       "recommendedQty": 21,
       "urgency": "ok",
       "discoverable": true,
@@ -2307,7 +2338,7 @@
       "sellerSku": "77-YDYA-GYCX",
       "productName": "Lunar Mare Engineering Grade Regolith Simulant LMS-1E – JSC-1A Successor Moon Soil Simulant for Research, Hardware Testing, Lunar Studies, and Engineering Projects (Five Kilograms)",
       "totalQuantity": 23,
-      "lastUpdatedTime": "2026-10-11T15:59:50Z",
+      "lastUpdatedTime": "2026-10-12T15:50:46Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -2352,7 +2383,7 @@
       "revenuePerDay": 6.67,
       "avgPrice": 66.7,
       "daysRemaining": 460,
-      "orderByDate": "2027-12-16T13:57:20.260Z",
+      "orderByDate": "2027-12-16T23:58:24.151Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
@@ -2379,7 +2410,7 @@
       "revenuePerDay": 4.9,
       "avgPrice": 49,
       "daysRemaining": 270,
-      "orderByDate": "2027-06-09T13:57:20.260Z",
+      "orderByDate": "2027-06-09T23:58:24.151Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
@@ -2399,26 +2430,26 @@
       "sellerSku": "FC-L4HM-QZ1N",
       "productName": "Lunar Simulated Soil Display Jars – Moon Dust Display Set for Kids, Teachers, Classrooms, Science Projects, Space Lovers, and STEM Learning",
       "totalQuantity": 13,
-      "lastUpdatedTime": "2026-10-07T10:21:29Z",
-      "unitsSold30d": 2,
+      "lastUpdatedTime": "2026-10-12T18:54:48Z",
+      "unitsSold30d": 3,
       "revenue30d": 84,
-      "velocity": 0.067,
+      "velocity": 0.1,
       "revenuePerDay": 2.8,
-      "avgPrice": 42,
-      "daysRemaining": 195,
-      "orderByDate": "2027-03-26T13:57:20.260Z",
-      "recommendedQty": 6,
+      "avgPrice": 28,
+      "daysRemaining": 130,
+      "orderByDate": "2027-01-20T23:58:24.151Z",
+      "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
-      "fulfillableQty": 13,
+      "fulfillableQty": 12,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 10.65,
-        "referralFee": 6.3,
+        "totalFees": 8.55,
+        "referralFee": 4.2,
         "fbaFee": 4.35,
         "referralRate": 0.15,
-        "netAfterFees": 31.35,
-        "atPrice": 42
+        "netAfterFees": 19.45,
+        "atPrice": 28
       }
     },
     {
@@ -2536,7 +2567,7 @@
       "revenuePerDay": 14.54,
       "avgPrice": 43.61,
       "daysRemaining": 96,
-      "orderByDate": "2026-12-17T13:57:20.260Z",
+      "orderByDate": "2026-12-17T23:58:24.151Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "discoverable": true,
@@ -2563,7 +2594,7 @@
       "revenuePerDay": 6.53,
       "avgPrice": 196,
       "daysRemaining": 540,
-      "orderByDate": "2028-03-05T13:57:20.260Z",
+      "orderByDate": "2028-03-05T23:58:24.151Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2628,7 +2659,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 150,
-      "orderByDate": "2027-02-09T13:57:20.260Z",
+      "orderByDate": "2027-02-09T23:58:24.151Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
