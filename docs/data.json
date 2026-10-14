@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T02:49:16.210Z",
+  "lastUpdated": "2026-10-14T10:53:37.161Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -98,15 +98,15 @@
       "sellerSku": "1N-OGY7-5MMW",
       "condition": "NewItem",
       "inventoryDetails": {
-        "fulfillableQuantity": 10,
+        "fulfillableQuantity": 9,
         "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 21,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 1,
+          "totalReservedQuantity": 2,
           "pendingCustomerOrderQuantity": 0,
           "pendingTransshipmentQuantity": 0,
-          "fcProcessingQuantity": 1
+          "fcProcessingQuantity": 2
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 1,
@@ -139,7 +139,7 @@
           "futureSupplyBuyableQuantity": 21
         }
       },
-      "lastUpdatedTime": "2026-10-14T00:48:29Z",
+      "lastUpdatedTime": "2026-10-14T08:29:02Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 32,
       "stores": []
@@ -467,10 +467,10 @@
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 1,
+          "totalReservedQuantity": 0,
           "pendingCustomerOrderQuantity": 0,
           "pendingTransshipmentQuantity": 0,
-          "fcProcessingQuantity": 1
+          "fcProcessingQuantity": 0
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
@@ -503,9 +503,9 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-10-13T07:49:56Z",
+      "lastUpdatedTime": "2026-10-14T03:21:42Z",
       "productName": "Lunar Simulated Soil Display Jars | Artemis and Apollo: The Moon in the Palm of Your Hand | Sealed Scientific Display for Collectors, Educators and Space Enthusiasts – Not a Toy",
-      "totalQuantity": 13,
+      "totalQuantity": 12,
       "stores": []
     },
     {
@@ -2204,13 +2204,13 @@
       "AmazonOrderId": "114-4330479-7476238",
       "EarliestShipDate": "2026-10-13T06:59:59Z",
       "SalesChannel": "Amazon.com",
-      "OrderStatus": "Pending",
-      "NumberOfItemsShipped": 0,
+      "OrderStatus": "Shipped",
+      "NumberOfItemsShipped": 1,
       "OrderType": "StandardOrder",
       "IsPremiumOrder": false,
       "IsPrime": false,
       "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 1,
+      "NumberOfItemsUnshipped": 0,
       "HasRegulatedItems": false,
       "IsReplacementOrder": "false",
       "IsSoldByAB": false,
@@ -2219,15 +2219,24 @@
       "IsISPU": false,
       "MarketplaceId": "ATVPDKIKX0DER",
       "PurchaseDate": "2026-10-12T18:48:41Z",
+      "ShippingAddress": {
+        "StateOrRegion": "PA",
+        "City": "POTTSTOWN",
+        "CountryCode": "US"
+      },
       "IsAccessPointOrder": false,
       "SellerOrderId": "114-4330479-7476238",
       "PaymentMethod": "Other",
       "IsBusinessOrder": true,
+      "OrderTotal": {
+        "CurrencyCode": "USD",
+        "Amount": "39.90"
+      },
       "PaymentMethodDetails": [
         "Invoice"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-10-13T01:02:42Z",
+      "LastUpdateDate": "2026-10-14T03:21:31Z",
       "ShipmentServiceLevelCategory": "Expedited"
     },
     {
@@ -2334,11 +2343,15 @@
       "SellerOrderId": "113-5300687-6477825",
       "PaymentMethod": "Other",
       "IsBusinessOrder": false,
+      "OrderTotal": {
+        "CurrencyCode": "USD",
+        "Amount": "73.83"
+      },
       "PaymentMethodDetails": [
         "Standard"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-10-13T21:34:39Z",
+      "LastUpdateDate": "2026-10-14T04:27:32Z",
       "ShipmentServiceLevelCategory": "Expedited"
     }
   ],
@@ -2381,12 +2394,12 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 15.57,
-        "referralFee": 8.99,
+        "totalFees": 16.87,
+        "referralFee": 10.29,
         "fbaFee": 6.58,
-        "referralRate": 0.15,
-        "netAfterFees": 44.37,
-        "atPrice": 59.94
+        "referralRate": 0.1501,
+        "netAfterFees": 51.7,
+        "atPrice": 68.57
       }
     },
     {
@@ -2394,26 +2407,26 @@
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 32,
-      "lastUpdatedTime": "2026-10-14T00:48:29Z",
+      "lastUpdatedTime": "2026-10-14T08:29:02Z",
       "unitsSold30d": 8,
-      "revenue30d": 479.55,
+      "revenue30d": 548.55,
       "velocity": 0.267,
-      "revenuePerDay": 15.99,
-      "avgPrice": 59.94,
+      "revenuePerDay": 18.29,
+      "avgPrice": 68.57,
       "daysRemaining": 120,
-      "orderByDate": "2027-01-12T02:49:15.668Z",
+      "orderByDate": "2027-01-12T10:53:36.649Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "discoverable": true,
-      "fulfillableQty": 10,
+      "fulfillableQty": 9,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 15.57,
-        "referralFee": 8.99,
+        "totalFees": 16.87,
+        "referralFee": 10.29,
         "fbaFee": 6.58,
-        "referralRate": 0.15,
-        "netAfterFees": 44.37,
-        "atPrice": 59.94
+        "referralRate": 0.1501,
+        "netAfterFees": 51.7,
+        "atPrice": 68.57
       }
     },
     {
@@ -2504,7 +2517,7 @@
       "revenuePerDay": 8.97,
       "avgPrice": 67.28,
       "daysRemaining": 337,
-      "orderByDate": "2027-08-17T02:49:15.668Z",
+      "orderByDate": "2027-08-17T10:53:36.649Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -2531,7 +2544,7 @@
       "revenuePerDay": 6.53,
       "avgPrice": 49,
       "daysRemaining": 195,
-      "orderByDate": "2027-03-28T02:49:15.668Z",
+      "orderByDate": "2027-03-28T10:53:36.649Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -2550,27 +2563,27 @@
       "asin": "B0D96Q9F68",
       "sellerSku": "FC-L4HM-QZ1N",
       "productName": "Lunar Simulated Soil Display Jars | Artemis and Apollo: The Moon in the Palm of Your Hand | Sealed Scientific Display for Collectors, Educators and Space Enthusiasts – Not a Toy",
-      "totalQuantity": 13,
-      "lastUpdatedTime": "2026-10-13T07:49:56Z",
+      "totalQuantity": 12,
+      "lastUpdatedTime": "2026-10-14T03:21:42Z",
       "unitsSold30d": 3,
-      "revenue30d": 84,
+      "revenue30d": 123.9,
       "velocity": 0.1,
-      "revenuePerDay": 2.8,
-      "avgPrice": 28,
-      "daysRemaining": 130,
-      "orderByDate": "2027-01-22T02:49:15.668Z",
+      "revenuePerDay": 4.13,
+      "avgPrice": 41.3,
+      "daysRemaining": 120,
+      "orderByDate": "2027-01-12T10:53:36.649Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 12,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 8.55,
-        "referralFee": 4.2,
+        "totalFees": 10.55,
+        "referralFee": 6.2,
         "fbaFee": 4.35,
-        "referralRate": 0.15,
-        "netAfterFees": 19.45,
-        "atPrice": 28
+        "referralRate": 0.1501,
+        "netAfterFees": 30.75,
+        "atPrice": 41.3
       }
     },
     {
@@ -2688,7 +2701,7 @@
       "revenuePerDay": 16.09,
       "avgPrice": 48.27,
       "daysRemaining": 93,
-      "orderByDate": "2026-12-16T02:49:15.668Z",
+      "orderByDate": "2026-12-16T10:53:36.649Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "discoverable": true,
@@ -2715,7 +2728,7 @@
       "revenuePerDay": 6.53,
       "avgPrice": 196,
       "daysRemaining": 540,
-      "orderByDate": "2028-03-07T02:49:15.668Z",
+      "orderByDate": "2028-03-07T10:53:36.649Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2780,7 +2793,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 150,
-      "orderByDate": "2027-02-11T02:49:15.668Z",
+      "orderByDate": "2027-02-11T10:53:36.649Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2890,12 +2903,12 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 15.57,
-        "referralFee": 8.99,
+        "totalFees": 16.87,
+        "referralFee": 10.29,
         "fbaFee": 6.58,
-        "referralRate": 0.15,
-        "netAfterFees": 44.37,
-        "atPrice": 59.94
+        "referralRate": 0.1501,
+        "netAfterFees": 51.7,
+        "atPrice": 68.57
       }
     }
   ]
