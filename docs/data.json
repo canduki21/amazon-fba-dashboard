@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T19:53:07.238Z",
+  "lastUpdated": "2026-10-19T02:30:46.279Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -45,10 +45,10 @@
         },
         "futureSupplyQuantity": {
           "reservedFutureSupplyQuantity": 0,
-          "futureSupplyBuyableQuantity": 20
+          "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-10-18T08:00:15Z",
+      "lastUpdatedTime": "2026-10-18T23:13:38Z",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (Five Kilograms)",
       "totalQuantity": 49,
       "stores": []
@@ -98,14 +98,14 @@
       "sellerSku": "1N-OGY7-5MMW",
       "condition": "NewItem",
       "inventoryDetails": {
-        "fulfillableQuantity": 7,
+        "fulfillableQuantity": 5,
         "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 21,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 1,
-          "pendingCustomerOrderQuantity": 0,
-          "pendingTransshipmentQuantity": 0,
+          "totalReservedQuantity": 3,
+          "pendingCustomerOrderQuantity": 1,
+          "pendingTransshipmentQuantity": 1,
           "fcProcessingQuantity": 1
         },
         "researchingQuantity": {
@@ -139,7 +139,7 @@
           "futureSupplyBuyableQuantity": 21
         }
       },
-      "lastUpdatedTime": "2026-10-18T15:28:35Z",
+      "lastUpdatedTime": "2026-10-18T22:19:59Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 29,
       "stores": []
@@ -2438,6 +2438,68 @@
       "IsGlobalExpressEnabled": false,
       "LastUpdateDate": "2026-10-16T14:51:59Z",
       "ShipmentServiceLevelCategory": "Expedited"
+    },
+    {
+      "BuyerInfo": {},
+      "AmazonOrderId": "114-9178351-2626648",
+      "EarliestShipDate": "2026-10-19T06:59:59Z",
+      "SalesChannel": "Amazon.com",
+      "OrderStatus": "Pending",
+      "NumberOfItemsShipped": 0,
+      "OrderType": "StandardOrder",
+      "IsPremiumOrder": false,
+      "IsPrime": false,
+      "FulfillmentChannel": "AFN",
+      "NumberOfItemsUnshipped": 1,
+      "HasRegulatedItems": false,
+      "IsReplacementOrder": "false",
+      "IsSoldByAB": false,
+      "LatestShipDate": "2026-10-19T06:59:59Z",
+      "ShipServiceLevel": "Expedited",
+      "IsISPU": false,
+      "MarketplaceId": "ATVPDKIKX0DER",
+      "PurchaseDate": "2026-10-18T22:08:47Z",
+      "IsAccessPointOrder": false,
+      "SellerOrderId": "114-9178351-2626648",
+      "PaymentMethod": "Other",
+      "IsBusinessOrder": false,
+      "PaymentMethodDetails": [
+        "Standard"
+      ],
+      "IsGlobalExpressEnabled": false,
+      "LastUpdateDate": "2026-10-18T22:08:52Z",
+      "ShipmentServiceLevelCategory": "Expedited"
+    },
+    {
+      "BuyerInfo": {},
+      "AmazonOrderId": "112-5289811-3070653",
+      "EarliestShipDate": "2026-10-20T06:59:59Z",
+      "SalesChannel": "Amazon.com",
+      "OrderStatus": "Pending",
+      "NumberOfItemsShipped": 0,
+      "OrderType": "StandardOrder",
+      "IsPremiumOrder": false,
+      "IsPrime": false,
+      "FulfillmentChannel": "AFN",
+      "NumberOfItemsUnshipped": 1,
+      "HasRegulatedItems": false,
+      "IsReplacementOrder": "false",
+      "IsSoldByAB": false,
+      "LatestShipDate": "2026-10-20T06:59:59Z",
+      "ShipServiceLevel": "Expedited",
+      "IsISPU": false,
+      "MarketplaceId": "ATVPDKIKX0DER",
+      "PurchaseDate": "2026-10-19T02:26:17Z",
+      "IsAccessPointOrder": false,
+      "SellerOrderId": "112-5289811-3070653",
+      "PaymentMethod": "Other",
+      "IsBusinessOrder": false,
+      "PaymentMethodDetails": [
+        "Standard"
+      ],
+      "IsGlobalExpressEnabled": false,
+      "LastUpdateDate": "2026-10-19T02:26:20Z",
+      "ShipmentServiceLevelCategory": "Expedited"
     }
   ],
   "predictions": [
@@ -2446,7 +2508,7 @@
       "sellerSku": "0W-3LJZ-W9LO",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (Five Kilograms)",
       "totalQuantity": 49,
-      "lastUpdatedTime": "2026-10-18T08:00:15Z",
+      "lastUpdatedTime": "2026-10-18T23:13:38Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -2479,12 +2541,12 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 16.35,
-        "referralFee": 9.36,
+        "totalFees": 15.57,
+        "referralFee": 8.58,
         "fbaFee": 6.99,
         "referralRate": 0.15,
-        "netAfterFees": 46.06,
-        "atPrice": 62.41
+        "netAfterFees": 41.64,
+        "atPrice": 57.21
       }
     },
     {
@@ -2492,26 +2554,26 @@
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 29,
-      "lastUpdatedTime": "2026-10-18T15:28:35Z",
-      "unitsSold30d": 11,
+      "lastUpdatedTime": "2026-10-18T22:19:59Z",
+      "unitsSold30d": 12,
       "revenue30d": 686.55,
-      "velocity": 0.367,
+      "velocity": 0.4,
       "revenuePerDay": 22.88,
-      "avgPrice": 62.41,
-      "daysRemaining": 79,
-      "orderByDate": "2026-12-06T19:53:06.641Z",
-      "recommendedQty": 33,
+      "avgPrice": 57.21,
+      "daysRemaining": 72,
+      "orderByDate": "2026-11-30T02:30:45.734Z",
+      "recommendedQty": 36,
       "urgency": "ok",
       "discoverable": true,
-      "fulfillableQty": 7,
+      "fulfillableQty": 5,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 16.35,
-        "referralFee": 9.36,
+        "totalFees": 15.57,
+        "referralFee": 8.58,
         "fbaFee": 6.99,
         "referralRate": 0.15,
-        "netAfterFees": 46.06,
-        "atPrice": 62.41
+        "netAfterFees": 41.64,
+        "atPrice": 57.21
       }
     },
     {
@@ -2564,7 +2626,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 196,
       "daysRemaining": 255,
-      "orderByDate": "2027-05-31T19:53:06.641Z",
+      "orderByDate": "2027-06-01T02:30:45.734Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2610,7 +2672,7 @@
       "revenuePerDay": 13.34,
       "avgPrice": 66.7,
       "daysRemaining": 215,
-      "orderByDate": "2027-04-21T19:53:06.641Z",
+      "orderByDate": "2027-04-22T02:30:45.734Z",
       "recommendedQty": 18,
       "urgency": "ok",
       "discoverable": true,
@@ -2637,7 +2699,7 @@
       "revenuePerDay": 6.53,
       "avgPrice": 49,
       "daysRemaining": 195,
-      "orderByDate": "2027-04-01T19:53:06.641Z",
+      "orderByDate": "2027-04-02T02:30:45.734Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -2664,7 +2726,7 @@
       "revenuePerDay": 4.13,
       "avgPrice": 41.3,
       "daysRemaining": 120,
-      "orderByDate": "2027-01-16T19:53:06.641Z",
+      "orderByDate": "2027-01-17T02:30:45.734Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
@@ -2737,7 +2799,7 @@
       "revenuePerDay": 2.19,
       "avgPrice": 65.55,
       "daysRemaining": 930,
-      "orderByDate": "2029-04-05T19:53:06.641Z",
+      "orderByDate": "2029-04-06T02:30:45.734Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2818,7 +2880,7 @@
       "revenuePerDay": 14.46,
       "avgPrice": 48.18,
       "daysRemaining": 103,
-      "orderByDate": "2026-12-30T19:53:06.641Z",
+      "orderByDate": "2026-12-31T02:30:45.734Z",
       "recommendedQty": 27,
       "urgency": "ok",
       "discoverable": true,
@@ -2845,7 +2907,7 @@
       "revenuePerDay": 6.53,
       "avgPrice": 196,
       "daysRemaining": 540,
-      "orderByDate": "2028-03-11T19:53:06.641Z",
+      "orderByDate": "2028-03-12T02:30:45.734Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2904,25 +2966,25 @@
       "productName": "Jezero Delta Simulant (JEZ 1), Mars Soil Simulant and Martian Regolith Analog from the Perseverance Jezero Landing Site, for Laboratory Research and Hardware Testing",
       "totalQuantity": 5,
       "lastUpdatedTime": "2026-10-13T19:09:38Z",
-      "unitsSold30d": 1,
+      "unitsSold30d": 2,
       "revenue30d": 69,
-      "velocity": 0.033,
+      "velocity": 0.067,
       "revenuePerDay": 2.3,
-      "avgPrice": 69,
-      "daysRemaining": 150,
-      "orderByDate": "2027-02-15T19:53:06.641Z",
-      "recommendedQty": 3,
+      "avgPrice": 34.5,
+      "daysRemaining": 75,
+      "orderByDate": "2026-12-03T02:30:45.734Z",
+      "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 4,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 17.13,
-        "referralFee": 10.35,
-        "fbaFee": 6.78,
-        "referralRate": 0.15,
-        "netAfterFees": 51.87,
-        "atPrice": 69
+        "totalFees": 11.69,
+        "referralFee": 5.18,
+        "fbaFee": 6.51,
+        "referralRate": 0.1501,
+        "netAfterFees": 22.81,
+        "atPrice": 34.5
       }
     },
     {
@@ -3020,12 +3082,12 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 16.35,
-        "referralFee": 9.36,
+        "totalFees": 15.57,
+        "referralFee": 8.58,
         "fbaFee": 6.99,
         "referralRate": 0.15,
-        "netAfterFees": 46.06,
-        "atPrice": 62.41
+        "netAfterFees": 41.64,
+        "atPrice": 57.21
       }
     }
   ]
