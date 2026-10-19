@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T11:38:06.227Z",
+  "lastUpdated": "2026-10-19T17:59:33.125Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -139,7 +139,7 @@
           "futureSupplyBuyableQuantity": 21
         }
       },
-      "lastUpdatedTime": "2026-10-19T04:51:40Z",
+      "lastUpdatedTime": "2026-10-19T15:52:55Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 28,
       "stores": []
@@ -922,10 +922,10 @@
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 2,
+          "totalReservedQuantity": 1,
           "pendingCustomerOrderQuantity": 0,
           "pendingTransshipmentQuantity": 1,
-          "fcProcessingQuantity": 1
+          "fcProcessingQuantity": 0
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
@@ -958,9 +958,9 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-10-19T07:08:22Z",
+      "lastUpdatedTime": "2026-10-19T16:02:50Z",
       "productName": "Jezero Delta Simulant (JEZ 1), Mars Soil Simulant and Martian Regolith Analog from the Perseverance Jezero Landing Site, for Laboratory Research and Hardware Testing",
-      "totalQuantity": 5,
+      "totalQuantity": 4,
       "stores": []
     },
     {
@@ -1010,7 +1010,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-10-04T12:53:26Z",
+      "lastUpdatedTime": "2026-10-19T15:30:19Z",
       "productName": "Martian Simulated Soil Display Jars | Curiosity and Perseverance: Mars in the Palm of Your Hand | Sealed Scientific Display for Collectors, Educators and Space Enthusiasts – Not a Toy",
       "totalQuantity": 17,
       "stores": []
@@ -1212,46 +1212,6 @@
     }
   ],
   "orders": [
-    {
-      "BuyerInfo": {},
-      "AmazonOrderId": "114-9218606-8581847",
-      "EarliestShipDate": "2026-09-20T06:59:59Z",
-      "SalesChannel": "Amazon.com",
-      "OrderStatus": "Shipped",
-      "NumberOfItemsShipped": 1,
-      "OrderType": "StandardOrder",
-      "IsPremiumOrder": false,
-      "IsPrime": false,
-      "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 0,
-      "HasRegulatedItems": false,
-      "IsReplacementOrder": "false",
-      "IsSoldByAB": false,
-      "LatestShipDate": "2026-09-20T06:59:59Z",
-      "ShipServiceLevel": "Expedited",
-      "IsISPU": false,
-      "MarketplaceId": "ATVPDKIKX0DER",
-      "PurchaseDate": "2026-09-19T11:47:26Z",
-      "ShippingAddress": {
-        "StateOrRegion": "WI",
-        "City": "MADISON",
-        "CountryCode": "US"
-      },
-      "IsAccessPointOrder": false,
-      "SellerOrderId": "114-9218606-8581847",
-      "PaymentMethod": "Other",
-      "IsBusinessOrder": false,
-      "OrderTotal": {
-        "CurrencyCode": "USD",
-        "Amount": "44.31"
-      },
-      "PaymentMethodDetails": [
-        "Standard"
-      ],
-      "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-09-20T03:15:22Z",
-      "ShipmentServiceLevelCategory": "Expedited"
-    },
     {
       "BuyerInfo": {},
       "AmazonOrderId": "114-8821766-4898669",
@@ -2413,13 +2373,13 @@
       "AmazonOrderId": "112-5289811-3070653",
       "EarliestShipDate": "2026-10-20T06:59:59Z",
       "SalesChannel": "Amazon.com",
-      "OrderStatus": "Pending",
-      "NumberOfItemsShipped": 0,
+      "OrderStatus": "Shipped",
+      "NumberOfItemsShipped": 1,
       "OrderType": "StandardOrder",
       "IsPremiumOrder": false,
       "IsPrime": false,
       "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 1,
+      "NumberOfItemsUnshipped": 0,
       "HasRegulatedItems": false,
       "IsReplacementOrder": "false",
       "IsSoldByAB": false,
@@ -2428,15 +2388,24 @@
       "IsISPU": false,
       "MarketplaceId": "ATVPDKIKX0DER",
       "PurchaseDate": "2026-10-19T02:26:17Z",
+      "ShippingAddress": {
+        "StateOrRegion": "AZ",
+        "City": "TUCSON",
+        "CountryCode": "US"
+      },
       "IsAccessPointOrder": false,
       "SellerOrderId": "112-5289811-3070653",
       "PaymentMethod": "Other",
       "IsBusinessOrder": false,
+      "OrderTotal": {
+        "CurrencyCode": "USD",
+        "Amount": "73.21"
+      },
       "PaymentMethodDetails": [
         "Standard"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-10-19T02:26:20Z",
+      "LastUpdateDate": "2026-10-19T16:01:50Z",
       "ShipmentServiceLevelCategory": "Expedited"
     }
   ],
@@ -2492,14 +2461,14 @@
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 28,
-      "lastUpdatedTime": "2026-10-19T04:51:40Z",
+      "lastUpdatedTime": "2026-10-19T15:52:55Z",
       "unitsSold30d": 12,
       "revenue30d": 752.1,
       "velocity": 0.4,
       "revenuePerDay": 25.07,
       "avgPrice": 62.68,
       "daysRemaining": 70,
-      "orderByDate": "2026-11-28T11:38:05.585Z",
+      "orderByDate": "2026-11-28T17:59:32.640Z",
       "recommendedQty": 36,
       "urgency": "ok",
       "discoverable": true,
@@ -2564,7 +2533,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 196,
       "daysRemaining": 255,
-      "orderByDate": "2027-06-01T11:38:05.585Z",
+      "orderByDate": "2027-06-01T17:59:32.640Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2610,7 +2579,7 @@
       "revenuePerDay": 13.34,
       "avgPrice": 66.7,
       "daysRemaining": 215,
-      "orderByDate": "2027-04-22T11:38:05.585Z",
+      "orderByDate": "2027-04-22T17:59:32.640Z",
       "recommendedQty": 18,
       "urgency": "ok",
       "discoverable": true,
@@ -2637,7 +2606,7 @@
       "revenuePerDay": 6.53,
       "avgPrice": 49,
       "daysRemaining": 195,
-      "orderByDate": "2027-04-02T11:38:05.585Z",
+      "orderByDate": "2027-04-02T17:59:32.640Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -2658,25 +2627,25 @@
       "productName": "Lunar Simulated Soil Display Jars | Artemis and Apollo: The Moon in the Palm of Your Hand | Sealed Scientific Display for Collectors, Educators and Space Enthusiasts – Not a Toy",
       "totalQuantity": 12,
       "lastUpdatedTime": "2026-10-14T03:21:42Z",
-      "unitsSold30d": 3,
-      "revenue30d": 123.9,
-      "velocity": 0.1,
-      "revenuePerDay": 4.13,
-      "avgPrice": 41.3,
-      "daysRemaining": 120,
-      "orderByDate": "2027-01-17T11:38:05.585Z",
-      "recommendedQty": 9,
+      "unitsSold30d": 2,
+      "revenue30d": 81.9,
+      "velocity": 0.067,
+      "revenuePerDay": 2.73,
+      "avgPrice": 40.95,
+      "daysRemaining": 180,
+      "orderByDate": "2027-03-18T17:59:32.640Z",
+      "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 12,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 10.84,
-        "referralFee": 6.2,
+        "totalFees": 10.78,
+        "referralFee": 6.14,
         "fbaFee": 4.64,
-        "referralRate": 0.1501,
-        "netAfterFees": 30.46,
-        "atPrice": 41.3
+        "referralRate": 0.1499,
+        "netAfterFees": 30.17,
+        "atPrice": 40.95
       }
     },
     {
@@ -2737,7 +2706,7 @@
       "revenuePerDay": 2.19,
       "avgPrice": 65.55,
       "daysRemaining": 930,
-      "orderByDate": "2029-04-06T11:38:05.585Z",
+      "orderByDate": "2029-04-06T17:59:32.640Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2818,7 +2787,7 @@
       "revenuePerDay": 12.82,
       "avgPrice": 48.08,
       "daysRemaining": 116,
-      "orderByDate": "2027-01-13T11:38:05.585Z",
+      "orderByDate": "2027-01-13T17:59:32.640Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "discoverable": true,
@@ -2845,7 +2814,7 @@
       "revenuePerDay": 6.53,
       "avgPrice": 196,
       "daysRemaining": 540,
-      "orderByDate": "2028-03-12T11:38:05.585Z",
+      "orderByDate": "2028-03-12T17:59:32.640Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2902,27 +2871,27 @@
       "asin": "B0GPK3NCFR",
       "sellerSku": "VM-8X3M-SECN",
       "productName": "Jezero Delta Simulant (JEZ 1), Mars Soil Simulant and Martian Regolith Analog from the Perseverance Jezero Landing Site, for Laboratory Research and Hardware Testing",
-      "totalQuantity": 5,
-      "lastUpdatedTime": "2026-10-19T07:08:22Z",
+      "totalQuantity": 4,
+      "lastUpdatedTime": "2026-10-19T16:02:50Z",
       "unitsSold30d": 2,
-      "revenue30d": 69,
+      "revenue30d": 138,
       "velocity": 0.067,
-      "revenuePerDay": 2.3,
-      "avgPrice": 34.5,
-      "daysRemaining": 75,
-      "orderByDate": "2026-12-03T11:38:05.585Z",
+      "revenuePerDay": 4.6,
+      "avgPrice": 69,
+      "daysRemaining": 60,
+      "orderByDate": "2026-11-18T17:59:32.640Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 3,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 11.69,
-        "referralFee": 5.18,
-        "fbaFee": 6.51,
-        "referralRate": 0.1501,
-        "netAfterFees": 22.81,
-        "atPrice": 34.5
+        "totalFees": 17.13,
+        "referralFee": 10.35,
+        "fbaFee": 6.78,
+        "referralRate": 0.15,
+        "netAfterFees": 51.87,
+        "atPrice": 69
       }
     },
     {
@@ -2930,7 +2899,7 @@
       "sellerSku": "WT-YT56-01YK",
       "productName": "Martian Simulated Soil Display Jars | Curiosity and Perseverance: Mars in the Palm of Your Hand | Sealed Scientific Display for Collectors, Educators and Space Enthusiasts – Not a Toy",
       "totalQuantity": 17,
-      "lastUpdatedTime": "2026-10-04T12:53:26Z",
+      "lastUpdatedTime": "2026-10-19T15:30:19Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
