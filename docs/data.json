@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T02:25:32.694Z",
+  "lastUpdated": "2026-10-25T10:26:04.559Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -7,14 +7,14 @@
       "sellerSku": "0W-3LJZ-W9LO",
       "condition": "NewItem",
       "inventoryDetails": {
-        "fulfillableQuantity": 1,
+        "fulfillableQuantity": 5,
         "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 21,
         "reservedQuantity": {
-          "totalReservedQuantity": 27,
+          "totalReservedQuantity": 23,
           "pendingCustomerOrderQuantity": 0,
-          "pendingTransshipmentQuantity": 27,
+          "pendingTransshipmentQuantity": 23,
           "fcProcessingQuantity": 0
         },
         "researchingQuantity": {
@@ -48,7 +48,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-10-24T02:03:03Z",
+      "lastUpdatedTime": "2026-10-25T04:40:20Z",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (Five Kilograms)",
       "totalQuantity": 49,
       "stores": []
@@ -191,7 +191,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-10-24T21:02:05Z",
+      "lastUpdatedTime": "2026-10-25T09:34:43Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (Five Kilograms)",
       "totalQuantity": 26,
       "stores": []
@@ -1166,7 +1166,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-10-10T05:48:10Z",
+      "lastUpdatedTime": "2026-10-25T08:26:51Z",
       "productName": "Lunar Highlands Regolith Simulant LHS-1 – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (Five Kilograms)",
       "totalQuantity": 20,
       "stores": []
@@ -2332,7 +2332,7 @@
       "sellerSku": "0W-3LJZ-W9LO",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (Five Kilograms)",
       "totalQuantity": 49,
-      "lastUpdatedTime": "2026-10-24T02:03:03Z",
+      "lastUpdatedTime": "2026-10-25T04:40:20Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -2343,7 +2343,7 @@
       "recommendedQty": null,
       "urgency": "no-sales",
       "discoverable": true,
-      "fulfillableQty": 1,
+      "fulfillableQty": 5,
       "inboundWorkingQty": 0
     },
     {
@@ -2385,7 +2385,7 @@
       "revenuePerDay": 25.07,
       "avgPrice": 68.37,
       "daysRemaining": 182,
-      "orderByDate": "2027-03-26T02:25:32.186Z",
+      "orderByDate": "2027-03-26T10:26:04.082Z",
       "recommendedQty": 33,
       "urgency": "ok",
       "discoverable": true,
@@ -2405,7 +2405,7 @@
       "sellerSku": "2I-VCYM-TCVD",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (Five Kilograms)",
       "totalQuantity": 26,
-      "lastUpdatedTime": "2026-10-24T21:02:05Z",
+      "lastUpdatedTime": "2026-10-25T09:34:43Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -2450,7 +2450,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 196,
       "daysRemaining": 255,
-      "orderByDate": "2027-06-07T02:25:32.186Z",
+      "orderByDate": "2027-06-07T10:26:04.082Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2496,7 +2496,7 @@
       "revenuePerDay": 17.94,
       "avgPrice": 67.28,
       "daysRemaining": 191,
-      "orderByDate": "2027-04-04T02:25:32.186Z",
+      "orderByDate": "2027-04-04T10:26:04.082Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "discoverable": true,
@@ -2523,7 +2523,7 @@
       "revenuePerDay": 6.53,
       "avgPrice": 49,
       "daysRemaining": 255,
-      "orderByDate": "2027-06-07T02:25:32.186Z",
+      "orderByDate": "2027-06-07T10:26:04.082Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -2550,7 +2550,7 @@
       "revenuePerDay": 2.73,
       "avgPrice": 40.95,
       "daysRemaining": 180,
-      "orderByDate": "2027-03-24T02:25:32.186Z",
+      "orderByDate": "2027-03-24T10:26:04.082Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2623,7 +2623,7 @@
       "revenuePerDay": 2.19,
       "avgPrice": 65.55,
       "daysRemaining": 930,
-      "orderByDate": "2029-04-12T02:25:32.186Z",
+      "orderByDate": "2029-04-12T10:26:04.082Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2704,7 +2704,7 @@
       "revenuePerDay": 8,
       "avgPrice": 48.02,
       "daysRemaining": 372,
-      "orderByDate": "2027-10-02T02:25:32.186Z",
+      "orderByDate": "2027-10-02T10:26:04.082Z",
       "recommendedQty": 15,
       "urgency": "ok",
       "discoverable": true,
@@ -2731,7 +2731,7 @@
       "revenuePerDay": 6.53,
       "avgPrice": 98,
       "daysRemaining": 270,
-      "orderByDate": "2027-06-22T02:25:32.186Z",
+      "orderByDate": "2027-06-22T10:26:04.082Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2796,7 +2796,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 120,
-      "orderByDate": "2027-01-23T02:25:32.186Z",
+      "orderByDate": "2027-01-23T10:26:04.082Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2873,7 +2873,7 @@
       "sellerSku": "Y4-I0WQ-45K9",
       "productName": "Lunar Highlands Regolith Simulant LHS-1 – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (Five Kilograms)",
       "totalQuantity": 20,
-      "lastUpdatedTime": "2026-10-10T05:48:10Z",
+      "lastUpdatedTime": "2026-10-25T08:26:51Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
