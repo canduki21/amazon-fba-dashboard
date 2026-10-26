@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T11:55:26.706Z",
+  "lastUpdated": "2026-10-26T17:59:11.030Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -48,7 +48,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-10-26T10:55:12Z",
+      "lastUpdatedTime": "2026-10-26T17:11:45Z",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (Five Kilograms)",
       "totalQuantity": 49,
       "stores": []
@@ -139,7 +139,7 @@
           "futureSupplyBuyableQuantity": 32
         }
       },
-      "lastUpdatedTime": "2026-10-25T22:44:07Z",
+      "lastUpdatedTime": "2026-10-26T13:05:59Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 67,
       "stores": []
@@ -722,15 +722,15 @@
       "sellerSku": "LE-M9RA-IUOW",
       "condition": "NewItem",
       "inventoryDetails": {
-        "fulfillableQuantity": 30,
+        "fulfillableQuantity": 29,
         "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 32,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 0,
+          "totalReservedQuantity": 1,
           "pendingCustomerOrderQuantity": 0,
           "pendingTransshipmentQuantity": 0,
-          "fcProcessingQuantity": 0
+          "fcProcessingQuantity": 1
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
@@ -763,7 +763,7 @@
           "futureSupplyBuyableQuantity": 32
         }
       },
-      "lastUpdatedTime": "2026-10-24T00:41:08Z",
+      "lastUpdatedTime": "2026-10-26T16:50:13Z",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 62,
       "stores": []
@@ -2319,6 +2319,37 @@
       "IsGlobalExpressEnabled": false,
       "LastUpdateDate": "2026-10-25T15:14:49Z",
       "ShipmentServiceLevelCategory": "Standard"
+    },
+    {
+      "BuyerInfo": {},
+      "AmazonOrderId": "113-3948196-9604247",
+      "EarliestShipDate": "2026-10-27T06:59:59Z",
+      "SalesChannel": "Amazon.com",
+      "OrderStatus": "Pending",
+      "NumberOfItemsShipped": 0,
+      "OrderType": "StandardOrder",
+      "IsPremiumOrder": false,
+      "IsPrime": false,
+      "FulfillmentChannel": "AFN",
+      "NumberOfItemsUnshipped": 1,
+      "HasRegulatedItems": false,
+      "IsReplacementOrder": "false",
+      "IsSoldByAB": false,
+      "LatestShipDate": "2026-10-27T06:59:59Z",
+      "ShipServiceLevel": "Expedited",
+      "IsISPU": false,
+      "MarketplaceId": "ATVPDKIKX0DER",
+      "PurchaseDate": "2026-10-26T16:38:45Z",
+      "IsAccessPointOrder": false,
+      "SellerOrderId": "113-3948196-9604247",
+      "PaymentMethod": "Other",
+      "IsBusinessOrder": false,
+      "PaymentMethodDetails": [
+        "Standard"
+      ],
+      "IsGlobalExpressEnabled": false,
+      "LastUpdateDate": "2026-10-26T16:38:49Z",
+      "ShipmentServiceLevelCategory": "Expedited"
     }
   ],
   "predictions": [
@@ -2327,7 +2358,7 @@
       "sellerSku": "0W-3LJZ-W9LO",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (Five Kilograms)",
       "totalQuantity": 49,
-      "lastUpdatedTime": "2026-10-26T10:55:12Z",
+      "lastUpdatedTime": "2026-10-26T17:11:45Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -2373,14 +2404,14 @@
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 67,
-      "lastUpdatedTime": "2026-10-25T22:44:07Z",
+      "lastUpdatedTime": "2026-10-26T13:05:59Z",
       "unitsSold30d": 10,
       "revenue30d": 686.55,
       "velocity": 0.333,
       "revenuePerDay": 22.88,
       "avgPrice": 68.66,
       "daysRemaining": 201,
-      "orderByDate": "2027-04-15T11:55:26.183Z",
+      "orderByDate": "2027-04-15T17:59:10.610Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "discoverable": true,
@@ -2445,7 +2476,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 196,
       "daysRemaining": 255,
-      "orderByDate": "2027-06-08T11:55:26.183Z",
+      "orderByDate": "2027-06-08T17:59:10.610Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2491,7 +2522,7 @@
       "revenuePerDay": 15.75,
       "avgPrice": 67.52,
       "daysRemaining": 218,
-      "orderByDate": "2027-05-02T11:55:26.184Z",
+      "orderByDate": "2027-05-02T17:59:10.610Z",
       "recommendedQty": 21,
       "urgency": "ok",
       "discoverable": true,
@@ -2518,7 +2549,7 @@
       "revenuePerDay": 4.9,
       "avgPrice": 36.75,
       "daysRemaining": 255,
-      "orderByDate": "2027-06-08T11:55:26.184Z",
+      "orderByDate": "2027-06-08T17:59:10.610Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -2545,7 +2576,7 @@
       "revenuePerDay": 2.73,
       "avgPrice": 40.95,
       "daysRemaining": 180,
-      "orderByDate": "2027-03-25T11:55:26.184Z",
+      "orderByDate": "2027-03-25T17:59:10.610Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2618,7 +2649,7 @@
       "revenuePerDay": 2.19,
       "avgPrice": 65.55,
       "daysRemaining": 930,
-      "orderByDate": "2029-04-13T11:55:26.184Z",
+      "orderByDate": "2029-04-13T17:59:10.610Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2679,12 +2710,12 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 13.92,
-        "referralFee": 7.2,
+        "totalFees": 12.72,
+        "referralFee": 6,
         "fbaFee": 6.72,
         "referralRate": 0.1499,
-        "netAfterFees": 34.1,
-        "atPrice": 48.02
+        "netAfterFees": 27.3,
+        "atPrice": 40.02
       }
     },
     {
@@ -2692,26 +2723,26 @@
       "sellerSku": "LE-M9RA-IUOW",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 62,
-      "lastUpdatedTime": "2026-10-24T00:41:08Z",
-      "unitsSold30d": 5,
+      "lastUpdatedTime": "2026-10-26T16:50:13Z",
+      "unitsSold30d": 6,
       "revenue30d": 240.1,
-      "velocity": 0.167,
+      "velocity": 0.2,
       "revenuePerDay": 8,
-      "avgPrice": 48.02,
-      "daysRemaining": 372,
-      "orderByDate": "2027-10-03T11:55:26.184Z",
-      "recommendedQty": 15,
+      "avgPrice": 40.02,
+      "daysRemaining": 310,
+      "orderByDate": "2027-08-02T17:59:10.610Z",
+      "recommendedQty": 18,
       "urgency": "ok",
       "discoverable": true,
-      "fulfillableQty": 30,
+      "fulfillableQty": 29,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 13.92,
-        "referralFee": 7.2,
+        "totalFees": 12.72,
+        "referralFee": 6,
         "fbaFee": 6.72,
         "referralRate": 0.1499,
-        "netAfterFees": 34.1,
-        "atPrice": 48.02
+        "netAfterFees": 27.3,
+        "atPrice": 40.02
       }
     },
     {
@@ -2726,7 +2757,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 196,
       "daysRemaining": 270,
-      "orderByDate": "2027-06-23T11:55:26.184Z",
+      "orderByDate": "2027-06-23T17:59:10.610Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2791,7 +2822,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 120,
-      "orderByDate": "2027-01-24T11:55:26.184Z",
+      "orderByDate": "2027-01-24T17:59:10.610Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
