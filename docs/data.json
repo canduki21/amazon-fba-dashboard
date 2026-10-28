@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T17:40:40.375Z",
+  "lastUpdated": "2026-10-28T22:01:11.755Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -7,14 +7,14 @@
       "sellerSku": "0W-3LJZ-W9LO",
       "condition": "NewItem",
       "inventoryDetails": {
-        "fulfillableQuantity": 5,
+        "fulfillableQuantity": 8,
         "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 17,
         "reservedQuantity": {
-          "totalReservedQuantity": 27,
+          "totalReservedQuantity": 24,
           "pendingCustomerOrderQuantity": 0,
-          "pendingTransshipmentQuantity": 7,
+          "pendingTransshipmentQuantity": 4,
           "fcProcessingQuantity": 20
         },
         "researchingQuantity": {
@@ -48,7 +48,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-10-27T02:36:26Z",
+      "lastUpdatedTime": "2026-10-28T18:34:22Z",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (Five Kilograms)",
       "totalQuantity": 49,
       "stores": []
@@ -2341,7 +2341,7 @@
       "sellerSku": "0W-3LJZ-W9LO",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (Five Kilograms)",
       "totalQuantity": 49,
-      "lastUpdatedTime": "2026-10-27T02:36:26Z",
+      "lastUpdatedTime": "2026-10-28T18:34:22Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -2352,7 +2352,7 @@
       "recommendedQty": null,
       "urgency": "no-sales",
       "discoverable": true,
-      "fulfillableQty": 5,
+      "fulfillableQty": 8,
       "inboundWorkingQty": 0
     },
     {
@@ -2394,7 +2394,7 @@
       "revenuePerDay": 22.88,
       "avgPrice": 68.66,
       "daysRemaining": 201,
-      "orderByDate": "2027-04-17T17:40:39.841Z",
+      "orderByDate": "2027-04-17T22:01:11.417Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "discoverable": true,
@@ -2459,7 +2459,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 196,
       "daysRemaining": 255,
-      "orderByDate": "2027-06-10T17:40:39.841Z",
+      "orderByDate": "2027-06-10T22:01:11.417Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2505,7 +2505,7 @@
       "revenuePerDay": 15.75,
       "avgPrice": 67.52,
       "daysRemaining": 218,
-      "orderByDate": "2027-05-04T17:40:39.841Z",
+      "orderByDate": "2027-05-04T22:01:11.417Z",
       "recommendedQty": 21,
       "urgency": "ok",
       "discoverable": true,
@@ -2532,7 +2532,7 @@
       "revenuePerDay": 6.53,
       "avgPrice": 49,
       "daysRemaining": 247,
-      "orderByDate": "2027-06-02T17:40:39.841Z",
+      "orderByDate": "2027-06-02T22:01:11.417Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -2559,7 +2559,7 @@
       "revenuePerDay": 2.73,
       "avgPrice": 40.95,
       "daysRemaining": 180,
-      "orderByDate": "2027-03-27T17:40:39.841Z",
+      "orderByDate": "2027-03-27T22:01:11.417Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2632,7 +2632,7 @@
       "revenuePerDay": 2.19,
       "avgPrice": 65.55,
       "daysRemaining": 930,
-      "orderByDate": "2029-04-15T17:40:39.841Z",
+      "orderByDate": "2029-04-15T22:01:11.417Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2713,7 +2713,7 @@
       "revenuePerDay": 8,
       "avgPrice": 48.02,
       "daysRemaining": 366,
-      "orderByDate": "2027-09-29T17:40:39.841Z",
+      "orderByDate": "2027-09-29T22:01:11.417Z",
       "recommendedQty": 15,
       "urgency": "ok",
       "discoverable": true,
@@ -2740,7 +2740,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 196,
       "daysRemaining": 255,
-      "orderByDate": "2027-06-10T17:40:39.841Z",
+      "orderByDate": "2027-06-10T22:01:11.417Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2805,7 +2805,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 120,
-      "orderByDate": "2027-01-26T17:40:39.841Z",
+      "orderByDate": "2027-01-26T22:01:11.417Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
