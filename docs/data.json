@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T17:29:23.288Z",
+  "lastUpdated": "2026-10-30T21:49:16.174Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -1214,88 +1214,6 @@
   "orders": [
     {
       "BuyerInfo": {},
-      "AmazonOrderId": "112-0661255-7629008",
-      "EarliestShipDate": "2026-10-07T06:59:59Z",
-      "SalesChannel": "Amazon.com",
-      "OrderStatus": "Shipped",
-      "NumberOfItemsShipped": 1,
-      "OrderType": "StandardOrder",
-      "IsPremiumOrder": false,
-      "IsPrime": false,
-      "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 0,
-      "HasRegulatedItems": false,
-      "IsReplacementOrder": "false",
-      "IsSoldByAB": false,
-      "LatestShipDate": "2026-10-07T06:59:59Z",
-      "ShipServiceLevel": "Expedited",
-      "IsISPU": false,
-      "MarketplaceId": "ATVPDKIKX0DER",
-      "PurchaseDate": "2026-09-30T19:48:36Z",
-      "ShippingAddress": {
-        "StateOrRegion": "TX",
-        "CompanyName": "C. LOWE FOR ADALYNN HOWIE",
-        "City": "SEABROOK",
-        "CountryCode": "US"
-      },
-      "IsAccessPointOrder": false,
-      "SellerOrderId": "112-0661255-7629008",
-      "PaymentMethod": "Other",
-      "IsBusinessOrder": true,
-      "OrderTotal": {
-        "CurrencyCode": "USD",
-        "Amount": "46.55"
-      },
-      "PaymentMethodDetails": [
-        "Invoice"
-      ],
-      "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-10-09T00:34:48Z",
-      "ShipmentServiceLevelCategory": "Expedited"
-    },
-    {
-      "BuyerInfo": {},
-      "AmazonOrderId": "111-7238005-1652204",
-      "EarliestShipDate": "2026-10-12T06:59:59Z",
-      "SalesChannel": "Amazon.com",
-      "OrderStatus": "Shipped",
-      "NumberOfItemsShipped": 1,
-      "OrderType": "StandardOrder",
-      "IsPremiumOrder": false,
-      "IsPrime": false,
-      "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 0,
-      "HasRegulatedItems": false,
-      "IsReplacementOrder": "false",
-      "IsSoldByAB": false,
-      "LatestShipDate": "2026-10-12T06:59:59Z",
-      "ShipServiceLevel": "Standard",
-      "IsISPU": false,
-      "MarketplaceId": "ATVPDKIKX0DER",
-      "PurchaseDate": "2026-09-30T20:13:43Z",
-      "ShippingAddress": {
-        "StateOrRegion": "TX",
-        "CompanyName": "S. WARD FOR SARA KATUWAL",
-        "City": "LEAGUE CITY",
-        "CountryCode": "US"
-      },
-      "IsAccessPointOrder": false,
-      "SellerOrderId": "111-7238005-1652204",
-      "PaymentMethod": "Other",
-      "IsBusinessOrder": true,
-      "OrderTotal": {
-        "CurrencyCode": "USD",
-        "Amount": "65.55"
-      },
-      "PaymentMethodDetails": [
-        "Invoice"
-      ],
-      "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-10-12T21:09:03Z",
-      "ShipmentServiceLevelCategory": "Standard"
-    },
-    {
-      "BuyerInfo": {},
       "AmazonOrderId": "114-7421948-6137002",
       "EarliestShipDate": "2026-10-03T06:59:59Z",
       "SalesChannel": "Amazon.com",
@@ -2324,7 +2242,15 @@
       "urgency": "out-of-stock",
       "discoverable": false,
       "fulfillableQty": 0,
-      "inboundWorkingQty": 0
+      "inboundWorkingQty": 0,
+      "fees": {
+        "totalFees": 16.13,
+        "referralFee": 9.14,
+        "fbaFee": 6.99,
+        "referralRate": 0.15,
+        "netAfterFees": 44.82,
+        "atPrice": 60.95
+      }
     },
     {
       "asin": "B0D94YYYG7",
@@ -2338,12 +2264,20 @@
       "revenuePerDay": 18.29,
       "avgPrice": 60.95,
       "daysRemaining": 220,
-      "orderByDate": "2027-05-08T17:29:22.845Z",
+      "orderByDate": "2027-05-08T21:49:15.706Z",
       "recommendedQty": 27,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 8,
-      "inboundWorkingQty": 0
+      "inboundWorkingQty": 0,
+      "fees": {
+        "totalFees": 16.13,
+        "referralFee": 9.14,
+        "fbaFee": 6.99,
+        "referralRate": 0.15,
+        "netAfterFees": 44.82,
+        "atPrice": 60.95
+      }
     },
     {
       "asin": "B0HHFQM45L",
@@ -2395,7 +2329,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 196,
       "daysRemaining": 420,
-      "orderByDate": "2027-11-24T17:29:22.845Z",
+      "orderByDate": "2027-11-24T21:49:15.706Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2435,25 +2369,25 @@
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 37,
       "lastUpdatedTime": "2026-10-30T06:29:26Z",
-      "unitsSold30d": 7,
-      "revenue30d": 472.65,
-      "velocity": 0.233,
-      "revenuePerDay": 15.75,
-      "avgPrice": 67.52,
-      "daysRemaining": 158,
-      "orderByDate": "2027-03-07T17:29:22.845Z",
-      "recommendedQty": 21,
+      "unitsSold30d": 6,
+      "revenue30d": 407.1,
+      "velocity": 0.2,
+      "revenuePerDay": 13.57,
+      "avgPrice": 67.85,
+      "daysRemaining": 185,
+      "orderByDate": "2027-04-03T21:49:15.706Z",
+      "recommendedQty": 18,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 7,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 16.91,
-        "referralFee": 10.13,
+        "totalFees": 16.96,
+        "referralFee": 10.18,
         "fbaFee": 6.78,
         "referralRate": 0.15,
-        "netAfterFees": 50.61,
-        "atPrice": 67.52
+        "netAfterFees": 50.89,
+        "atPrice": 67.85
       }
     },
     {
@@ -2468,7 +2402,7 @@
       "revenuePerDay": 6.53,
       "avgPrice": 49,
       "daysRemaining": 247,
-      "orderByDate": "2027-06-04T17:29:22.845Z",
+      "orderByDate": "2027-06-04T21:49:15.706Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -2495,12 +2429,20 @@
       "revenuePerDay": 1.33,
       "avgPrice": 39.9,
       "daysRemaining": 360,
-      "orderByDate": "2027-09-25T17:29:22.845Z",
+      "orderByDate": "2027-09-25T21:49:15.706Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 12,
-      "inboundWorkingQty": 0
+      "inboundWorkingQty": 0,
+      "fees": {
+        "totalFees": 10.63,
+        "referralFee": 5.99,
+        "fbaFee": 4.64,
+        "referralRate": 0.1501,
+        "netAfterFees": 29.27,
+        "atPrice": 39.9
+      }
     },
     {
       "asin": "B0FVGX8LVQ",
@@ -2560,7 +2502,7 @@
       "revenuePerDay": 2.19,
       "avgPrice": 65.55,
       "daysRemaining": 930,
-      "orderByDate": "2029-04-17T17:29:22.845Z",
+      "orderByDate": "2029-04-17T21:49:15.707Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2621,12 +2563,12 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 13.92,
-        "referralFee": 7.2,
+        "totalFees": 13.98,
+        "referralFee": 7.26,
         "fbaFee": 6.72,
-        "referralRate": 0.1499,
-        "netAfterFees": 34.1,
-        "atPrice": 48.02
+        "referralRate": 0.15,
+        "netAfterFees": 34.41,
+        "atPrice": 48.39
       }
     },
     {
@@ -2635,25 +2577,25 @@
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 61,
       "lastUpdatedTime": "2026-10-30T09:23:19Z",
-      "unitsSold30d": 5,
-      "revenue30d": 240.1,
-      "velocity": 0.167,
-      "revenuePerDay": 8,
-      "avgPrice": 48.02,
-      "daysRemaining": 366,
-      "orderByDate": "2027-10-01T17:29:22.845Z",
-      "recommendedQty": 15,
+      "unitsSold30d": 4,
+      "revenue30d": 193.55,
+      "velocity": 0.133,
+      "revenuePerDay": 6.45,
+      "avgPrice": 48.39,
+      "daysRemaining": 457,
+      "orderByDate": "2027-12-31T21:49:15.707Z",
+      "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 29,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 13.92,
-        "referralFee": 7.2,
+        "totalFees": 13.98,
+        "referralFee": 7.26,
         "fbaFee": 6.72,
-        "referralRate": 0.1499,
-        "netAfterFees": 34.1,
-        "atPrice": 48.02
+        "referralRate": 0.15,
+        "netAfterFees": 34.41,
+        "atPrice": 48.39
       }
     },
     {
@@ -2668,7 +2610,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 196,
       "daysRemaining": 255,
-      "orderByDate": "2027-06-12T17:29:22.845Z",
+      "orderByDate": "2027-06-12T21:49:15.707Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2733,7 +2675,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 120,
-      "orderByDate": "2027-01-28T17:29:22.845Z",
+      "orderByDate": "2027-01-28T21:49:15.707Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2841,7 +2783,15 @@
       "urgency": "out-of-stock",
       "discoverable": false,
       "fulfillableQty": 0,
-      "inboundWorkingQty": 0
+      "inboundWorkingQty": 0,
+      "fees": {
+        "totalFees": 16.13,
+        "referralFee": 9.14,
+        "fbaFee": 6.99,
+        "referralRate": 0.15,
+        "netAfterFees": 44.82,
+        "atPrice": 60.95
+      }
     }
   ]
 }
