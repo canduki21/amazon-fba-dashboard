@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T21:30:24.021Z",
+  "lastUpdated": "2026-11-02T03:33:45.092Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -139,7 +139,7 @@
           "futureSupplyBuyableQuantity": 8
         }
       },
-      "lastUpdatedTime": "2026-11-01T19:19:33Z",
+      "lastUpdatedTime": "2026-11-01T23:49:20Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 66,
       "stores": []
@@ -153,12 +153,12 @@
         "fulfillableQuantity": 22,
         "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 0,
-        "inboundReceivingQuantity": 0,
+        "inboundReceivingQuantity": 4,
         "reservedQuantity": {
-          "totalReservedQuantity": 4,
+          "totalReservedQuantity": 0,
           "pendingCustomerOrderQuantity": 0,
           "pendingTransshipmentQuantity": 0,
-          "fcProcessingQuantity": 4
+          "fcProcessingQuantity": 0
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
@@ -191,7 +191,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-11-01T10:37:31Z",
+      "lastUpdatedTime": "2026-11-02T01:34:32Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (Five Kilograms)",
       "totalQuantity": 26,
       "stores": []
@@ -2106,14 +2106,14 @@
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 66,
-      "lastUpdatedTime": "2026-11-01T19:19:33Z",
+      "lastUpdatedTime": "2026-11-01T23:49:20Z",
       "unitsSold30d": 8,
       "revenue30d": 545.1,
       "velocity": 0.267,
       "revenuePerDay": 18.17,
       "avgPrice": 68.14,
       "daysRemaining": 247,
-      "orderByDate": "2027-06-06T21:30:23.543Z",
+      "orderByDate": "2027-06-07T03:33:44.550Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "discoverable": true,
@@ -2133,7 +2133,7 @@
       "sellerSku": "2I-VCYM-TCVD",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (Five Kilograms)",
       "totalQuantity": 26,
-      "lastUpdatedTime": "2026-11-01T10:37:31Z",
+      "lastUpdatedTime": "2026-11-02T01:34:32Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -2178,7 +2178,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 196,
       "daysRemaining": 420,
-      "orderByDate": "2027-11-26T21:30:23.543Z",
+      "orderByDate": "2027-11-27T03:33:44.550Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2224,7 +2224,7 @@
       "revenuePerDay": 13.57,
       "avgPrice": 67.85,
       "daysRemaining": 185,
-      "orderByDate": "2027-04-05T21:30:23.543Z",
+      "orderByDate": "2027-04-06T03:33:44.550Z",
       "recommendedQty": 18,
       "urgency": "ok",
       "discoverable": true,
@@ -2251,7 +2251,7 @@
       "revenuePerDay": 4.9,
       "avgPrice": 49,
       "daysRemaining": 330,
-      "orderByDate": "2027-08-28T21:30:23.543Z",
+      "orderByDate": "2027-08-29T03:33:44.550Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
@@ -2278,7 +2278,7 @@
       "revenuePerDay": 1.33,
       "avgPrice": 39.9,
       "daysRemaining": 360,
-      "orderByDate": "2027-09-27T21:30:23.543Z",
+      "orderByDate": "2027-09-28T03:33:44.550Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2351,7 +2351,7 @@
       "revenuePerDay": 2.19,
       "avgPrice": 65.55,
       "daysRemaining": 930,
-      "orderByDate": "2029-04-19T21:30:23.543Z",
+      "orderByDate": "2029-04-20T03:33:44.551Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2432,7 +2432,7 @@
       "revenuePerDay": 4.82,
       "avgPrice": 48.18,
       "daysRemaining": 610,
-      "orderByDate": "2028-06-03T21:30:23.543Z",
+      "orderByDate": "2028-06-04T03:33:44.551Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
@@ -2459,7 +2459,7 @@
       "revenuePerDay": 6.53,
       "avgPrice": 196,
       "daysRemaining": 510,
-      "orderByDate": "2028-02-24T21:30:23.543Z",
+      "orderByDate": "2028-02-25T03:33:44.551Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2524,7 +2524,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 120,
-      "orderByDate": "2027-01-30T21:30:23.543Z",
+      "orderByDate": "2027-01-31T03:33:44.551Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
