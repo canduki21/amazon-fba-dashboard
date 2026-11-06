@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T13:28:46.117Z",
+  "lastUpdated": "2026-11-06T22:33:06.905Z",
   "inventory": [
     {
       "asin": "B0D96SB2VQ",
@@ -58,7 +58,20 @@
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
-          "researchingQuantityBreakdown": []
+          "researchingQuantityBreakdown": [
+            {
+              "name": "researchingQuantityInShortTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInMidTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInLongTerm",
+              "quantity": 0
+            }
+          ]
         },
         "unfulfillableQuantity": {
           "totalUnfulfillableQuantity": 0,
@@ -74,7 +87,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "",
+      "lastUpdatedTime": "2026-11-06T15:35:24Z",
       "productName": "Lunar-Mare-Regolith-Simulant LMS-1 – Mondboden-Simulant für Forschung, Hardwaretests, Rover-Studien, Tests auf der Mondoberfläche und fortgeschrittene Ausbildung (fünf Kilogramm)",
       "totalQuantity": 0,
       "stores": []
@@ -136,7 +149,20 @@
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
-          "researchingQuantityBreakdown": []
+          "researchingQuantityBreakdown": [
+            {
+              "name": "researchingQuantityInShortTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInMidTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInLongTerm",
+              "quantity": 0
+            }
+          ]
         },
         "unfulfillableQuantity": {
           "totalUnfulfillableQuantity": 0,
@@ -152,7 +178,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "",
+      "lastUpdatedTime": "2026-11-06T15:35:19Z",
       "productName": "Mars Global Regolith-Simulant MGS-1 – Marsboden-Simulant für Forschung, Hardwaretests, Rover-Studien, ISRU-Forschung und fortgeschrittene Ausbildung (fünf Kilogramm)",
       "totalQuantity": 0,
       "stores": []
@@ -175,7 +201,20 @@
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
-          "researchingQuantityBreakdown": []
+          "researchingQuantityBreakdown": [
+            {
+              "name": "researchingQuantityInShortTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInMidTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInLongTerm",
+              "quantity": 0
+            }
+          ]
         },
         "unfulfillableQuantity": {
           "totalUnfulfillableQuantity": 0,
@@ -191,7 +230,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "",
+      "lastUpdatedTime": "2026-11-06T15:34:43Z",
       "productName": "Lunar-Mare-Regolith-Simulant in technischer Qualität LMS-1E – Nachfolger von JSC-1A, Mondboden-Simulant für Forschung, Hardwaretests, Mondstudien und technische Projekte (fünf Kilogramm) (LMS-1E)",
       "totalQuantity": 0,
       "stores": []
@@ -243,7 +282,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-09-29T16:53:54Z",
+      "lastUpdatedTime": "2026-11-06T15:35:13Z",
       "productName": "Lunar Highlands Regolith-Simulant in technischer Qualität LHS-1E – Mondboden-Simulant für Rover-Tests, Forschung, Hardwaretests und geotechnische Studien (1 Kilogramm)",
       "totalQuantity": 0,
       "stores": []
@@ -422,7 +461,20 @@
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
-          "researchingQuantityBreakdown": []
+          "researchingQuantityBreakdown": [
+            {
+              "name": "researchingQuantityInShortTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInMidTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInLongTerm",
+              "quantity": 0
+            }
+          ]
         },
         "unfulfillableQuantity": {
           "totalUnfulfillableQuantity": 0,
@@ -438,7 +490,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "",
+      "lastUpdatedTime": "2026-11-06T15:34:43Z",
       "productName": "Lunar-Mare-Regolith-Simulant in technischer Qualität LMS-1E – Nachfolger von JSC-1A, Mondboden-Simulant für Forschung, Hardwaretests, Mondstudien und technische Projekte (fünf Kilogramm) (LMS-1E)",
       "totalQuantity": 0,
       "stores": []
@@ -461,7 +513,20 @@
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
-          "researchingQuantityBreakdown": []
+          "researchingQuantityBreakdown": [
+            {
+              "name": "researchingQuantityInShortTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInMidTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInLongTerm",
+              "quantity": 0
+            }
+          ]
         },
         "unfulfillableQuantity": {
           "totalUnfulfillableQuantity": 0,
@@ -477,7 +542,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "",
+      "lastUpdatedTime": "2026-11-06T15:35:11Z",
       "productName": "Lunar Highlands Regolith-Simulant LHS-1 – Mondboden-Simulant für Rover-Tests, Forschung, Hardwaretests und geotechnische Studien (1 Kilogramm)",
       "totalQuantity": 0,
       "stores": []
@@ -529,7 +594,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-09-29T16:53:54Z",
+      "lastUpdatedTime": "2026-11-06T15:35:13Z",
       "productName": "Lunar Highlands Regolith-Simulant in technischer Qualität LHS-1E – Mondboden-Simulant für Rover-Tests, Forschung, Hardwaretests und geotechnische Studien (1 Kilogramm)",
       "totalQuantity": 0,
       "stores": []
@@ -552,7 +617,20 @@
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
-          "researchingQuantityBreakdown": []
+          "researchingQuantityBreakdown": [
+            {
+              "name": "researchingQuantityInShortTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInMidTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInLongTerm",
+              "quantity": 0
+            }
+          ]
         },
         "unfulfillableQuantity": {
           "totalUnfulfillableQuantity": 0,
@@ -568,7 +646,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "",
+      "lastUpdatedTime": "2026-11-06T15:34:51Z",
       "productName": "Lunar Highlands Regolith-Simulant in technischer Qualität LHS-1E – Mondboden-Simulant für Rover-Tests, Forschung, Hardwaretests und geotechnische Studien (fünf Kilogramm)",
       "totalQuantity": 0,
       "stores": []
@@ -708,7 +786,20 @@
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
-          "researchingQuantityBreakdown": []
+          "researchingQuantityBreakdown": [
+            {
+              "name": "researchingQuantityInShortTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInMidTerm",
+              "quantity": 0
+            },
+            {
+              "name": "researchingQuantityInLongTerm",
+              "quantity": 0
+            }
+          ]
         },
         "unfulfillableQuantity": {
           "totalUnfulfillableQuantity": 0,
@@ -724,7 +815,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "",
+      "lastUpdatedTime": "2026-11-06T15:34:57Z",
       "productName": "Lunar Highlands Regolith-Simulant LHS-1 – Mondboden-Simulant für Rover-Tests, Forschung, Hardwaretests und geotechnische Studien (fünf Kilogramm)",
       "totalQuantity": 0,
       "stores": []
@@ -756,7 +847,7 @@
       "sellerSku": "0W-3LJZ-W9LO",
       "productName": "Lunar-Mare-Regolith-Simulant LMS-1 – Mondboden-Simulant für Forschung, Hardwaretests, Rover-Studien, Tests auf der Mondoberfläche und fortgeschrittene Ausbildung (fünf Kilogramm)",
       "totalQuantity": 0,
-      "lastUpdatedTime": "",
+      "lastUpdatedTime": "2026-11-06T15:35:24Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -794,7 +885,7 @@
       "sellerSku": "2I-VCYM-TCVD",
       "productName": "Mars Global Regolith-Simulant MGS-1 – Marsboden-Simulant für Forschung, Hardwaretests, Rover-Studien, ISRU-Forschung und fortgeschrittene Ausbildung (fünf Kilogramm)",
       "totalQuantity": 0,
-      "lastUpdatedTime": "",
+      "lastUpdatedTime": "2026-11-06T15:35:19Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -813,7 +904,7 @@
       "sellerSku": "77-YDYA-GYCX",
       "productName": "Lunar-Mare-Regolith-Simulant in technischer Qualität LMS-1E – Nachfolger von JSC-1A, Mondboden-Simulant für Forschung, Hardwaretests, Mondstudien und technische Projekte (fünf Kilogramm) (LMS-1E)",
       "totalQuantity": 0,
-      "lastUpdatedTime": "",
+      "lastUpdatedTime": "2026-11-06T15:34:43Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -832,7 +923,7 @@
       "sellerSku": "A2-I008-68I8",
       "productName": "Lunar Highlands Regolith-Simulant in technischer Qualität LHS-1E – Mondboden-Simulant für Rover-Tests, Forschung, Hardwaretests und geotechnische Studien (1 Kilogramm)",
       "totalQuantity": 0,
-      "lastUpdatedTime": "2026-09-29T16:53:54Z",
+      "lastUpdatedTime": "2026-11-06T15:35:13Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -927,7 +1018,7 @@
       "sellerSku": "J3-W6H3-5H0P",
       "productName": "Lunar-Mare-Regolith-Simulant in technischer Qualität LMS-1E – Nachfolger von JSC-1A, Mondboden-Simulant für Forschung, Hardwaretests, Mondstudien und technische Projekte (fünf Kilogramm) (LMS-1E)",
       "totalQuantity": 0,
-      "lastUpdatedTime": "",
+      "lastUpdatedTime": "2026-11-06T15:34:43Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -946,7 +1037,7 @@
       "sellerSku": "LC-M9RA-IUOW",
       "productName": "Lunar Highlands Regolith-Simulant LHS-1 – Mondboden-Simulant für Rover-Tests, Forschung, Hardwaretests und geotechnische Studien (1 Kilogramm)",
       "totalQuantity": 0,
-      "lastUpdatedTime": "",
+      "lastUpdatedTime": "2026-11-06T15:35:11Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -965,7 +1056,7 @@
       "sellerSku": "LE-M9RA-IUOW",
       "productName": "Lunar Highlands Regolith-Simulant in technischer Qualität LHS-1E – Mondboden-Simulant für Rover-Tests, Forschung, Hardwaretests und geotechnische Studien (1 Kilogramm)",
       "totalQuantity": 0,
-      "lastUpdatedTime": "2026-09-29T16:53:54Z",
+      "lastUpdatedTime": "2026-11-06T15:35:13Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -984,7 +1075,7 @@
       "sellerSku": "LV-HT0X-91ID",
       "productName": "Lunar Highlands Regolith-Simulant in technischer Qualität LHS-1E – Mondboden-Simulant für Rover-Tests, Forschung, Hardwaretests und geotechnische Studien (fünf Kilogramm)",
       "totalQuantity": 0,
-      "lastUpdatedTime": "",
+      "lastUpdatedTime": "2026-11-06T15:34:51Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
@@ -1060,7 +1151,7 @@
       "sellerSku": "Y4-I0WQ-45K9",
       "productName": "Lunar Highlands Regolith-Simulant LHS-1 – Mondboden-Simulant für Rover-Tests, Forschung, Hardwaretests und geotechnische Studien (fünf Kilogramm)",
       "totalQuantity": 0,
-      "lastUpdatedTime": "",
+      "lastUpdatedTime": "2026-11-06T15:34:57Z",
       "unitsSold30d": 0,
       "revenue30d": 0,
       "velocity": 0,
