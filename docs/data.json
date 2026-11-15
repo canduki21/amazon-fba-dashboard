@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T03:56:27.794Z",
+  "lastUpdated": "2026-11-15T13:11:54.852Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -451,7 +451,7 @@
           "futureSupplyBuyableQuantity": 12
         }
       },
-      "lastUpdatedTime": "2026-11-14T22:57:09Z",
+      "lastUpdatedTime": "2026-11-15T08:10:32Z",
       "productName": "Lunar Mare Engineering Grade Regolith Simulant LMS-1E – JSC-1A Successor Moon Soil Simulant for Research, Hardware Testing, Lunar Studies, and Engineering Projects (1, Kilogram) (LMS-1E)",
       "totalQuantity": 31,
       "stores": []
@@ -1212,45 +1212,6 @@
     }
   ],
   "orders": [
-    {
-      "BuyerInfo": {},
-      "AmazonOrderId": "111-2786907-7058667",
-      "EarliestShipDate": "2026-10-17T06:59:59Z",
-      "SalesChannel": "Amazon.com",
-      "OrderStatus": "Shipped",
-      "NumberOfItemsShipped": 2,
-      "OrderType": "StandardOrder",
-      "IsPremiumOrder": false,
-      "IsPrime": false,
-      "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 0,
-      "HasRegulatedItems": false,
-      "IsReplacementOrder": "false",
-      "IsSoldByAB": false,
-      "LatestShipDate": "2026-10-17T06:59:59Z",
-      "ShipServiceLevel": "Expedited",
-      "IsISPU": false,
-      "MarketplaceId": "ATVPDKIKX0DER",
-      "PurchaseDate": "2026-10-16T07:05:15Z",
-      "ShippingAddress": {
-        "City": "Slussfors",
-        "CountryCode": "SE"
-      },
-      "IsAccessPointOrder": false,
-      "SellerOrderId": "111-2786907-7058667",
-      "PaymentMethod": "Other",
-      "IsBusinessOrder": false,
-      "OrderTotal": {
-        "CurrencyCode": "USD",
-        "Amount": "202.93"
-      },
-      "PaymentMethodDetails": [
-        "Standard"
-      ],
-      "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-10-17T15:29:27Z",
-      "ShipmentServiceLevelCategory": "Expedited"
-    },
     {
       "BuyerInfo": {},
       "AmazonOrderId": "112-3832379-0093857",
@@ -2574,12 +2535,12 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 17.12,
-        "referralFee": 10.13,
+        "totalFees": 17.08,
+        "referralFee": 10.09,
         "fbaFee": 6.99,
-        "referralRate": 0.1499,
-        "netAfterFees": 50.44,
-        "atPrice": 67.56
+        "referralRate": 0.15,
+        "netAfterFees": 50.2,
+        "atPrice": 67.28
       }
     },
     {
@@ -2588,25 +2549,25 @@
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 42,
       "lastUpdatedTime": "2026-11-14T22:56:21Z",
-      "unitsSold30d": 12,
-      "revenue30d": 810.75,
-      "velocity": 0.4,
-      "revenuePerDay": 27.02,
-      "avgPrice": 67.56,
-      "daysRemaining": 105,
-      "orderByDate": "2027-01-29T03:56:27.428Z",
-      "recommendedQty": 36,
+      "unitsSold30d": 10,
+      "revenue30d": 672.75,
+      "velocity": 0.333,
+      "revenuePerDay": 22.43,
+      "avgPrice": 67.28,
+      "daysRemaining": 126,
+      "orderByDate": "2027-02-19T13:11:54.521Z",
+      "recommendedQty": 30,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 19,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 17.12,
-        "referralFee": 10.13,
+        "totalFees": 17.08,
+        "referralFee": 10.09,
         "fbaFee": 6.99,
-        "referralRate": 0.1499,
-        "netAfterFees": 50.44,
-        "atPrice": 67.56
+        "referralRate": 0.15,
+        "netAfterFees": 50.2,
+        "atPrice": 67.28
       }
     },
     {
@@ -2697,7 +2658,7 @@
       "revenuePerDay": 9.2,
       "avgPrice": 69,
       "daysRemaining": 375,
-      "orderByDate": "2027-10-26T03:56:27.428Z",
+      "orderByDate": "2027-10-26T13:11:54.521Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -2717,14 +2678,14 @@
       "sellerSku": "BB-E2EI-16S3",
       "productName": "Lunar Mare Engineering Grade Regolith Simulant LMS-1E – JSC-1A Successor Moon Soil Simulant for Research, Hardware Testing, Lunar Studies, and Engineering Projects (1, Kilogram) (LMS-1E)",
       "totalQuantity": 31,
-      "lastUpdatedTime": "2026-11-14T22:57:09Z",
+      "lastUpdatedTime": "2026-11-15T08:10:32Z",
       "unitsSold30d": 4,
       "revenue30d": 147,
       "velocity": 0.133,
       "revenuePerDay": 4.9,
       "avgPrice": 36.75,
       "daysRemaining": 232,
-      "orderByDate": "2027-06-05T03:56:27.428Z",
+      "orderByDate": "2027-06-05T13:11:54.521Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -2816,7 +2777,7 @@
       "revenuePerDay": 6.79,
       "avgPrice": 67.85,
       "daysRemaining": 290,
-      "orderByDate": "2027-08-02T03:56:27.428Z",
+      "orderByDate": "2027-08-02T13:11:54.521Z",
       "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
@@ -2897,7 +2858,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 49,
       "daysRemaining": 225,
-      "orderByDate": "2027-05-29T03:56:27.428Z",
+      "orderByDate": "2027-05-29T13:11:54.521Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "discoverable": true,
@@ -2924,7 +2885,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 196,
       "daysRemaining": 240,
-      "orderByDate": "2027-06-13T03:56:27.428Z",
+      "orderByDate": "2027-06-13T13:11:54.521Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2989,7 +2950,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 120,
-      "orderByDate": "2027-02-13T03:56:27.428Z",
+      "orderByDate": "2027-02-13T13:11:54.521Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -3099,12 +3060,12 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 17.12,
-        "referralFee": 10.13,
+        "totalFees": 17.08,
+        "referralFee": 10.09,
         "fbaFee": 6.99,
-        "referralRate": 0.1499,
-        "netAfterFees": 50.44,
-        "atPrice": 67.56
+        "referralRate": 0.15,
+        "netAfterFees": 50.2,
+        "atPrice": 67.28
       }
     }
   ]
