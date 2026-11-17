@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T01:19:14.943Z",
+  "lastUpdated": "2026-11-17T15:13:02.733Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -103,10 +103,10 @@
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 9,
+          "totalReservedQuantity": 8,
           "pendingCustomerOrderQuantity": 0,
           "pendingTransshipmentQuantity": 8,
-          "fcProcessingQuantity": 1
+          "fcProcessingQuantity": 0
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 1,
@@ -139,9 +139,9 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-11-17T00:35:30Z",
+      "lastUpdatedTime": "2026-11-17T10:06:39Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
-      "totalQuantity": 26,
+      "totalQuantity": 25,
       "stores": []
     },
     {
@@ -722,7 +722,7 @@
       "sellerSku": "LE-M9RA-IUOW",
       "condition": "NewItem",
       "inventoryDetails": {
-        "fulfillableQuantity": 44,
+        "fulfillableQuantity": 52,
         "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
@@ -763,9 +763,9 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-11-14T13:43:19Z",
+      "lastUpdatedTime": "2026-11-17T08:48:57Z",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
-      "totalQuantity": 44,
+      "totalQuantity": 52,
       "stores": []
     },
     {
@@ -2545,13 +2545,13 @@
       "AmazonOrderId": "111-0442320-1021823",
       "EarliestShipDate": "2026-11-17T07:59:59Z",
       "SalesChannel": "Amazon.com",
-      "OrderStatus": "Pending",
-      "NumberOfItemsShipped": 0,
+      "OrderStatus": "Shipped",
+      "NumberOfItemsShipped": 1,
       "OrderType": "StandardOrder",
       "IsPremiumOrder": false,
       "IsPrime": false,
       "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 1,
+      "NumberOfItemsUnshipped": 0,
       "HasRegulatedItems": false,
       "IsReplacementOrder": "false",
       "IsSoldByAB": false,
@@ -2560,15 +2560,23 @@
       "IsISPU": false,
       "MarketplaceId": "ATVPDKIKX0DER",
       "PurchaseDate": "2026-11-16T12:28:35Z",
+      "ShippingAddress": {
+        "City": "Luxembourg",
+        "CountryCode": "LU"
+      },
       "IsAccessPointOrder": false,
       "SellerOrderId": "111-0442320-1021823",
       "PaymentMethod": "Other",
       "IsBusinessOrder": false,
+      "OrderTotal": {
+        "CurrencyCode": "USD",
+        "Amount": "104.73"
+      },
       "PaymentMethodDetails": [
         "Standard"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-11-16T12:28:38Z",
+      "LastUpdateDate": "2026-11-17T10:05:45Z",
       "ShipmentServiceLevelCategory": "Expedited"
     }
   ],
@@ -2585,7 +2593,7 @@
       "revenuePerDay": 9.2,
       "avgPrice": 276,
       "daysRemaining": 330,
-      "orderByDate": "2027-09-13T01:19:14.540Z",
+      "orderByDate": "2027-09-13T15:13:02.444Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2619,39 +2627,39 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 16.21,
-        "referralFee": 9.22,
+        "totalFees": 17.15,
+        "referralFee": 10.16,
         "fbaFee": 6.99,
         "referralRate": 0.15,
-        "netAfterFees": 45.26,
-        "atPrice": 61.47
+        "netAfterFees": 50.6,
+        "atPrice": 67.75
       }
     },
     {
       "asin": "B0D94YYYG7",
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
-      "totalQuantity": 26,
-      "lastUpdatedTime": "2026-11-17T00:35:30Z",
+      "totalQuantity": 25,
+      "lastUpdatedTime": "2026-11-17T10:06:39Z",
       "unitsSold30d": 11,
-      "revenue30d": 676.2,
+      "revenue30d": 745.2,
       "velocity": 0.367,
-      "revenuePerDay": 22.54,
-      "avgPrice": 61.47,
-      "daysRemaining": 70,
-      "orderByDate": "2026-12-27T01:19:14.540Z",
+      "revenuePerDay": 24.84,
+      "avgPrice": 67.75,
+      "daysRemaining": 68,
+      "orderByDate": "2026-12-25T15:13:02.444Z",
       "recommendedQty": 33,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 17,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 16.21,
-        "referralFee": 9.22,
+        "totalFees": 17.15,
+        "referralFee": 10.16,
         "fbaFee": 6.99,
         "referralRate": 0.15,
-        "netAfterFees": 45.26,
-        "atPrice": 61.47
+        "netAfterFees": 50.6,
+        "atPrice": 67.75
       }
     },
     {
@@ -2742,7 +2750,7 @@
       "revenuePerDay": 9.2,
       "avgPrice": 69,
       "daysRemaining": 375,
-      "orderByDate": "2027-10-28T01:19:14.540Z",
+      "orderByDate": "2027-10-28T15:13:02.444Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -2769,7 +2777,7 @@
       "revenuePerDay": 6.47,
       "avgPrice": 48.51,
       "daysRemaining": 225,
-      "orderByDate": "2027-05-31T01:19:14.540Z",
+      "orderByDate": "2027-05-31T15:13:02.444Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -2861,7 +2869,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 435,
-      "orderByDate": "2027-12-27T01:19:14.540Z",
+      "orderByDate": "2027-12-27T15:13:02.444Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2934,19 +2942,19 @@
       "asin": "B0FM5NGXCW",
       "sellerSku": "LE-M9RA-IUOW",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
-      "totalQuantity": 44,
-      "lastUpdatedTime": "2026-11-14T13:43:19Z",
+      "totalQuantity": 52,
+      "lastUpdatedTime": "2026-11-17T08:48:57Z",
       "unitsSold30d": 8,
       "revenue30d": 392,
       "velocity": 0.267,
       "revenuePerDay": 13.07,
       "avgPrice": 49,
-      "daysRemaining": 165,
-      "orderByDate": "2027-04-01T01:19:14.540Z",
+      "daysRemaining": 195,
+      "orderByDate": "2027-05-01T15:13:02.444Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "discoverable": true,
-      "fulfillableQty": 44,
+      "fulfillableQty": 52,
       "inboundWorkingQty": 0,
       "fees": {
         "totalFees": 14.07,
@@ -2969,7 +2977,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 196,
       "daysRemaining": 240,
-      "orderByDate": "2027-06-15T01:19:14.540Z",
+      "orderByDate": "2027-06-15T15:13:02.444Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -3034,7 +3042,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 120,
-      "orderByDate": "2027-02-15T01:19:14.540Z",
+      "orderByDate": "2027-02-15T15:13:02.444Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -3118,7 +3126,7 @@
       "revenuePerDay": 9.2,
       "avgPrice": 276,
       "daysRemaining": 570,
-      "orderByDate": "2028-05-10T01:19:14.540Z",
+      "orderByDate": "2028-05-10T15:13:02.444Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -3152,12 +3160,12 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 16.21,
-        "referralFee": 9.22,
+        "totalFees": 17.15,
+        "referralFee": 10.16,
         "fbaFee": 6.99,
         "referralRate": 0.15,
-        "netAfterFees": 45.26,
-        "atPrice": 61.47
+        "netAfterFees": 50.6,
+        "atPrice": 67.75
       }
     }
   ]
