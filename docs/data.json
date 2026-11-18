@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T14:50:02.243Z",
+  "lastUpdated": "2026-11-18T23:43:04.611Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -139,7 +139,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-11-18T05:38:04Z",
+      "lastUpdatedTime": "2026-11-18T15:18:37Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 25,
       "stores": []
@@ -306,15 +306,15 @@
       "sellerSku": "A4-9EGF-MJ6Y",
       "condition": "NewItem",
       "inventoryDetails": {
-        "fulfillableQuantity": 6,
+        "fulfillableQuantity": 5,
         "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 0,
+          "totalReservedQuantity": 1,
           "pendingCustomerOrderQuantity": 0,
           "pendingTransshipmentQuantity": 0,
-          "fcProcessingQuantity": 0
+          "fcProcessingQuantity": 1
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
@@ -347,7 +347,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-11-12T08:48:20Z",
+      "lastUpdatedTime": "2026-11-18T22:57:21Z",
       "productName": "CI-E Carbonaceous Chondrite Simulant, Orgueil-Type Asteroid Regolith Analog for ISRU, Volatile Extraction and Geochemical Research",
       "totalQuantity": 6,
       "stores": []
@@ -399,7 +399,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-11-16T14:58:48Z",
+      "lastUpdatedTime": "2026-11-18T15:10:41Z",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 50,
       "stores": []
@@ -1212,46 +1212,6 @@
     }
   ],
   "orders": [
-    {
-      "BuyerInfo": {},
-      "AmazonOrderId": "111-7211464-6706638",
-      "EarliestShipDate": "2026-10-20T06:59:59Z",
-      "SalesChannel": "Amazon.com",
-      "OrderStatus": "Shipped",
-      "NumberOfItemsShipped": 1,
-      "OrderType": "StandardOrder",
-      "IsPremiumOrder": false,
-      "IsPrime": false,
-      "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 0,
-      "HasRegulatedItems": false,
-      "IsReplacementOrder": "false",
-      "IsSoldByAB": false,
-      "LatestShipDate": "2026-10-20T06:59:59Z",
-      "ShipServiceLevel": "Expedited",
-      "IsISPU": false,
-      "MarketplaceId": "ATVPDKIKX0DER",
-      "PurchaseDate": "2026-10-19T18:30:34Z",
-      "ShippingAddress": {
-        "StateOrRegion": "TX",
-        "City": "SUGAR LAND",
-        "CountryCode": "US"
-      },
-      "IsAccessPointOrder": false,
-      "SellerOrderId": "111-7211464-6706638",
-      "PaymentMethod": "Other",
-      "IsBusinessOrder": false,
-      "OrderTotal": {
-        "CurrencyCode": "USD",
-        "Amount": "74.69"
-      },
-      "PaymentMethodDetails": [
-        "Standard"
-      ],
-      "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-10-20T05:51:59Z",
-      "ShipmentServiceLevelCategory": "Expedited"
-    },
     {
       "BuyerInfo": {},
       "AmazonOrderId": "113-8130586-2314660",
@@ -2498,6 +2458,34 @@
       "IsGlobalExpressEnabled": false,
       "LastUpdateDate": "2026-11-17T10:05:45Z",
       "ShipmentServiceLevelCategory": "Expedited"
+    },
+    {
+      "BuyerInfo": {},
+      "AmazonOrderId": "113-2422777-5205838",
+      "EarliestShipDate": "2026-11-20T07:59:59Z",
+      "SalesChannel": "Amazon.com",
+      "OrderStatus": "Pending",
+      "NumberOfItemsShipped": 0,
+      "OrderType": "StandardOrder",
+      "IsPremiumOrder": false,
+      "IsPrime": false,
+      "FulfillmentChannel": "AFN",
+      "NumberOfItemsUnshipped": 1,
+      "HasRegulatedItems": false,
+      "IsReplacementOrder": "false",
+      "IsSoldByAB": false,
+      "LatestShipDate": "2026-11-20T07:59:59Z",
+      "ShipServiceLevel": "NextDay",
+      "IsISPU": false,
+      "MarketplaceId": "ATVPDKIKX0DER",
+      "PurchaseDate": "2026-11-18T22:15:55Z",
+      "IsAccessPointOrder": false,
+      "SellerOrderId": "113-2422777-5205838",
+      "PaymentMethod": "Other",
+      "IsBusinessOrder": false,
+      "IsGlobalExpressEnabled": false,
+      "LastUpdateDate": "2026-11-18T22:16:58Z",
+      "ShipmentServiceLevelCategory": "NextDay"
     }
   ],
   "predictions": [
@@ -2513,7 +2501,7 @@
       "revenuePerDay": 9.2,
       "avgPrice": 276,
       "daysRemaining": 330,
-      "orderByDate": "2027-09-14T14:50:01.836Z",
+      "orderByDate": "2027-09-14T23:43:04.240Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2560,14 +2548,14 @@
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 25,
-      "lastUpdatedTime": "2026-11-18T05:38:04Z",
+      "lastUpdatedTime": "2026-11-18T15:18:37Z",
       "unitsSold30d": 10,
       "revenue30d": 676.2,
       "velocity": 0.333,
       "revenuePerDay": 22.54,
       "avgPrice": 67.62,
       "daysRemaining": 75,
-      "orderByDate": "2027-01-02T14:50:01.836Z",
+      "orderByDate": "2027-01-02T23:43:04.240Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "discoverable": true,
@@ -2644,18 +2632,18 @@
       "sellerSku": "A4-9EGF-MJ6Y",
       "productName": "CI-E Carbonaceous Chondrite Simulant, Orgueil-Type Asteroid Regolith Analog for ISRU, Volatile Extraction and Geochemical Research",
       "totalQuantity": 6,
-      "lastUpdatedTime": "2026-11-12T08:48:20Z",
-      "unitsSold30d": 0,
+      "lastUpdatedTime": "2026-11-18T22:57:21Z",
+      "unitsSold30d": 1,
       "revenue30d": 0,
-      "velocity": 0,
+      "velocity": 0.033,
       "revenuePerDay": 0,
-      "avgPrice": null,
-      "daysRemaining": null,
-      "orderByDate": null,
-      "recommendedQty": null,
-      "urgency": "no-sales",
+      "avgPrice": 0,
+      "daysRemaining": 180,
+      "orderByDate": "2027-04-17T23:43:04.240Z",
+      "recommendedQty": 3,
+      "urgency": "ok",
       "discoverable": true,
-      "fulfillableQty": 6,
+      "fulfillableQty": 5,
       "inboundWorkingQty": 0
     },
     {
@@ -2663,15 +2651,15 @@
       "sellerSku": "B7-E2EI-16S3",
       "productName": "Lunar Mare Regolith Simulant LMS-1 – Moon Soil Simulant for Research, Hardware Testing, Rover Studies, Lunar Surface Testing, and Advanced Education (1, Kilogram)",
       "totalQuantity": 50,
-      "lastUpdatedTime": "2026-11-16T14:58:48Z",
-      "unitsSold30d": 4,
-      "revenue30d": 276,
-      "velocity": 0.133,
-      "revenuePerDay": 9.2,
+      "lastUpdatedTime": "2026-11-18T15:10:41Z",
+      "unitsSold30d": 3,
+      "revenue30d": 207,
+      "velocity": 0.1,
+      "revenuePerDay": 6.9,
       "avgPrice": 69,
-      "daysRemaining": 375,
-      "orderByDate": "2027-10-29T14:50:01.836Z",
-      "recommendedQty": 12,
+      "daysRemaining": 500,
+      "orderByDate": "2028-03-02T23:43:04.240Z",
+      "recommendedQty": 9,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 50,
@@ -2697,7 +2685,7 @@
       "revenuePerDay": 6.47,
       "avgPrice": 48.51,
       "daysRemaining": 225,
-      "orderByDate": "2027-06-01T14:50:01.836Z",
+      "orderByDate": "2027-06-01T23:43:04.240Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -2789,7 +2777,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 435,
-      "orderByDate": "2027-12-28T14:50:01.836Z",
+      "orderByDate": "2027-12-28T23:43:04.240Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2870,7 +2858,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 49,
       "daysRemaining": 195,
-      "orderByDate": "2027-05-02T14:50:01.836Z",
+      "orderByDate": "2027-05-02T23:43:04.240Z",
       "recommendedQty": 24,
       "urgency": "ok",
       "discoverable": true,
@@ -2897,7 +2885,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 196,
       "daysRemaining": 240,
-      "orderByDate": "2027-06-16T14:50:01.836Z",
+      "orderByDate": "2027-06-16T23:43:04.240Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -3038,7 +3026,7 @@
       "revenuePerDay": 9.2,
       "avgPrice": 276,
       "daysRemaining": 570,
-      "orderByDate": "2028-05-11T14:50:01.836Z",
+      "orderByDate": "2028-05-11T23:43:04.240Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
