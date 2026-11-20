@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T00:02:11.852Z",
+  "lastUpdated": "2026-11-20T14:38:37.979Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -98,22 +98,22 @@
       "sellerSku": "1N-OGY7-5MMW",
       "condition": "NewItem",
       "inventoryDetails": {
-        "fulfillableQuantity": 17,
+        "fulfillableQuantity": 23,
         "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 8,
+          "totalReservedQuantity": 2,
           "pendingCustomerOrderQuantity": 0,
           "pendingTransshipmentQuantity": 0,
-          "fcProcessingQuantity": 8
+          "fcProcessingQuantity": 2
         },
         "researchingQuantity": {
-          "totalResearchingQuantity": 1,
+          "totalResearchingQuantity": 0,
           "researchingQuantityBreakdown": [
             {
               "name": "researchingQuantityInShortTerm",
-              "quantity": 1
+              "quantity": 0
             },
             {
               "name": "researchingQuantityInMidTerm",
@@ -139,7 +139,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-11-19T12:40:12Z",
+      "lastUpdatedTime": "2026-11-20T11:37:05Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 25,
       "stores": []
@@ -150,13 +150,13 @@
       "sellerSku": "2I-VCYM-TCVD",
       "condition": "NewItem",
       "inventoryDetails": {
-        "fulfillableQuantity": 24,
+        "fulfillableQuantity": 23,
         "inboundWorkingQuantity": 0,
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 2,
-          "pendingCustomerOrderQuantity": 0,
+          "totalReservedQuantity": 3,
+          "pendingCustomerOrderQuantity": 1,
           "pendingTransshipmentQuantity": 2,
           "fcProcessingQuantity": 0
         },
@@ -191,7 +191,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-11-11T10:11:13Z",
+      "lastUpdatedTime": "2026-11-20T01:39:43Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (Five Kilograms)",
       "totalQuantity": 26,
       "stores": []
@@ -347,7 +347,7 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-11-18T22:57:21Z",
+      "lastUpdatedTime": "2026-11-20T05:12:35Z",
       "productName": "CI-E Carbonaceous Chondrite Simulant, Orgueil-Type Asteroid Regolith Analog for ISRU, Volatile Extraction and Geochemical Research",
       "totalQuantity": 6,
       "stores": []
@@ -373,11 +373,11 @@
           "researchingQuantityBreakdown": [
             {
               "name": "researchingQuantityInShortTerm",
-              "quantity": 1
+              "quantity": 0
             },
             {
               "name": "researchingQuantityInMidTerm",
-              "quantity": 0
+              "quantity": 1
             },
             {
               "name": "researchingQuantityInLongTerm",
@@ -633,7 +633,7 @@
           "futureSupplyBuyableQuantity": 11
         }
       },
-      "lastUpdatedTime": "2026-11-14T19:49:28Z",
+      "lastUpdatedTime": "2026-11-20T05:12:44Z",
       "productName": "Lunar Highlands Regolith Simulant LHS-1 – High-Fidelity Moon Soil Simulant for Research, Hardware Testing, Rover Studies, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 29,
       "stores": []
@@ -727,10 +727,10 @@
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 1,
+          "totalReservedQuantity": 0,
           "pendingCustomerOrderQuantity": 0,
           "pendingTransshipmentQuantity": 0,
-          "fcProcessingQuantity": 1
+          "fcProcessingQuantity": 0
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
@@ -763,9 +763,9 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-11-19T18:58:04Z",
+      "lastUpdatedTime": "2026-11-20T10:53:14Z",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
-      "totalQuantity": 52,
+      "totalQuantity": 51,
       "stores": []
     },
     {
@@ -2454,6 +2454,46 @@
       "AmazonOrderId": "114-6521094-2814669",
       "EarliestShipDate": "2026-11-20T07:59:59Z",
       "SalesChannel": "Amazon.com",
+      "OrderStatus": "Shipped",
+      "NumberOfItemsShipped": 1,
+      "OrderType": "StandardOrder",
+      "IsPremiumOrder": false,
+      "IsPrime": false,
+      "FulfillmentChannel": "AFN",
+      "NumberOfItemsUnshipped": 0,
+      "HasRegulatedItems": false,
+      "IsReplacementOrder": "false",
+      "IsSoldByAB": false,
+      "LatestShipDate": "2026-11-20T07:59:59Z",
+      "ShipServiceLevel": "Expedited",
+      "IsISPU": false,
+      "MarketplaceId": "ATVPDKIKX0DER",
+      "PurchaseDate": "2026-11-19T17:16:31Z",
+      "ShippingAddress": {
+        "StateOrRegion": "WY",
+        "City": "Carpenter",
+        "CountryCode": "US"
+      },
+      "IsAccessPointOrder": false,
+      "SellerOrderId": "114-6521094-2814669",
+      "PaymentMethod": "Other",
+      "IsBusinessOrder": false,
+      "OrderTotal": {
+        "CurrencyCode": "USD",
+        "Amount": "51.45"
+      },
+      "PaymentMethodDetails": [
+        "Standard"
+      ],
+      "IsGlobalExpressEnabled": false,
+      "LastUpdateDate": "2026-11-20T10:42:20Z",
+      "ShipmentServiceLevelCategory": "Expedited"
+    },
+    {
+      "BuyerInfo": {},
+      "AmazonOrderId": "113-5803464-1650601",
+      "EarliestShipDate": "2026-11-20T07:59:59Z",
+      "SalesChannel": "Amazon.com",
       "OrderStatus": "Pending",
       "NumberOfItemsShipped": 0,
       "OrderType": "StandardOrder",
@@ -2465,19 +2505,78 @@
       "IsReplacementOrder": "false",
       "IsSoldByAB": false,
       "LatestShipDate": "2026-11-20T07:59:59Z",
+      "ShipServiceLevel": "SecondDay",
+      "IsISPU": false,
+      "MarketplaceId": "ATVPDKIKX0DER",
+      "PurchaseDate": "2026-11-20T01:33:20Z",
+      "IsAccessPointOrder": false,
+      "SellerOrderId": "113-5803464-1650601",
+      "PaymentMethod": "Other",
+      "IsBusinessOrder": false,
+      "IsGlobalExpressEnabled": false,
+      "LastUpdateDate": "2026-11-20T01:34:23Z",
+      "ShipmentServiceLevelCategory": "SecondDay"
+    },
+    {
+      "BuyerInfo": {},
+      "AmazonOrderId": "114-5004368-6901807",
+      "EarliestShipDate": "2026-11-21T07:59:59Z",
+      "SalesChannel": "Amazon.com",
+      "OrderStatus": "Canceled",
+      "NumberOfItemsShipped": 0,
+      "OrderType": "StandardOrder",
+      "IsPremiumOrder": false,
+      "IsPrime": false,
+      "FulfillmentChannel": "AFN",
+      "NumberOfItemsUnshipped": 0,
+      "HasRegulatedItems": false,
+      "IsReplacementOrder": "false",
+      "IsSoldByAB": false,
+      "LatestShipDate": "2026-11-21T07:59:59Z",
       "ShipServiceLevel": "Expedited",
       "IsISPU": false,
       "MarketplaceId": "ATVPDKIKX0DER",
-      "PurchaseDate": "2026-11-19T17:16:31Z",
+      "PurchaseDate": "2026-11-20T04:49:13Z",
       "IsAccessPointOrder": false,
-      "SellerOrderId": "114-6521094-2814669",
+      "SellerOrderId": "114-5004368-6901807",
       "PaymentMethod": "Other",
       "IsBusinessOrder": false,
       "PaymentMethodDetails": [
         "Standard"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-11-19T17:16:38Z",
+      "LastUpdateDate": "2026-11-20T04:50:23Z",
+      "ShipmentServiceLevelCategory": "Expedited"
+    },
+    {
+      "BuyerInfo": {},
+      "AmazonOrderId": "114-3086448-4829806",
+      "EarliestShipDate": "2026-11-21T07:59:59Z",
+      "SalesChannel": "Amazon.com",
+      "OrderStatus": "Canceled",
+      "NumberOfItemsShipped": 0,
+      "OrderType": "StandardOrder",
+      "IsPremiumOrder": false,
+      "IsPrime": false,
+      "FulfillmentChannel": "AFN",
+      "NumberOfItemsUnshipped": 0,
+      "HasRegulatedItems": false,
+      "IsReplacementOrder": "false",
+      "IsSoldByAB": false,
+      "LatestShipDate": "2026-11-21T07:59:59Z",
+      "ShipServiceLevel": "Expedited",
+      "IsISPU": false,
+      "MarketplaceId": "ATVPDKIKX0DER",
+      "PurchaseDate": "2026-11-20T04:51:40Z",
+      "IsAccessPointOrder": false,
+      "SellerOrderId": "114-3086448-4829806",
+      "PaymentMethod": "Other",
+      "IsBusinessOrder": false,
+      "PaymentMethodDetails": [
+        "Standard"
+      ],
+      "IsGlobalExpressEnabled": false,
+      "LastUpdateDate": "2026-11-20T05:06:53Z",
       "ShipmentServiceLevelCategory": "Expedited"
     }
   ],
@@ -2494,7 +2593,7 @@
       "revenuePerDay": 9.2,
       "avgPrice": 276,
       "daysRemaining": 330,
-      "orderByDate": "2027-09-16T00:02:11.379Z",
+      "orderByDate": "2027-09-16T14:38:37.660Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2541,18 +2640,18 @@
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
       "totalQuantity": 25,
-      "lastUpdatedTime": "2026-11-19T12:40:12Z",
+      "lastUpdatedTime": "2026-11-20T11:37:05Z",
       "unitsSold30d": 10,
       "revenue30d": 676.2,
       "velocity": 0.333,
       "revenuePerDay": 22.54,
       "avgPrice": 67.62,
       "daysRemaining": 75,
-      "orderByDate": "2027-01-04T00:02:11.379Z",
+      "orderByDate": "2027-01-04T14:38:37.660Z",
       "recommendedQty": 30,
       "urgency": "ok",
       "discoverable": true,
-      "fulfillableQty": 17,
+      "fulfillableQty": 23,
       "inboundWorkingQty": 0,
       "fees": {
         "totalFees": 17.13,
@@ -2568,18 +2667,18 @@
       "sellerSku": "2I-VCYM-TCVD",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (Five Kilograms)",
       "totalQuantity": 26,
-      "lastUpdatedTime": "2026-11-11T10:11:13Z",
-      "unitsSold30d": 0,
+      "lastUpdatedTime": "2026-11-20T01:39:43Z",
+      "unitsSold30d": 1,
       "revenue30d": 0,
-      "velocity": 0,
+      "velocity": 0.033,
       "revenuePerDay": 0,
-      "avgPrice": null,
-      "daysRemaining": null,
-      "orderByDate": null,
-      "recommendedQty": null,
-      "urgency": "no-sales",
+      "avgPrice": 0,
+      "daysRemaining": 780,
+      "orderByDate": "2028-12-09T14:38:37.660Z",
+      "recommendedQty": 3,
+      "urgency": "ok",
       "discoverable": true,
-      "fulfillableQty": 24,
+      "fulfillableQty": 23,
       "inboundWorkingQty": 0
     },
     {
@@ -2625,14 +2724,14 @@
       "sellerSku": "A4-9EGF-MJ6Y",
       "productName": "CI-E Carbonaceous Chondrite Simulant, Orgueil-Type Asteroid Regolith Analog for ISRU, Volatile Extraction and Geochemical Research",
       "totalQuantity": 6,
-      "lastUpdatedTime": "2026-11-18T22:57:21Z",
+      "lastUpdatedTime": "2026-11-20T05:12:35Z",
       "unitsSold30d": 1,
       "revenue30d": 0,
       "velocity": 0.033,
       "revenuePerDay": 0,
       "avgPrice": 0,
       "daysRemaining": 180,
-      "orderByDate": "2027-04-19T00:02:11.379Z",
+      "orderByDate": "2027-04-19T14:38:37.660Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2651,7 +2750,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 750,
-      "orderByDate": "2028-11-09T00:02:11.379Z",
+      "orderByDate": "2028-11-09T14:38:37.660Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2678,7 +2777,7 @@
       "revenuePerDay": 6.47,
       "avgPrice": 48.51,
       "daysRemaining": 225,
-      "orderByDate": "2027-06-03T00:02:11.379Z",
+      "orderByDate": "2027-06-03T14:38:37.660Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -2763,14 +2862,14 @@
       "sellerSku": "LC-M9RA-IUOW",
       "productName": "Lunar Highlands Regolith Simulant LHS-1 – High-Fidelity Moon Soil Simulant for Research, Hardware Testing, Rover Studies, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 29,
-      "lastUpdatedTime": "2026-11-14T19:49:28Z",
+      "lastUpdatedTime": "2026-11-20T05:12:44Z",
       "unitsSold30d": 2,
       "revenue30d": 138,
       "velocity": 0.067,
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 435,
-      "orderByDate": "2027-12-30T00:02:11.379Z",
+      "orderByDate": "2027-12-30T14:38:37.660Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2831,39 +2930,39 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 13.25,
-        "referralFee": 6.53,
+        "totalFees": 14.07,
+        "referralFee": 7.35,
         "fbaFee": 6.72,
-        "referralRate": 0.1499,
-        "netAfterFees": 30.31,
-        "atPrice": 43.56
+        "referralRate": 0.15,
+        "netAfterFees": 34.93,
+        "atPrice": 49
       }
     },
     {
       "asin": "B0FM5NGXCW",
       "sellerSku": "LE-M9RA-IUOW",
       "productName": "Lunar Highlands Engineering Grade Regolith Simulant LHS-1E – Moon Soil Simulant for Rover Testing, Research, Hardware Testing, and Geotechnical Studies (1, Kilogram)",
-      "totalQuantity": 52,
-      "lastUpdatedTime": "2026-11-19T18:58:04Z",
+      "totalQuantity": 51,
+      "lastUpdatedTime": "2026-11-20T10:53:14Z",
       "unitsSold30d": 9,
-      "revenue30d": 392,
+      "revenue30d": 441,
       "velocity": 0.3,
-      "revenuePerDay": 13.07,
-      "avgPrice": 43.56,
-      "daysRemaining": 173,
-      "orderByDate": "2027-04-12T00:02:11.379Z",
+      "revenuePerDay": 14.7,
+      "avgPrice": 49,
+      "daysRemaining": 170,
+      "orderByDate": "2027-04-09T14:38:37.660Z",
       "recommendedQty": 27,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 51,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 13.25,
-        "referralFee": 6.53,
+        "totalFees": 14.07,
+        "referralFee": 7.35,
         "fbaFee": 6.72,
-        "referralRate": 0.1499,
-        "netAfterFees": 30.31,
-        "atPrice": 43.56
+        "referralRate": 0.15,
+        "netAfterFees": 34.93,
+        "atPrice": 49
       }
     },
     {
@@ -2878,7 +2977,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 196,
       "daysRemaining": 240,
-      "orderByDate": "2027-06-18T00:02:11.379Z",
+      "orderByDate": "2027-06-18T14:38:37.660Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -3019,7 +3118,7 @@
       "revenuePerDay": 9.2,
       "avgPrice": 276,
       "daysRemaining": 570,
-      "orderByDate": "2028-05-13T00:02:11.379Z",
+      "orderByDate": "2028-05-13T14:38:37.660Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
