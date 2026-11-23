@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T22:59:34.635Z",
+  "lastUpdated": "2026-11-23T04:52:16.143Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -451,7 +451,7 @@
           "futureSupplyBuyableQuantity": 12
         }
       },
-      "lastUpdatedTime": "2026-11-21T05:37:57Z",
+      "lastUpdatedTime": "2026-11-23T02:29:47Z",
       "productName": "Lunar Mare Engineering Grade Regolith Simulant LMS-1E – JSC-1A Successor Moon Soil Simulant for Research, Hardware Testing, Lunar Studies, and Engineering Projects (1, Kilogram) (LMS-1E)",
       "totalQuantity": 30,
       "stores": []
@@ -2684,11 +2684,15 @@
       "SellerOrderId": "111-2843700-3374605",
       "PaymentMethod": "Other",
       "IsBusinessOrder": false,
+      "OrderTotal": {
+        "CurrencyCode": "USD",
+        "Amount": "73.14"
+      },
       "PaymentMethodDetails": [
         "Standard"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-11-22T16:33:12Z",
+      "LastUpdateDate": "2026-11-23T03:15:44Z",
       "ShipmentServiceLevelCategory": "Expedited"
     }
   ],
@@ -2705,7 +2709,7 @@
       "revenuePerDay": 9.2,
       "avgPrice": 276,
       "daysRemaining": 330,
-      "orderByDate": "2027-09-18T22:59:34.286Z",
+      "orderByDate": "2027-09-19T04:52:15.850Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2739,12 +2743,12 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 16.31,
-        "referralFee": 9.32,
+        "totalFees": 17.17,
+        "referralFee": 10.18,
         "fbaFee": 6.99,
-        "referralRate": 0.1501,
-        "netAfterFees": 45.79,
-        "atPrice": 62.1
+        "referralRate": 0.15,
+        "netAfterFees": 50.68,
+        "atPrice": 67.85
       }
     },
     {
@@ -2754,24 +2758,24 @@
       "totalQuantity": 24,
       "lastUpdatedTime": "2026-11-22T19:48:10Z",
       "unitsSold30d": 12,
-      "revenue30d": 745.2,
+      "revenue30d": 814.2,
       "velocity": 0.4,
-      "revenuePerDay": 24.84,
-      "avgPrice": 62.1,
+      "revenuePerDay": 27.14,
+      "avgPrice": 67.85,
       "daysRemaining": 60,
-      "orderByDate": "2026-12-22T22:59:34.286Z",
+      "orderByDate": "2026-12-23T04:52:15.850Z",
       "recommendedQty": 36,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 22,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 16.31,
-        "referralFee": 9.32,
+        "totalFees": 17.17,
+        "referralFee": 10.18,
         "fbaFee": 6.99,
-        "referralRate": 0.1501,
-        "netAfterFees": 45.79,
-        "atPrice": 62.1
+        "referralRate": 0.15,
+        "netAfterFees": 50.68,
+        "atPrice": 67.85
       }
     },
     {
@@ -2786,7 +2790,7 @@
       "revenuePerDay": 0,
       "avgPrice": 0,
       "daysRemaining": 780,
-      "orderByDate": "2028-12-11T22:59:34.286Z",
+      "orderByDate": "2028-12-12T04:52:15.850Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2843,7 +2847,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 150,
-      "orderByDate": "2027-03-22T22:59:34.286Z",
+      "orderByDate": "2027-03-23T04:52:15.850Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2870,7 +2874,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 750,
-      "orderByDate": "2028-11-11T22:59:34.286Z",
+      "orderByDate": "2028-11-12T04:52:15.850Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2890,14 +2894,14 @@
       "sellerSku": "BB-E2EI-16S3",
       "productName": "Lunar Mare Engineering Grade Regolith Simulant LMS-1E – JSC-1A Successor Moon Soil Simulant for Research, Hardware Testing, Lunar Studies, and Engineering Projects (1, Kilogram) (LMS-1E)",
       "totalQuantity": 30,
-      "lastUpdatedTime": "2026-11-21T05:37:57Z",
+      "lastUpdatedTime": "2026-11-23T02:29:47Z",
       "unitsSold30d": 4,
       "revenue30d": 194.04,
       "velocity": 0.133,
       "revenuePerDay": 6.47,
       "avgPrice": 48.51,
       "daysRemaining": 225,
-      "orderByDate": "2027-06-05T22:59:34.286Z",
+      "orderByDate": "2027-06-06T04:52:15.850Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -2989,7 +2993,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 1635,
-      "orderByDate": "2031-04-15T22:59:34.286Z",
+      "orderByDate": "2031-04-16T04:52:15.850Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -3070,7 +3074,7 @@
       "revenuePerDay": 19.27,
       "avgPrice": 44.48,
       "daysRemaining": 108,
-      "orderByDate": "2027-02-08T22:59:34.286Z",
+      "orderByDate": "2027-02-09T04:52:15.850Z",
       "recommendedQty": 39,
       "urgency": "ok",
       "discoverable": true,
@@ -3097,7 +3101,7 @@
       "revenuePerDay": 13.07,
       "avgPrice": 196,
       "daysRemaining": 240,
-      "orderByDate": "2027-06-20T22:59:34.286Z",
+      "orderByDate": "2027-06-21T04:52:15.850Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -3238,7 +3242,7 @@
       "revenuePerDay": 9.2,
       "avgPrice": 276,
       "daysRemaining": 570,
-      "orderByDate": "2028-05-15T22:59:34.286Z",
+      "orderByDate": "2028-05-16T04:52:15.850Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -3272,12 +3276,12 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 16.31,
-        "referralFee": 9.32,
+        "totalFees": 17.17,
+        "referralFee": 10.18,
         "fbaFee": 6.99,
-        "referralRate": 0.1501,
-        "netAfterFees": 45.79,
-        "atPrice": 62.1
+        "referralRate": 0.15,
+        "netAfterFees": 50.68,
+        "atPrice": 67.85
       }
     }
   ]
