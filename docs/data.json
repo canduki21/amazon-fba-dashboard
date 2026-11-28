@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T15:52:10.259Z",
+  "lastUpdated": "2026-11-28T00:52:31.753Z",
   "inventory": [
     {
       "asin": "B0HHFJ7PMW",
@@ -103,10 +103,10 @@
         "inboundShippedQuantity": 0,
         "inboundReceivingQuantity": 0,
         "reservedQuantity": {
-          "totalReservedQuantity": 1,
+          "totalReservedQuantity": 0,
           "pendingCustomerOrderQuantity": 0,
           "pendingTransshipmentQuantity": 0,
-          "fcProcessingQuantity": 1
+          "fcProcessingQuantity": 0
         },
         "researchingQuantity": {
           "totalResearchingQuantity": 0,
@@ -139,9 +139,9 @@
           "futureSupplyBuyableQuantity": 0
         }
       },
-      "lastUpdatedTime": "2026-11-27T07:49:59Z",
+      "lastUpdatedTime": "2026-11-27T21:03:08Z",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
-      "totalQuantity": 34,
+      "totalQuantity": 33,
       "stores": []
     },
     {
@@ -630,10 +630,10 @@
         },
         "futureSupplyQuantity": {
           "reservedFutureSupplyQuantity": 0,
-          "futureSupplyBuyableQuantity": 42
+          "futureSupplyBuyableQuantity": 62
         }
       },
-      "lastUpdatedTime": "2026-11-26T22:18:36Z",
+      "lastUpdatedTime": "2026-11-27T21:57:08Z",
       "productName": "Lunar Highlands Regolith Simulant LHS-1 – High-Fidelity Moon Soil Simulant for Research, Hardware Testing, Rover Studies, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 109,
       "stores": []
@@ -2724,13 +2724,13 @@
       "AmazonOrderId": "111-4825751-4197055",
       "EarliestShipDate": "2026-11-27T17:30:00Z",
       "SalesChannel": "Amazon.com",
-      "OrderStatus": "Pending",
-      "NumberOfItemsShipped": 0,
+      "OrderStatus": "Shipped",
+      "NumberOfItemsShipped": 1,
       "OrderType": "StandardOrder",
       "IsPremiumOrder": false,
       "IsPrime": false,
       "FulfillmentChannel": "AFN",
-      "NumberOfItemsUnshipped": 1,
+      "NumberOfItemsUnshipped": 0,
       "HasRegulatedItems": false,
       "IsReplacementOrder": "false",
       "IsSoldByAB": false,
@@ -2739,15 +2739,24 @@
       "IsISPU": false,
       "MarketplaceId": "ATVPDKIKX0DER",
       "PurchaseDate": "2026-11-27T07:38:50Z",
+      "ShippingAddress": {
+        "StateOrRegion": "NC",
+        "City": "GREENSBORO",
+        "CountryCode": "US"
+      },
       "IsAccessPointOrder": false,
       "SellerOrderId": "111-4825751-4197055",
       "PaymentMethod": "Other",
       "IsBusinessOrder": false,
+      "OrderTotal": {
+        "CurrencyCode": "USD",
+        "Amount": "73.66"
+      },
       "PaymentMethodDetails": [
         "Standard"
       ],
       "IsGlobalExpressEnabled": false,
-      "LastUpdateDate": "2026-11-27T07:38:53Z",
+      "LastUpdateDate": "2026-11-27T21:02:39Z",
       "ShipmentServiceLevelCategory": "Expedited"
     }
   ],
@@ -2764,7 +2773,7 @@
       "revenuePerDay": 9.2,
       "avgPrice": 276,
       "daysRemaining": 300,
-      "orderByDate": "2027-08-24T15:52:09.953Z",
+      "orderByDate": "2027-08-25T00:52:31.421Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2798,39 +2807,39 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 16.45,
-        "referralFee": 9.46,
+        "totalFees": 17.19,
+        "referralFee": 10.2,
         "fbaFee": 6.99,
-        "referralRate": 0.1499,
-        "netAfterFees": 46.64,
-        "atPrice": 63.09
+        "referralRate": 0.15,
+        "netAfterFees": 50.82,
+        "atPrice": 68.01
       }
     },
     {
       "asin": "B0D94YYYG7",
       "sellerSku": "1N-OGY7-5MMW",
       "productName": "Mars Global Regolith Simulant MGS-1 – Martian Soil Simulant for Research, Hardware Testing, Rover Studies, ISRU Research, and Advanced Education (One Kilogram)",
-      "totalQuantity": 34,
-      "lastUpdatedTime": "2026-11-27T07:49:59Z",
+      "totalQuantity": 33,
+      "lastUpdatedTime": "2026-11-27T21:03:08Z",
       "unitsSold30d": 14,
-      "revenue30d": 883.2,
+      "revenue30d": 952.2,
       "velocity": 0.467,
-      "revenuePerDay": 29.44,
-      "avgPrice": 63.09,
-      "daysRemaining": 72,
-      "orderByDate": "2027-01-08T15:52:09.953Z",
+      "revenuePerDay": 31.74,
+      "avgPrice": 68.01,
+      "daysRemaining": 70,
+      "orderByDate": "2027-01-07T00:52:31.421Z",
       "recommendedQty": 42,
       "urgency": "ok",
       "discoverable": true,
       "fulfillableQty": 33,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 16.45,
-        "referralFee": 9.46,
+        "totalFees": 17.19,
+        "referralFee": 10.2,
         "fbaFee": 6.99,
-        "referralRate": 0.1499,
-        "netAfterFees": 46.64,
-        "atPrice": 63.09
+        "referralRate": 0.15,
+        "netAfterFees": 50.82,
+        "atPrice": 68.01
       }
     },
     {
@@ -2845,7 +2854,7 @@
       "revenuePerDay": 9.2,
       "avgPrice": 276,
       "daysRemaining": 750,
-      "orderByDate": "2028-11-16T15:52:09.953Z",
+      "orderByDate": "2028-11-17T00:52:31.421Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2910,7 +2919,7 @@
       "revenuePerDay": 2.3,
       "avgPrice": 69,
       "daysRemaining": 150,
-      "orderByDate": "2027-03-27T15:52:09.953Z",
+      "orderByDate": "2027-03-28T00:52:31.421Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -2937,7 +2946,7 @@
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 765,
-      "orderByDate": "2028-12-01T15:52:09.953Z",
+      "orderByDate": "2028-12-02T00:52:31.421Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -2964,7 +2973,7 @@
       "revenuePerDay": 6.47,
       "avgPrice": 48.51,
       "daysRemaining": 157,
-      "orderByDate": "2027-04-03T15:52:09.953Z",
+      "orderByDate": "2027-04-04T00:52:31.421Z",
       "recommendedQty": 12,
       "urgency": "ok",
       "discoverable": true,
@@ -3049,14 +3058,14 @@
       "sellerSku": "LC-M9RA-IUOW",
       "productName": "Lunar Highlands Regolith Simulant LHS-1 – High-Fidelity Moon Soil Simulant for Research, Hardware Testing, Rover Studies, and Geotechnical Studies (1, Kilogram)",
       "totalQuantity": 109,
-      "lastUpdatedTime": "2026-11-26T22:18:36Z",
+      "lastUpdatedTime": "2026-11-27T21:57:08Z",
       "unitsSold30d": 2,
       "revenue30d": 138,
       "velocity": 0.067,
       "revenuePerDay": 4.6,
       "avgPrice": 69,
       "daysRemaining": 1635,
-      "orderByDate": "2031-04-20T15:52:09.953Z",
+      "orderByDate": "2031-04-21T00:52:31.421Z",
       "recommendedQty": 6,
       "urgency": "ok",
       "discoverable": true,
@@ -3137,7 +3146,7 @@
       "revenuePerDay": 20.82,
       "avgPrice": 48.06,
       "daysRemaining": 129,
-      "orderByDate": "2027-03-06T15:52:09.953Z",
+      "orderByDate": "2027-03-07T00:52:31.421Z",
       "recommendedQty": 39,
       "urgency": "ok",
       "discoverable": true,
@@ -3164,7 +3173,7 @@
       "revenuePerDay": 6.53,
       "avgPrice": 196,
       "daysRemaining": 480,
-      "orderByDate": "2028-02-20T15:52:09.953Z",
+      "orderByDate": "2028-02-21T00:52:31.421Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -3305,7 +3314,7 @@
       "revenuePerDay": 9.2,
       "avgPrice": 276,
       "daysRemaining": 570,
-      "orderByDate": "2028-05-20T15:52:09.953Z",
+      "orderByDate": "2028-05-21T00:52:31.421Z",
       "recommendedQty": 3,
       "urgency": "ok",
       "discoverable": true,
@@ -3339,12 +3348,12 @@
       "fulfillableQty": 0,
       "inboundWorkingQty": 0,
       "fees": {
-        "totalFees": 16.45,
-        "referralFee": 9.46,
+        "totalFees": 17.19,
+        "referralFee": 10.2,
         "fbaFee": 6.99,
-        "referralRate": 0.1499,
-        "netAfterFees": 46.64,
-        "atPrice": 63.09
+        "referralRate": 0.15,
+        "netAfterFees": 50.82,
+        "atPrice": 68.01
       }
     }
   ]
